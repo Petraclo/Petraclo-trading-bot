@@ -1,9 +1,9 @@
 # Feedback
 
 ## Results
-![Trade Result](images/Volatility 30 (1s) IndexM15.png)
+<img src="images/Volatility 30 (1s) IndexM15.png" alt="Trading Result">
 
-![Trade Result](images/Volatility 25 IndexM15.png)
+<img src="images/Volatility 25 IndexM15.png" alt="Trading Result">
 
 ## Errors
-![Multi-order error](images/V10 multiorder error.png)
+<img src="images/V10 multiorder error.png" alt="Multi-order Error">
