@@ -1,6 +1,6 @@
-# PTC-bot – Argo Trading Bot
+# PTC-bot – Algo Trading Bot
 
-Welcome to **PTC-bot**, a precision-driven **Argo trading bot** built specifically for the **synthetic market**. Designed for high-performance execution and deep market insight, PTC-bot is an evolving trading system with modular strategy integration and active feedback loops.
+Welcome to **PTC-bot**, a precision-driven **Algo trading bot** built specifically for the **synthetic market**. Designed for high-performance execution and deep market insight, PTC-bot is an evolving trading system with modular strategy integration and active feedback loops.
 
 ---
 
