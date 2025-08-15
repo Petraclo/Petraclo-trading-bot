@@ -714,3 +714,35 @@
 2025-08-15 12:15:10 [INFO] MT5 connection closed
 2025-08-15 12:15:10 [INFO] Trading bot stopped
 2025-08-15 12:15:10 [INFO] Job "trading_job (trigger: cron[day_of_week='mon-sun', hour='*', minute='15,30,45,0'], next run at: 2025-08-15 12:30:00 WAT)" executed successfully
+2025-08-15 12:30:00 [INFO] Running job "trading_job (trigger: cron[day_of_week='mon-sun', hour='*', minute='15,30,45,0'], next run at: 2025-08-15 12:45:00 WAT)" (scheduled at 2025-08-15 12:30:00+01:00)
+2025-08-15 12:31:03 [WARNING] initialize_mt5 returned None (attempt: 1). 
+ Trying again in 2 seconds
+2025-08-15 12:32:06 [WARNING] initialize_mt5 returned None (attempt: 2). 
+ Trying again in 2 seconds
+2025-08-15 12:33:08 [WARNING] initialize_mt5 returned None (attempt: 3). 
+ Trying again in 2 seconds
+2025-08-15 12:33:10 [ERROR] initialize_mt5 failed after 3 attempts
+2025-08-15 12:33:11 [INFO] Job "trading_job (trigger: cron[day_of_week='mon-sun', hour='*', minute='15,30,45,0'], next run at: 2025-08-15 12:45:00 WAT)" executed successfully
+2025-08-15 12:45:00 [INFO] Running job "trading_job (trigger: cron[day_of_week='mon-sun', hour='*', minute='15,30,45,0'], next run at: 2025-08-15 13:00:00 WAT)" (scheduled at 2025-08-15 12:45:00+01:00)
+2025-08-15 12:46:00 [WARNING] initialize_mt5 returned None (attempt: 1). 
+ Trying again in 2 seconds
+2025-08-15 12:47:03 [WARNING] initialize_mt5 returned None (attempt: 2). 
+ Trying again in 2 seconds
+2025-08-15 12:48:05 [WARNING] initialize_mt5 returned None (attempt: 3). 
+ Trying again in 2 seconds
+2025-08-15 12:48:07 [ERROR] initialize_mt5 failed after 3 attempts
+2025-08-15 12:48:07 [INFO] Job "trading_job (trigger: cron[day_of_week='mon-sun', hour='*', minute='15,30,45,0'], next run at: 2025-08-15 13:00:00 WAT)" executed successfully
+2025-08-15 13:00:00 [INFO] Running job "trading_job (trigger: cron[day_of_week='mon-sun', hour='*', minute='15,30,45,0'], next run at: 2025-08-15 13:15:00 WAT)" (scheduled at 2025-08-15 13:00:00+01:00)
+2025-08-15 13:00:00 [INFO] MT5 initialized successfully
+2025-08-15 13:00:00 [INFO] Successfully logged into 40396201
+2025-08-15 13:00:00 [INFO] Looking for type1 buy setups on 15 minute
+2025-08-15 13:00:07 [INFO] Looking for type1 sell setups on 15 minute
+2025-08-15 13:00:08 [INFO] Looking for type1 buy setups on 5 minute
+2025-08-15 13:00:21 [INFO] Looking for type1 sell setups on 5 minute
+2025-08-15 13:00:21 [INFO] Present pattern on Volatility 10 Index: (6098.074, 6091.565, 6098.326, 6084.531, 6095.864, 6074.339)
+2025-08-15 13:00:21 [INFO] Risk too high for this trade: 3.2
+2025-08-15 13:00:22 [INFO] MT5 connection closed
+2025-08-15 13:00:22 [INFO] Trading bot stopped
+2025-08-15 13:00:22 [INFO] Job "trading_job (trigger: cron[day_of_week='mon-sun', hour='*', minute='15,30,45,0'], next run at: 2025-08-15 13:15:00 WAT)" executed successfully
+2025-08-15 13:15:01 [WARNING] Run time of job "trading_job (trigger: cron[day_of_week='mon-sun', hour='*', minute='15,30,45,0'], next run at: 2025-08-15 13:30:00 WAT)" was missed by 0:00:01.052703
+2025-08-15 13:30:01 [WARNING] Run time of job "trading_job (trigger: cron[day_of_week='mon-sun', hour='*', minute='15,30,45,0'], next run at: 2025-08-15 13:45:00 WAT)" was missed by 0:00:01.494546

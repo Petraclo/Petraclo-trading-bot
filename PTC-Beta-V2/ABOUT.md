@@ -5,8 +5,8 @@
 # Feedback
 
 ## Results
-![Trade Result](images/Volatility 150 (1s) IndexM15.png)
+<img src="images/Volatility 150 (1s) IndexM15.png" alt="Trading Result">
 
-![Trade Result](images/Volatility 50 (1s) IndexM15.png)
+<img src="images/Volatility 50 IndexM15.png" alt="Trading Result">
 
 ## Errors
