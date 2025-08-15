@@ -2,26 +2,27 @@ import MetaTrader5 as mt5
 import pandas as pd
 import numpy as np
 from concurrent.futures import ThreadPoolExecutor, as_completed
-from itertools import product
 from apscheduler.schedulers.blocking import BlockingScheduler
-import logging
 from datetime import datetime, timedelta
+from decimal import Decimal
+from typing import List, Tuple, Dict, Optional
+import logging
 import time
 import json
-import plotly.graph_objects as go
 import os
+import plotly.graph_objects as go
 
 logging.basicConfig(
-    filename="synthetics.log",
+    filename="PTC.log",
     level=logging.INFO,
     format="%(asctime)s [%(levelname)s] %(message)s",
     datefmt="%Y-%m-%d %H:%M:%S",
 )
 
-login = 31891088
-password = "@Tag0T5ima"
-server = "Deriv-Demo"
 
+login = 40396201
+password = "Ttobs_der1v"
+server = "Deriv-Demo"
 
 if not os.path.exists("PTC-v2.json"):
     symbols_list = [
@@ -35,7 +36,7 @@ if not os.path.exists("PTC-v2.json"):
     
     with open("PTC-v2.json", "w") as f:
         json.dump(symbols, f, indent=4)
-
+        
 
 mt5.initialize()#"C:\\Program Files\\MetaTrader 5 Terminal - 4\\terminal64.exe")
 
@@ -43,7 +44,7 @@ mt5.initialize()#"C:\\Program Files\\MetaTrader 5 Terminal - 4\\terminal64.exe")
 mt5.login(login, password, server)
 
 
-def visualize_entry(df, pattern):
+def visualize_entry(df, pattern: List[Tuple], symbol: str, tf: int, order_type: int, entry: float) -> None :
     pattern_df = pd.DataFrame(pattern, columns=["price", "index"])
 
     fig = go.Figure(data=[go.Candlestick(x=df.index,
@@ -65,35 +66,9 @@ def visualize_entry(df, pattern):
         textposition="top right",
         name="Markers"
     ))
-    
-    fig.write_image(f"{pattern[4][0]} pattern.jpeg")
 
-
-
-def visualize_entry(df, pattern):
-    pattern_df = pd.DataFrame(pattern, columns=["price", "index"])
-
-    fig = go.Figure(data=[go.Candlestick(x=df.index,
-                                        open=df['open'],
-                                        high=df['high'],
-                                        low=df['low'],
-                                        close=df['close'],
-                                        name='Price Action')],
-                                        layout=go.Layout(
-                                        width=1200,
-                                        height=800))
-    
-    fig.add_trace(go.Scatter(
-        x=pattern_df["index"],
-        y=pattern_df['price'],
-        mode='markers+text',
-        marker=dict(size=10, color="blue"),
-        text="Swing",
-        textposition="top right",
-        name="Markers"
-    ))
-    
-    fig.write_image(f"{pattern[4][0]} pattern.jpeg")
+    order = "buy order" if order_type == 2 else "sell order"
+    fig.write_image(f"{symbol} {order} at {entry}.jpeg")
 
 
 def is_swing_low(lows):
@@ -124,7 +99,9 @@ def compute_atr(df, period=14):
                                np.abs(df["low"] - prev_close)))
     return tr.rolling(window=period).mean()
 
-def find_swings(df, major=False, atr_multiplier=0.2, atr_period=5):
+def find_swings(df, dp, major=False, atr_multiplier=0.2, atr_period=5):
+    df = df.round(dp)
+    
     atr_series = compute_atr(df, period=atr_period)
     closes = df["close"].to_numpy()
     highs = df["high"].to_numpy()
@@ -143,10 +120,10 @@ def find_swings(df, major=False, atr_multiplier=0.2, atr_period=5):
         if i+3 >= n:
             if not major:
                 if direction == "up":
-                    swing_highs.append(("H", round(df.iloc[lex]["high"], 5), lex))
+                    swing_highs.append(("H", df.iloc[lex]["high"], lex))
                     break
                 elif direction == "down":
-                    swing_lows.append(("L", round(df.iloc[lex]["low"], 5), lex))
+                    swing_lows.append(("L", df.iloc[lex]["low"], lex))
                     break
                 else:
                     break
@@ -196,7 +173,7 @@ def find_swings(df, major=False, atr_multiplier=0.2, atr_period=5):
 
                 if is_swing_low(lows_window):
                     
-                    swing_highs.append(("H", round(df.iloc[lex]["high"], 5), lex)) if is_swing_high(highs[lex-3:lex+4]) else swing_lows.append(("L", round(df.iloc[lex]["low"], 5), lex))
+                    swing_highs.append(("H", df.iloc[lex]["high"], lex)) if is_swing_high(highs[lex-3:lex+4]) else swing_lows.append(("L", df.iloc[lex]["low"], lex))
                     direction = "down"
                     last_extreme_price = price
                     lex = i
@@ -216,7 +193,7 @@ def find_swings(df, major=False, atr_multiplier=0.2, atr_period=5):
                 highs_window = highs[i-3:i+4]
 
                 if is_swing_high(highs_window):                        
-                    swing_lows.append(("L", round(df.iloc[lex]["low"], 5), lex)) if is_swing_low(lows[lex-3:lex+4]) else swing_highs.append(("H", round(df.iloc[lex]["high"], 5), lex))
+                    swing_lows.append(("L", df.iloc[lex]["low"], lex)) if is_swing_low(lows[lex-3:lex+4]) else swing_highs.append(("H", df.iloc[lex]["high"], lex))
                     direction = 'up'
                     last_extreme_price = price
                     lex = i
@@ -279,7 +256,6 @@ def search_patterns(events, df, pattern, tag, idxs, tag_dict, idx_start=0, chose
             chosen.pop()
 
 
-
 def type1_buy_prune_function(position, price, existing):
     if position == 2:
         return price >= existing[0][0]
@@ -293,8 +269,6 @@ def type1_sell_prune_function(position, price, existing):
 
     if position == 4:
         return price >= existing[2][0]
-
-
 
 def retry(func, *args, **kwargs):
     """
@@ -357,11 +331,9 @@ def get_(symbol, timeframe):
         logging.error(f"Failed to get symbol info for {symbol}: {mt5.last_error()}")
         return
         
-    spread = symbol_info.spread
-    logging.info(f"Spread for {symbol}: {spread}")
-        
+    spread = symbol_info.spread        
 
-    return rates_df, symbol_info, spread * symbol_info.point
+    return rates_df, symbol_info, spread * symbol_info.trade_tick_size
 
 def place_order(order_type, sl, tp, price, lot, symbol): 
 
@@ -376,89 +348,120 @@ def place_order(order_type, sl, tp, price, lot, symbol):
         "deviation": 20,
         "magic": 100000,
         "comment": "FVG Limit Order",
-        "type_time": mt5.ORDER_TIME_DAY,
+        "type_time": mt5.ORDER_TIME_GTC,
         "type_filling": mt5.ORDER_FILLING_FOK,
     }
     
     result = mt5.order_send(request)
     
     if result.retcode != mt5.TRADE_RETCODE_DONE:
-        logging.error(f"Order failed, retcode={result.retcode}")
+        logging.error(f"Order failed for {symbol}, retcode={result.retcode}")
     else:
-        logging.info(f"Order placed successfully $$$$$$$$$$$$$$")
+        logging.info(f"Order placed successfully on {symbol} $$$$$$$$$$$$$$")
 
+def sort_symbols(symbols_list, htf):
+    premium_symbols = []
+    discount_symbols = []
+    
+    for symbol in symbols_list:
+        
+        result = retry(get_, symbol, htf)
+        if not result:
+            continue
+        df, symbol_info, _ = result
+        
+        highs, lows = find_swings(df, major=True, atr_multiplier=2.0, atr_period=7)
+        last_high, last_low = highs[-1][1], lows[-1][1]
 
+        premium_level = (last_high + last_low)/ 2
+
+        if symbol_info.bid >= premium_level:
+            premium_symbols.append(symbol)
+        else:
+            discount_symbols.append(symbol)
+
+    return premium_symbols, discount_symbols
 
 def run_model_for_symbols(model_func, symbols, timeframe, function_dict):
     with ThreadPoolExecutor(max_workers=len(symbols)) as executor:
         futures = {executor.submit(model_func, symbol, timeframe, function_dict): symbol for symbol in symbols}
         for future in as_completed(futures):
             symbol = futures[future]
-            logging.info(f"Finished checking {symbol}")
             try:
                 future.result()
             except Exception as e:
                 logging.error(f"Error in {model_func.__name__} for {symbol}: {e}")
     
-
-
 def chuks_type1_buy_model(symbol, timeframe, function_dict, tag="1B"):
 
     result = retry(get_, symbol, timeframe)    
     if not result:
         return
     df, symbol_info, spread = result
-    
-    highs, lows = find_swings(df)
+
+    tick_size = symbol_info.trade_tick_size 
+    rd = abs(Decimal(str(tick_size)).as_tuple().exponent)
+
+    highs, lows = find_swings(df, rd)
 
     all_swings = highs + lows
     all_swings.sort(key=lambda x: x[2])
     indexes = [swing[2] for swing in all_swings]
-    
+
     type1_buy_pattern = ["L", "H", "L", "H", "L", "H"]
     
     for pattern in search_patterns(all_swings, df, type1_buy_pattern, tag, indexes, function_dict):
-
-        pattern_as_lists = [list(p) for p in pattern]
+        
+        prices = [p[0] for p in pattern]
 
         # Load file
         with open("PTC-v2.json", "r") as f:
             symbols = json.load(f)
         
         # Check and store if not present
-        if pattern_as_lists not in symbols[symbol]:
-            symbols[symbol].append(pattern_as_lists)
+        if prices not in symbols[symbol]:
+            symbols[symbol].append(prices)
             
             with open("PTC-v2.json", "w") as f:
                 json.dump(symbols, f, indent=4)
                 
-            prices = [p[0] for p in pattern]
             indices = [p[1] for p in pattern]
             
             entry_price = min(df.iloc[indices[0]-1 : indices[0]+2]["high"].min(), prices[4])
             
-            
-            rd = 4
-    
-            round(entry_price, rd)
-                
+            # if not entry_price <= ((prices[1] + prices[2]) / 2):
+            #     entry_price = df.iloc[indices[2]-1 : indices[2]+2]["high"].min()
+                            
             atr = compute_atr(df).iloc[-1].round(rd)
             
             order = mt5.ORDER_TYPE_BUY_LIMIT
             
-            risk = 200.35 * 0.1  # 10% of account || should be 10% of starting capital
-            sl = round(prices[2] - (1.5 * atr) + spread, rd)  # Protected Low
-            sl_pips = round(abs(entry_price - sl), rd)
-            tp = max(round(entry_price + (3 * sl_pips) + spread, rd), round(prices[5] + spread, rd))
-            lot = max(round((risk/sl_pips) * 0.0001, 2), symbol_info.volume_min)
+            risk = 79 * 0.1  # 10% of account || should be 10% of starting capital
             
-            place_order(order, sl, tp, entry_price, lot, symbol)
+            sl = round(prices[2] - (1.5 * atr) + spread, rd)  # Protected Low
+            
+            sl_ticks = round(abs(entry_price - sl), rd)
+            
+            n_ticks = round(sl_ticks/tick_size, 1)
+            
+            tick_value = symbol_info.trade_tick_value
+            
+            lot = max(round(risk/(tick_value * n_ticks), 3), symbol_info.volume_min)
 
+            actual_risk = lot * tick_value * n_ticks
+
+            if actual_risk < risk:
+                sl_ticks = (risk * tick_size) / (lot * tick_value)
+                sl = round(entry_price - sl_ticks, rd)
+
+            tp = max(round(entry_price + (3 * sl_ticks) + spread, rd), round(prices[5] + spread, rd))
+            
             try:
-                visualize_entry(df, pattern)
+                visualize_entry(df, pattern, symbol, timeframe, order, entry_price)
             except Exception as e:
                 logging.error(f"Error while plotting entry: {e}")
-
+            
+            place_order(order, sl, tp, entry_price, lot, symbol)
 
 
 def chuks_type1_sell_model(symbol, timeframe, function_dict, tag="1S"):
@@ -466,9 +469,13 @@ def chuks_type1_sell_model(symbol, timeframe, function_dict, tag="1S"):
     result = retry(get_, symbol, timeframe)
     if not result:
         return
+
     df, symbol_info, spread = result
     
-    highs, lows = find_swings(df)
+    tick_size = symbol_info.trade_tick_size 
+    rd = abs(Decimal(str(tick_size)).as_tuple().exponent)
+    
+    highs, lows = find_swings(df, rd)
    
     all_swings = highs + lows
     all_swings.sort(key=lambda x: x[2])
@@ -477,44 +484,57 @@ def chuks_type1_sell_model(symbol, timeframe, function_dict, tag="1S"):
     type1_sell_pattern = ["H", "L", "H", "L", "H", "L"]
     
     for pattern in search_patterns(all_swings, df, type1_sell_pattern, tag, indexes, function_dict):
+        
+        prices = [p[0] for p in pattern]
 
-        pattern_as_lists = [list(p) for p in pattern]
-
-        # Load file
+        #Load file
         with open("PTC-v2.json", "r") as f:
             symbols = json.load(f)
         
         # Check and store if not present
-        if pattern_as_lists not in symbols[symbol]:
-            symbols[symbol].append(pattern_as_lists)
+        if prices not in symbols[symbol]:
+            symbols[symbol].append(prices)
             
             with open("PTC-v2.json", "w") as f:
                 json.dump(symbols, f, indent=4)
                 
-            prices = [p[0] for p in pattern]
             indices = [p[1] for p in pattern]
             
             entry_price = max(df.iloc[indices[0]-1 : indices[0]+2]["low"].max(), prices[4])
             
+            # if not entry_price <= ((prices[1] + prices[2]) / 2):
+            #     entry_price = df.iloc[indices[2]-1 : indices[2]+2]["low"].max()
             
-            rd = 4
-    
-            round(entry_price, rd)
-                
             atr = compute_atr(df).iloc[-1].round(rd)
+    
+            order = mt5.ORDER_TYPE_SELL_LIMIT
             
-            risk = 200.35 * 0.1  # 10% of account   
-            sl = round(prices[2] + (1.5 * atr) - spread, rd)  # atr
-            sl_pips = round(abs(entry_price - sl), rd)
-            tp = min(round(entry_price - (3 * sl_pips) - spread, rd), round(prices[5] - spread, rd))
-            lot = max(round((risk/sl_pips) * 0.0001, 2), symbol_info.volume_min)
+            risk = 79 * 0.1  # 10% of account   
             
-            place_order(order, sl, tp, entry_price, lot, symbol)
+            sl = round(prices[2] + (1.5 * atr) - spread, rd)
+            
+            sl_ticks = round(abs(entry_price - sl), rd)
+            
+            n_ticks = round(sl_ticks/tick_size, 1)
+            
+            tick_value = symbol_info.trade_tick_value
+    
+            lot = max(round(risk/(tick_value * n_ticks), 2), symbol_info.volume_min)
 
+            actual_risk = lot * tick_value * n_ticks
+    
+            if actual_risk < risk:
+                sl_ticks = (risk * tick_size) / (lot * tick_value)
+                sl = round(entry_price + sl_ticks, rd)
+    
+            tp = min(round(entry_price - (3 * sl_ticks) - spread, rd), round(prices[5] - spread, rd))
+    
             try:
-                visualize_entry(df, pattern)
+                visualize_entry(df, pattern, symbol, timeframe, order, entry_price)
             except Exception as e:
                 logging.error(f"Error while plotting entry: {e}")
+            
+            place_order(order, sl, tp, entry_price, lot, symbol)
 
 
 def trading_job():
@@ -530,7 +550,7 @@ def trading_job():
     timeframes = [mt5.TIMEFRAME_M15, mt5.TIMEFRAME_M5]
     #higher_timeframe = mt5.TIMEFRAME_H4
     
-    symbols = ["Volatility 10 Index", "Volatility 25 Index", "Volatility 50 Index", "Volatility 100 Index",
+    symbols = ["Volatility 10 Index", "Volatility 25 Index", "Volatility 75 Index", "Volatility 50 Index", "Volatility 100 Index",
                "Volatility 10 (1s) Index", "Volatility 15 (1s) Index", "Volatility 25 (1s) Index",
                "Volatility 30 (1s) Index", "Volatility 50 (1s) Index", "Volatility 75 (1s) Index",
                "Volatility 90 (1s) Index", "Volatility 100 (1s) Index", "Volatility 150 (1s) Index", "Volatility 250 (1s) Index"]
@@ -544,9 +564,9 @@ def trading_job():
 
     try:
         for tf in timeframes:
-            logging.info(f"Looking for type1 buy setups on {tf}")
+            logging.info(f"Looking for type1 buy setups on {tf} minute")
             run_model_for_symbols(chuks_type1_buy_model, symbols, tf, model_functions_dict)
-            logging.info(f"Looking for type1 sell setups on {tf}")
+            logging.info(f"Looking for type1 sell setups on {tf} minute")
             run_model_for_symbols(chuks_type1_sell_model, symbols, tf, model_functions_dict)
     finally:
         mt5.shutdown()

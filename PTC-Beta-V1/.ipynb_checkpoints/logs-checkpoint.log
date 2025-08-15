@@ -1,0 +1,2093 @@
+2025-07-26 00:06:42 [INFO] Spread too high for Volatility 50 Index: 160
+2025-07-26 00:06:42 [WARNING] get_ returned None (attempt: 1). 
+ Trying again in 2 seconds
+2025-07-26 00:06:44 [INFO] Spread too high for Volatility 50 Index: 160
+2025-07-26 00:06:44 [WARNING] get_ returned None (attempt: 2). 
+ Trying again in 2 seconds
+2025-07-26 00:06:46 [INFO] Spread too high for Volatility 50 Index: 160
+2025-07-26 00:06:46 [WARNING] get_ returned None (attempt: 3). 
+ Trying again in 2 seconds
+2025-07-26 00:06:48 [ERROR] get_ failed after 3 attempts
+2025-07-26 00:32:46 [INFO] Spread too high for Volatility 50 Index: 160
+2025-07-26 00:32:46 [WARNING] get_ returned None (attempt: 1). 
+ Trying again in 2 seconds
+2025-07-26 00:32:48 [INFO] Spread too high for Volatility 50 Index: 160
+2025-07-26 00:32:48 [WARNING] get_ returned None (attempt: 2). 
+ Trying again in 2 seconds
+2025-07-26 00:32:50 [INFO] Spread too high for Volatility 50 Index: 160
+2025-07-26 00:32:50 [WARNING] get_ returned None (attempt: 3). 
+ Trying again in 2 seconds
+2025-07-26 00:32:52 [ERROR] get_ failed after 3 attempts
+2025-07-26 00:33:12 [INFO] Spread for Volatility 50 Index: 160
+2025-07-26 00:34:28 [ERROR] Failed to get rates for Volitality 50 Index
+2025-07-26 00:34:28 [WARNING] get_ returned None (attempt: 1). 
+ Trying again in 2 seconds
+2025-07-26 00:34:30 [ERROR] Failed to get rates for Volitality 50 Index
+2025-07-26 00:34:30 [WARNING] get_ returned None (attempt: 2). 
+ Trying again in 2 seconds
+2025-07-26 00:34:32 [ERROR] Failed to get rates for Volitality 50 Index
+2025-07-26 00:34:32 [WARNING] get_ returned None (attempt: 3). 
+ Trying again in 2 seconds
+2025-07-26 00:34:34 [ERROR] get_ failed after 3 attempts
+2025-07-26 00:35:50 [INFO] Spread for Volatility 50 Index: 160
+2025-07-26 00:36:38 [ERROR] Failed to get rates for Volitality 50 Index
+2025-07-26 00:36:38 [WARNING] get_ returned None (attempt: 1). 
+ Trying again in 2 seconds
+2025-07-26 00:36:40 [ERROR] Failed to get rates for Volitality 50 Index
+2025-07-26 00:36:40 [WARNING] get_ returned None (attempt: 2). 
+ Trying again in 2 seconds
+2025-07-26 00:36:42 [ERROR] Failed to get rates for Volitality 50 Index
+2025-07-26 00:36:42 [WARNING] get_ returned None (attempt: 3). 
+ Trying again in 2 seconds
+2025-07-26 00:36:44 [ERROR] get_ failed after 3 attempts
+2025-07-26 00:38:43 [ERROR] Failed to get rates for Volitality 50 Index
+2025-07-26 00:38:43 [WARNING] get_ returned None (attempt: 1). 
+ Trying again in 2 seconds
+2025-07-26 00:38:45 [ERROR] Failed to get rates for Volitality 50 Index
+2025-07-26 00:38:45 [WARNING] get_ returned None (attempt: 2). 
+ Trying again in 2 seconds
+2025-07-26 00:38:47 [ERROR] Failed to get rates for Volitality 50 Index
+2025-07-26 00:38:47 [WARNING] get_ returned None (attempt: 3). 
+ Trying again in 2 seconds
+2025-07-26 00:38:49 [ERROR] get_ failed after 3 attempts
+2025-07-26 00:40:12 [ERROR] Failed to get rates for Volitality 50 Index: (-1, 'Terminal: Call failed')
+2025-07-26 00:40:12 [WARNING] get_ returned None (attempt: 1). 
+ Trying again in 2 seconds
+2025-07-26 00:40:14 [ERROR] Failed to get rates for Volitality 50 Index: (-1, 'Terminal: Call failed')
+2025-07-26 00:40:14 [WARNING] get_ returned None (attempt: 2). 
+ Trying again in 2 seconds
+2025-07-26 00:40:16 [ERROR] Failed to get rates for Volitality 50 Index: (-1, 'Terminal: Call failed')
+2025-07-26 00:40:16 [WARNING] get_ returned None (attempt: 3). 
+ Trying again in 2 seconds
+2025-07-26 00:40:18 [ERROR] get_ failed after 3 attempts
+2025-07-26 01:00:09 [ERROR] Failed to get rates for Volitality 50 Index: (-1, 'Terminal: Call failed')
+2025-07-26 01:00:09 [WARNING] get_ returned None (attempt: 1). 
+ Trying again in 2 seconds
+2025-07-26 01:00:11 [ERROR] Failed to get rates for Volitality 50 Index: (-1, 'Terminal: Call failed')
+2025-07-26 01:00:11 [WARNING] get_ returned None (attempt: 2). 
+ Trying again in 2 seconds
+2025-07-26 01:00:13 [ERROR] Failed to get rates for Volitality 50 Index: (-1, 'Terminal: Call failed')
+2025-07-26 01:00:13 [WARNING] get_ returned None (attempt: 3). 
+ Trying again in 2 seconds
+2025-07-26 01:00:15 [ERROR] get_ failed after 3 attempts
+2025-07-26 01:01:37 [ERROR] Failed to get rates for Volitality 50 Index: (-1, 'Terminal: Call failed')
+2025-07-26 01:01:37 [WARNING] get_ returned None (attempt: 1). 
+ Trying again in 2 seconds
+2025-07-26 01:01:39 [ERROR] Failed to get rates for Volitality 50 Index: (-1, 'Terminal: Call failed')
+2025-07-26 01:01:39 [WARNING] get_ returned None (attempt: 2). 
+ Trying again in 2 seconds
+2025-07-26 01:01:41 [ERROR] Failed to get rates for Volitality 50 Index: (-1, 'Terminal: Call failed')
+2025-07-26 01:01:41 [WARNING] get_ returned None (attempt: 3). 
+ Trying again in 2 seconds
+2025-07-26 01:01:43 [ERROR] get_ failed after 3 attempts
+2025-07-26 01:02:23 [INFO] Spread for Volatility 50 Index: 160
+2025-07-26 01:03:08 [INFO] Spread for Volatility 50 Index: 160
+2025-07-26 01:04:43 [INFO] Spread for Volatility 50 Index: 160
+2025-07-26 01:04:45 [INFO] Order placed successfully $$$$$$$$$$$$$$
+2025-07-26 01:04:46 [INFO] Order placed successfully $$$$$$$$$$$$$$
+2025-07-26 01:04:46 [INFO] Order placed successfully $$$$$$$$$$$$$$
+2025-07-26 01:04:47 [INFO] Order placed successfully $$$$$$$$$$$$$$
+2025-07-26 01:04:48 [INFO] Order placed successfully $$$$$$$$$$$$$$
+2025-07-26 01:04:49 [INFO] Order placed successfully $$$$$$$$$$$$$$
+2025-07-26 01:04:50 [INFO] Order placed successfully $$$$$$$$$$$$$$
+2025-07-26 01:04:51 [INFO] Order placed successfully $$$$$$$$$$$$$$
+2025-07-26 01:04:52 [INFO] Order placed successfully $$$$$$$$$$$$$$
+2025-07-26 01:04:53 [INFO] Order placed successfully $$$$$$$$$$$$$$
+2025-07-26 01:04:54 [INFO] Order placed successfully $$$$$$$$$$$$$$
+2025-07-26 01:04:54 [INFO] Order placed successfully $$$$$$$$$$$$$$
+2025-07-26 01:04:55 [INFO] Order placed successfully $$$$$$$$$$$$$$
+2025-07-26 01:04:56 [INFO] Order placed successfully $$$$$$$$$$$$$$
+2025-07-26 01:04:57 [INFO] Order placed successfully $$$$$$$$$$$$$$
+2025-07-26 01:04:58 [INFO] Order placed successfully $$$$$$$$$$$$$$
+2025-07-26 01:04:59 [INFO] Order placed successfully $$$$$$$$$$$$$$
+2025-07-26 01:05:00 [INFO] Order placed successfully $$$$$$$$$$$$$$
+2025-07-26 01:05:01 [INFO] Order placed successfully $$$$$$$$$$$$$$
+2025-07-26 01:05:02 [INFO] Order placed successfully $$$$$$$$$$$$$$
+2025-07-26 01:05:02 [INFO] Order placed successfully $$$$$$$$$$$$$$
+2025-07-26 01:05:03 [INFO] Order placed successfully $$$$$$$$$$$$$$
+2025-07-26 01:05:04 [INFO] Order placed successfully $$$$$$$$$$$$$$
+2025-07-26 01:05:05 [INFO] Order placed successfully $$$$$$$$$$$$$$
+2025-07-26 01:05:06 [INFO] Order placed successfully $$$$$$$$$$$$$$
+2025-07-26 01:05:07 [INFO] Order placed successfully $$$$$$$$$$$$$$
+2025-07-26 01:05:08 [INFO] Order placed successfully $$$$$$$$$$$$$$
+2025-07-26 01:05:09 [INFO] Order placed successfully $$$$$$$$$$$$$$
+2025-07-26 01:05:10 [INFO] Order placed successfully $$$$$$$$$$$$$$
+2025-07-26 01:05:11 [INFO] Order placed successfully $$$$$$$$$$$$$$
+2025-07-26 01:05:11 [INFO] Order placed successfully $$$$$$$$$$$$$$
+2025-07-26 01:05:13 [INFO] Order placed successfully $$$$$$$$$$$$$$
+2025-07-26 01:05:13 [INFO] Order placed successfully $$$$$$$$$$$$$$
+2025-07-26 01:05:14 [INFO] Order placed successfully $$$$$$$$$$$$$$
+2025-07-26 01:05:15 [INFO] Order placed successfully $$$$$$$$$$$$$$
+2025-07-26 01:05:16 [INFO] Order placed successfully $$$$$$$$$$$$$$
+2025-07-26 01:05:17 [INFO] Order placed successfully $$$$$$$$$$$$$$
+2025-07-26 01:05:18 [INFO] Order placed successfully $$$$$$$$$$$$$$
+2025-07-26 01:05:19 [INFO] Order placed successfully $$$$$$$$$$$$$$
+2025-07-26 01:05:20 [INFO] Order placed successfully $$$$$$$$$$$$$$
+2025-07-26 01:05:20 [INFO] Order placed successfully $$$$$$$$$$$$$$
+2025-07-26 01:05:21 [INFO] Order placed successfully $$$$$$$$$$$$$$
+2025-07-26 01:05:22 [INFO] Order placed successfully $$$$$$$$$$$$$$
+2025-07-26 01:05:23 [INFO] Order placed successfully $$$$$$$$$$$$$$
+2025-07-26 01:05:24 [INFO] Order placed successfully $$$$$$$$$$$$$$
+2025-07-26 01:05:25 [INFO] Order placed successfully $$$$$$$$$$$$$$
+2025-07-26 01:05:26 [INFO] Order placed successfully $$$$$$$$$$$$$$
+2025-07-26 01:05:27 [INFO] Order placed successfully $$$$$$$$$$$$$$
+2025-07-26 01:05:27 [INFO] Order placed successfully $$$$$$$$$$$$$$
+2025-07-26 01:05:28 [INFO] Order placed successfully $$$$$$$$$$$$$$
+2025-07-26 01:05:29 [INFO] Order placed successfully $$$$$$$$$$$$$$
+2025-07-26 01:05:30 [INFO] Order placed successfully $$$$$$$$$$$$$$
+2025-07-26 01:05:31 [INFO] Order placed successfully $$$$$$$$$$$$$$
+2025-07-26 01:05:32 [INFO] Order placed successfully $$$$$$$$$$$$$$
+2025-07-26 01:05:33 [INFO] Order placed successfully $$$$$$$$$$$$$$
+2025-07-26 01:05:34 [INFO] Order placed successfully $$$$$$$$$$$$$$
+2025-07-26 01:05:34 [INFO] Order placed successfully $$$$$$$$$$$$$$
+2025-07-26 01:05:35 [INFO] Order placed successfully $$$$$$$$$$$$$$
+2025-07-26 01:05:36 [INFO] Order placed successfully $$$$$$$$$$$$$$
+2025-07-26 01:05:37 [INFO] Order placed successfully $$$$$$$$$$$$$$
+2025-07-26 01:05:38 [INFO] Order placed successfully $$$$$$$$$$$$$$
+2025-07-26 01:05:39 [INFO] Order placed successfully $$$$$$$$$$$$$$
+2025-07-26 01:05:40 [INFO] Order placed successfully $$$$$$$$$$$$$$
+2025-07-26 01:05:41 [INFO] Order placed successfully $$$$$$$$$$$$$$
+2025-07-26 01:05:42 [INFO] Order placed successfully $$$$$$$$$$$$$$
+2025-07-26 01:05:43 [INFO] Order placed successfully $$$$$$$$$$$$$$
+2025-07-26 01:05:43 [INFO] Order placed successfully $$$$$$$$$$$$$$
+2025-07-26 01:05:44 [INFO] Order placed successfully $$$$$$$$$$$$$$
+2025-07-26 01:05:45 [INFO] Order placed successfully $$$$$$$$$$$$$$
+2025-07-26 01:05:46 [INFO] Order placed successfully $$$$$$$$$$$$$$
+2025-07-26 01:05:47 [INFO] Order placed successfully $$$$$$$$$$$$$$
+2025-07-26 01:05:48 [INFO] Order placed successfully $$$$$$$$$$$$$$
+2025-07-26 01:05:49 [INFO] Order placed successfully $$$$$$$$$$$$$$
+2025-07-26 01:05:50 [INFO] Order placed successfully $$$$$$$$$$$$$$
+2025-07-26 01:05:50 [INFO] Order placed successfully $$$$$$$$$$$$$$
+2025-07-26 01:05:51 [INFO] Order placed successfully $$$$$$$$$$$$$$
+2025-07-26 01:05:52 [INFO] Order placed successfully $$$$$$$$$$$$$$
+2025-07-26 01:05:53 [INFO] Order placed successfully $$$$$$$$$$$$$$
+2025-07-26 01:05:54 [INFO] Order placed successfully $$$$$$$$$$$$$$
+2025-07-26 01:05:55 [INFO] Order placed successfully $$$$$$$$$$$$$$
+2025-07-26 01:05:56 [INFO] Order placed successfully $$$$$$$$$$$$$$
+2025-07-26 01:05:57 [INFO] Order placed successfully $$$$$$$$$$$$$$
+2025-07-26 01:05:58 [INFO] Order placed successfully $$$$$$$$$$$$$$
+2025-07-26 01:05:59 [INFO] Order placed successfully $$$$$$$$$$$$$$
+2025-07-26 01:05:59 [INFO] Order placed successfully $$$$$$$$$$$$$$
+2025-07-26 01:06:00 [INFO] Order placed successfully $$$$$$$$$$$$$$
+2025-07-26 01:06:01 [INFO] Order placed successfully $$$$$$$$$$$$$$
+2025-07-26 01:06:02 [INFO] Order placed successfully $$$$$$$$$$$$$$
+2025-07-26 01:06:03 [INFO] Order placed successfully $$$$$$$$$$$$$$
+2025-07-26 01:06:04 [INFO] Order placed successfully $$$$$$$$$$$$$$
+2025-07-26 01:06:05 [INFO] Order placed successfully $$$$$$$$$$$$$$
+2025-07-26 01:06:06 [INFO] Order placed successfully $$$$$$$$$$$$$$
+2025-07-26 01:06:07 [INFO] Order placed successfully $$$$$$$$$$$$$$
+2025-07-26 01:06:08 [INFO] Order placed successfully $$$$$$$$$$$$$$
+2025-07-26 01:06:09 [INFO] Order placed successfully $$$$$$$$$$$$$$
+2025-07-26 01:06:09 [INFO] Order placed successfully $$$$$$$$$$$$$$
+2025-07-26 01:06:10 [INFO] Order placed successfully $$$$$$$$$$$$$$
+2025-07-26 01:06:11 [INFO] Order placed successfully $$$$$$$$$$$$$$
+2025-07-26 01:06:12 [INFO] Order placed successfully $$$$$$$$$$$$$$
+2025-07-26 01:06:13 [INFO] Order placed successfully $$$$$$$$$$$$$$
+2025-07-26 01:06:14 [INFO] Order placed successfully $$$$$$$$$$$$$$
+2025-07-26 01:06:15 [INFO] Order placed successfully $$$$$$$$$$$$$$
+2025-07-26 01:06:16 [INFO] Order placed successfully $$$$$$$$$$$$$$
+2025-07-26 01:06:17 [INFO] Order placed successfully $$$$$$$$$$$$$$
+2025-07-26 01:23:38 [INFO] Spread for Volatility 50 Index: 160
+2025-07-26 01:25:15 [INFO] Spread for Volatility 50 Index: 160
+2025-07-26 09:15:25 [ERROR] No such comm target registered: jupyter.widget.control
+2025-07-26 09:15:25 [WARNING] No such comm: 4bc142a9-6443-490d-a262-06986d56762f
+2025-07-28 07:20:46 [INFO] Spread for Volatility 50 Index: 160
+2025-07-28 07:21:42 [INFO] Spread for Volatility 50 Index: 160
+2025-07-28 07:23:59 [INFO] Spread for Volatility 50 Index: 160
+2025-07-28 07:30:05 [INFO] Spread for Volatility 50 Index: 160
+2025-07-28 07:46:41 [ERROR] No such comm target registered: jupyter.widget.control
+2025-07-28 07:46:41 [WARNING] No such comm: f5e0013d-925c-4571-8916-de2ce7eca876
+2025-07-28 15:02:28 [ERROR] No such comm target registered: jupyter.widget.control
+2025-07-28 15:02:28 [WARNING] No such comm: 493e5c72-7ffa-4b85-bbdd-2cac96f5c704
+2025-07-29 04:18:14 [ERROR] No such comm target registered: jupyter.widget.control
+2025-07-29 04:18:14 [WARNING] No such comm: 45b15853-d3ac-4049-bf3a-1f25b809caa9
+2025-07-29 09:14:23 [ERROR] No such comm target registered: jupyter.widget.control
+2025-07-29 09:14:24 [WARNING] No such comm: 13f2f24d-5a17-464d-ad5c-7323f5f5f11f
+2025-07-29 10:11:10 [ERROR] Failed to get rates for Volatility 50 Index: (-1, 'Terminal: Call failed')
+2025-07-29 10:11:10 [WARNING] get_ returned None (attempt: 1). 
+ Trying again in 2 seconds
+2025-07-29 10:11:20 [INFO] Spread for Volatility 50 Index: 170
+2025-07-29 10:14:42 [INFO] Spread for Volatility 50 Index: 170
+2025-07-29 10:14:50 [INFO] Spread for Volatility 50 Index: 170
+2025-07-29 10:15:44 [INFO] Spread for Volatility 50 Index: 170
+2025-07-29 10:20:29 [INFO] Spread for Volatility 50 Index: 170
+2025-07-29 10:22:08 [INFO] Spread for Volatility 50 Index: 170
+2025-07-29 10:23:30 [INFO] Spread for Volatility 50 Index: 170
+2025-07-29 10:31:35 [INFO] Spread for Volatility 50 Index: 170
+2025-07-29 10:31:51 [INFO] Spread for Volatility 50 Index: 170
+2025-07-29 10:32:21 [INFO] Spread for Volatility 50 Index: 170
+2025-07-29 10:32:44 [INFO] Spread for Volatility 50 Index: 170
+2025-07-29 10:34:21 [INFO] Spread for Volatility 50 Index: 170
+2025-07-29 10:35:18 [INFO] Spread for Volatility 50 Index: 170
+2025-07-29 10:38:29 [INFO] Spread for Volatility 50 Index: 170
+2025-07-29 10:40:06 [INFO] Spread for Volatility 50 Index: 170
+2025-07-29 10:41:54 [INFO] Spread for Volatility 50 Index: 170
+2025-07-29 10:42:24 [INFO] Spread for Volatility 50 Index: 170
+2025-07-29 10:50:14 [INFO] Spread for Volatility 50 Index: 170
+2025-07-29 11:05:51 [ERROR] No such comm target registered: jupyter.widget.control
+2025-07-29 11:05:51 [WARNING] No such comm: b0b2bae2-2013-41cf-858f-3919e16e5139
+2025-07-29 11:13:37 [INFO] Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-07-29 11:13:37 [INFO] Added job "trading_job" to job store "default"
+2025-07-29 11:13:37 [INFO] Scheduler started
+2025-07-29 11:15:00 [INFO] Running job "trading_job (trigger: cron[day_of_week='mon-sun', hour='*', minute='15'], next run at: 2025-07-29 11:15:00 WAT)" (scheduled at 2025-07-29 11:15:00+01:00)
+2025-07-29 11:15:00 [INFO] MT5 initialized successfully
+2025-07-29 11:15:00 [INFO] Looking for type1 buy setups on 15
+2025-07-29 11:15:03 [INFO] Spread for Volatility 50 Index: 170
+2025-07-29 11:15:04 [INFO] Spread for Volatility 10 Index: 172
+2025-07-29 11:15:05 [INFO] Spread for Volatility 100 Index: 30
+2025-07-29 11:15:22 [INFO] Spread for Volatility 25 (1s) Index: 4545
+2025-07-29 11:15:22 [INFO] Spread for Volatility 10 (1s) Index: 24
+2025-07-29 11:15:22 [INFO] Spread for Volatility 25 Index: 195
+2025-07-29 11:15:23 [INFO] Spread for Volatility 50 (1s) Index: 2909
+2025-07-29 11:15:23 [INFO] Spread for Volatility 90 (1s) Index: 4399
+2025-07-29 11:15:23 [INFO] Spread for Volatility 15 (1s) Index: 633
+2025-07-29 11:15:23 [INFO] Spread for Volatility 30 (1s) Index: 551
+2025-07-29 11:15:23 [INFO] Spread for Volatility 100 (1s) Index: 20
+2025-07-29 11:15:23 [INFO] Spread for Volatility 75 (1s) Index: 86
+2025-07-29 11:15:25 [INFO] Spread for Volatility 150 (1s) Index: 5
+2025-07-29 11:15:25 [INFO] Spread for Volatility 250 (1s) Index: 6
+2025-07-29 11:15:25 [INFO] Finished checking Volatility 100 Index
+2025-07-29 11:15:25 [INFO] Finished checking Volatility 50 Index
+2025-07-29 11:15:25 [INFO] Finished checking Volatility 25 (1s) Index
+2025-07-29 11:15:25 [INFO] Finished checking Volatility 10 Index
+2025-07-29 11:15:25 [INFO] Finished checking Volatility 25 Index
+2025-07-29 11:15:25 [INFO] Finished checking Volatility 50 (1s) Index
+2025-07-29 11:15:25 [INFO] Finished checking Volatility 10 (1s) Index
+2025-07-29 11:15:25 [INFO] Finished checking Volatility 90 (1s) Index
+2025-07-29 11:15:25 [INFO] Finished checking Volatility 75 (1s) Index
+2025-07-29 11:15:25 [INFO] Finished checking Volatility 150 (1s) Index
+2025-07-29 11:15:25 [INFO] Finished checking Volatility 100 (1s) Index
+2025-07-29 11:15:25 [INFO] Finished checking Volatility 15 (1s) Index
+2025-07-29 11:15:25 [INFO] Finished checking Volatility 250 (1s) Index
+2025-07-29 11:15:25 [INFO] Finished checking Volatility 30 (1s) Index
+2025-07-29 11:15:25 [INFO] Looking for type1 sell setups on 15
+2025-07-29 11:15:25 [INFO] Spread for Volatility 10 Index: 172
+2025-07-29 11:15:25 [INFO] Spread for Volatility 25 Index: 195
+2025-07-29 11:15:25 [INFO] Spread for Volatility 10 (1s) Index: 24
+2025-07-29 11:15:25 [INFO] Spread for Volatility 50 Index: 170
+2025-07-29 11:15:26 [INFO] Spread for Volatility 100 Index: 30
+2025-07-29 11:15:26 [INFO] Spread for Volatility 25 (1s) Index: 4545
+2025-07-29 11:15:26 [INFO] Spread for Volatility 15 (1s) Index: 633
+2025-07-29 11:15:26 [INFO] Spread for Volatility 50 (1s) Index: 2909
+2025-07-29 11:15:26 [INFO] Spread for Volatility 30 (1s) Index: 551
+2025-07-29 11:15:26 [INFO] Spread for Volatility 75 (1s) Index: 86
+2025-07-29 11:15:26 [INFO] Spread for Volatility 90 (1s) Index: 4399
+2025-07-29 11:15:26 [INFO] Finished checking Volatility 50 Index
+2025-07-29 11:15:26 [INFO] Spread for Volatility 100 (1s) Index: 20
+2025-07-29 11:15:26 [INFO] Spread for Volatility 150 (1s) Index: 5
+2025-07-29 11:15:26 [INFO] Spread for Volatility 250 (1s) Index: 6
+2025-07-29 11:15:26 [INFO] Finished checking Volatility 10 Index
+2025-07-29 11:15:26 [INFO] Finished checking Volatility 10 (1s) Index
+2025-07-29 11:15:26 [INFO] Finished checking Volatility 25 Index
+2025-07-29 11:15:26 [INFO] Finished checking Volatility 100 Index
+2025-07-29 11:15:26 [INFO] Finished checking Volatility 15 (1s) Index
+2025-07-29 11:15:26 [INFO] Finished checking Volatility 30 (1s) Index
+2025-07-29 11:15:26 [INFO] Finished checking Volatility 25 (1s) Index
+2025-07-29 11:15:26 [INFO] Finished checking Volatility 75 (1s) Index
+2025-07-29 11:15:26 [INFO] Finished checking Volatility 50 (1s) Index
+2025-07-29 11:15:26 [INFO] Finished checking Volatility 100 (1s) Index
+2025-07-29 11:15:26 [INFO] Finished checking Volatility 150 (1s) Index
+2025-07-29 11:15:26 [INFO] Finished checking Volatility 90 (1s) Index
+2025-07-29 11:15:26 [INFO] Finished checking Volatility 250 (1s) Index
+2025-07-29 11:15:26 [INFO] Looking for type1 buy setups on 5
+2025-07-29 11:15:42 [INFO] Spread for Volatility 10 Index: 172
+2025-07-29 11:15:49 [INFO] Spread for Volatility 50 Index: 170
+2025-07-29 11:15:49 [INFO] Spread for Volatility 100 Index: 30
+2025-07-29 11:15:49 [INFO] Spread for Volatility 25 Index: 195
+2025-07-29 11:15:49 [INFO] Spread for Volatility 15 (1s) Index: 633
+2025-07-29 11:15:49 [INFO] Spread for Volatility 10 (1s) Index: 24
+2025-07-29 11:15:49 [INFO] Spread for Volatility 25 (1s) Index: 4545
+2025-07-29 11:15:49 [INFO] Spread for Volatility 30 (1s) Index: 551
+2025-07-29 11:16:00 [INFO] Spread for Volatility 75 (1s) Index: 86
+2025-07-29 11:16:00 [INFO] Spread for Volatility 90 (1s) Index: 4399
+2025-07-29 11:16:00 [INFO] Spread for Volatility 100 (1s) Index: 20
+2025-07-29 11:16:00 [INFO] Spread for Volatility 50 (1s) Index: 2909
+2025-07-29 11:16:00 [INFO] Finished checking Volatility 10 Index
+2025-07-29 11:16:00 [INFO] Finished checking Volatility 25 (1s) Index
+2025-07-29 11:16:01 [INFO] Finished checking Volatility 25 Index
+2025-07-29 11:16:01 [INFO] Finished checking Volatility 10 (1s) Index
+2025-07-29 11:16:01 [INFO] Finished checking Volatility 90 (1s) Index
+2025-07-29 11:16:01 [INFO] Spread for Volatility 250 (1s) Index: 6
+2025-07-29 11:16:01 [INFO] Finished checking Volatility 15 (1s) Index
+2025-07-29 11:16:01 [INFO] Spread for Volatility 150 (1s) Index: 5
+2025-07-29 11:16:01 [INFO] Finished checking Volatility 50 Index
+2025-07-29 11:16:01 [INFO] Finished checking Volatility 100 (1s) Index
+2025-07-29 11:16:01 [INFO] Finished checking Volatility 100 Index
+2025-07-29 11:16:01 [INFO] Finished checking Volatility 75 (1s) Index
+2025-07-29 11:16:01 [INFO] Finished checking Volatility 30 (1s) Index
+2025-07-29 11:16:01 [INFO] Finished checking Volatility 50 (1s) Index
+2025-07-29 11:16:01 [INFO] Finished checking Volatility 150 (1s) Index
+2025-07-29 11:16:01 [INFO] Finished checking Volatility 250 (1s) Index
+2025-07-29 11:16:01 [INFO] Looking for type1 sell setups on 5
+2025-07-29 11:16:01 [INFO] Spread for Volatility 10 Index: 172
+2025-07-29 11:16:01 [INFO] Spread for Volatility 25 Index: 195
+2025-07-29 11:16:01 [INFO] Spread for Volatility 50 Index: 170
+2025-07-29 11:16:01 [INFO] Spread for Volatility 100 Index: 30
+2025-07-29 11:16:01 [INFO] Spread for Volatility 10 (1s) Index: 24
+2025-07-29 11:16:01 [INFO] Spread for Volatility 15 (1s) Index: 633
+2025-07-29 11:16:01 [INFO] Spread for Volatility 25 (1s) Index: 4545
+2025-07-29 11:16:01 [INFO] Spread for Volatility 30 (1s) Index: 551
+2025-07-29 11:16:01 [INFO] Spread for Volatility 50 (1s) Index: 2909
+2025-07-29 11:16:01 [INFO] Spread for Volatility 90 (1s) Index: 4399
+2025-07-29 11:16:02 [INFO] Spread for Volatility 150 (1s) Index: 5
+2025-07-29 11:16:02 [INFO] Spread for Volatility 100 (1s) Index: 20
+2025-07-29 11:16:02 [INFO] Finished checking Volatility 10 Index
+2025-07-29 11:16:02 [INFO] Finished checking Volatility 25 Index
+2025-07-29 11:16:02 [INFO] Spread for Volatility 75 (1s) Index: 86
+2025-07-29 11:16:02 [INFO] Finished checking Volatility 50 Index
+2025-07-29 11:16:02 [INFO] Finished checking Volatility 15 (1s) Index
+2025-07-29 11:16:02 [INFO] Finished checking Volatility 100 Index
+2025-07-29 11:16:02 [INFO] Finished checking Volatility 25 (1s) Index
+2025-07-29 11:16:02 [INFO] Finished checking Volatility 50 (1s) Index
+2025-07-29 11:16:02 [INFO] Finished checking Volatility 10 (1s) Index
+2025-07-29 11:16:02 [INFO] Finished checking Volatility 30 (1s) Index
+2025-07-29 11:16:02 [INFO] Finished checking Volatility 150 (1s) Index
+2025-07-29 11:16:02 [INFO] Spread for Volatility 250 (1s) Index: 6
+2025-07-29 11:16:02 [INFO] Finished checking Volatility 90 (1s) Index
+2025-07-29 11:16:02 [INFO] Finished checking Volatility 75 (1s) Index
+2025-07-29 11:16:02 [INFO] Finished checking Volatility 100 (1s) Index
+2025-07-29 11:16:02 [INFO] Finished checking Volatility 250 (1s) Index
+2025-07-29 11:16:02 [INFO] MT5 connection closed
+2025-07-29 11:16:02 [INFO] Trading bot stopped
+2025-07-29 11:16:02 [INFO] Job "trading_job (trigger: cron[day_of_week='mon-sun', hour='*', minute='15'], next run at: 2025-07-29 12:15:00 WAT)" executed successfully
+2025-07-29 11:27:18 [INFO] Spread for Volatility 250 (1s) Index: 6
+2025-07-29 11:31:02 [INFO] Spread for Volatility 250 (1s) Index: 6
+2025-07-29 11:40:38 [INFO] Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-07-29 11:40:38 [INFO] Added job "trading_job" to job store "default"
+2025-07-29 11:40:38 [INFO] Scheduler started
+2025-07-29 12:15:06 [WARNING] Run time of job "trading_job (trigger: cron[day_of_week='mon-sun', hour='*', minute='15'], next run at: 2025-07-29 13:15:00 WAT)" was missed by 0:00:05.947092
+2025-07-29 13:15:00 [INFO] Running job "trading_job (trigger: cron[day_of_week='mon-sun', hour='*', minute='15'], next run at: 2025-07-29 14:15:00 WAT)" (scheduled at 2025-07-29 13:15:00+01:00)
+2025-07-29 13:15:03 [INFO] MT5 initialized successfully
+2025-07-29 13:15:03 [INFO] Looking for type1 buy setups on 15
+2025-07-29 13:15:14 [INFO] Spread for Volatility 15 (1s) Index: 633
+2025-07-29 13:15:14 [INFO] Spread for Volatility 100 Index: 30
+2025-07-29 13:15:14 [INFO] Spread for Volatility 10 Index: 172
+2025-07-29 13:15:14 [INFO] Spread for Volatility 10 (1s) Index: 24
+2025-07-29 13:15:14 [INFO] Spread for Volatility 50 (1s) Index: 2909
+2025-07-29 13:15:14 [INFO] Spread for Volatility 25 Index: 195
+2025-07-29 13:15:14 [INFO] Spread for Volatility 30 (1s) Index: 551
+2025-07-29 13:15:14 [INFO] Spread for Volatility 50 Index: 170
+2025-07-29 13:15:14 [INFO] Spread for Volatility 90 (1s) Index: 4399
+2025-07-29 13:15:15 [INFO] Spread for Volatility 25 (1s) Index: 4545
+2025-07-29 13:15:15 [INFO] Spread for Volatility 75 (1s) Index: 86
+2025-07-29 13:15:15 [INFO] Spread for Volatility 100 (1s) Index: 20
+2025-07-29 13:15:16 [INFO] Spread for Volatility 150 (1s) Index: 5
+2025-07-29 13:15:16 [INFO] Spread for Volatility 250 (1s) Index: 6
+2025-07-29 13:15:18 [INFO] Finished checking Volatility 50 (1s) Index
+2025-07-29 13:15:22 [INFO] Order placed successfully $$$$$$$$$$$$$$
+2025-07-29 13:15:23 [INFO] Order placed successfully $$$$$$$$$$$$$$
+2025-07-29 13:15:23 [INFO] Finished checking Volatility 90 (1s) Index
+2025-07-29 13:15:23 [INFO] Finished checking Volatility 100 Index
+2025-07-29 13:15:23 [INFO] Finished checking Volatility 75 (1s) Index
+2025-07-29 13:15:23 [INFO] Finished checking Volatility 15 (1s) Index
+2025-07-29 13:15:23 [INFO] Finished checking Volatility 10 (1s) Index
+2025-07-29 13:15:23 [INFO] Finished checking Volatility 50 Index
+2025-07-29 13:15:23 [INFO] Finished checking Volatility 30 (1s) Index
+2025-07-29 13:15:23 [INFO] Finished checking Volatility 25 (1s) Index
+2025-07-29 13:15:23 [INFO] Finished checking Volatility 100 (1s) Index
+2025-07-29 13:15:23 [INFO] Finished checking Volatility 150 (1s) Index
+2025-07-29 13:15:23 [INFO] Finished checking Volatility 250 (1s) Index
+2025-07-29 13:15:23 [INFO] Finished checking Volatility 25 Index
+2025-07-29 13:15:23 [INFO] Finished checking Volatility 10 Index
+2025-07-29 13:15:23 [INFO] Looking for type1 sell setups on 15
+2025-07-29 13:15:23 [INFO] Spread for Volatility 10 Index: 172
+2025-07-29 13:15:23 [INFO] Spread for Volatility 25 Index: 195
+2025-07-29 13:15:23 [INFO] Spread for Volatility 50 Index: 170
+2025-07-29 13:15:23 [INFO] Spread for Volatility 100 Index: 30
+2025-07-29 13:15:23 [INFO] Spread for Volatility 10 (1s) Index: 24
+2025-07-29 13:15:23 [INFO] Spread for Volatility 25 (1s) Index: 4545
+2025-07-29 13:15:23 [INFO] Spread for Volatility 15 (1s) Index: 633
+2025-07-29 13:15:23 [INFO] Spread for Volatility 50 (1s) Index: 2909
+2025-07-29 13:15:23 [INFO] Spread for Volatility 30 (1s) Index: 551
+2025-07-29 13:15:24 [INFO] Spread for Volatility 90 (1s) Index: 4399
+2025-07-29 13:15:24 [INFO] Spread for Volatility 75 (1s) Index: 86
+2025-07-29 13:15:24 [INFO] Spread for Volatility 100 (1s) Index: 20
+2025-07-29 13:15:24 [INFO] Finished checking Volatility 100 Index
+2025-07-29 13:15:24 [INFO] Spread for Volatility 150 (1s) Index: 5
+2025-07-29 13:15:24 [INFO] Spread for Volatility 250 (1s) Index: 6
+2025-07-29 13:15:24 [INFO] Finished checking Volatility 25 Index
+2025-07-29 13:15:24 [INFO] Finished checking Volatility 10 (1s) Index
+2025-07-29 13:15:24 [INFO] Finished checking Volatility 50 Index
+2025-07-29 13:15:24 [INFO] Finished checking Volatility 10 Index
+2025-07-29 13:15:24 [INFO] Finished checking Volatility 25 (1s) Index
+2025-07-29 13:15:24 [INFO] Finished checking Volatility 50 (1s) Index
+2025-07-29 13:15:24 [INFO] Finished checking Volatility 15 (1s) Index
+2025-07-29 13:15:24 [INFO] Finished checking Volatility 90 (1s) Index
+2025-07-29 13:15:24 [INFO] Finished checking Volatility 30 (1s) Index
+2025-07-29 13:15:24 [INFO] Finished checking Volatility 75 (1s) Index
+2025-07-29 13:15:24 [INFO] Finished checking Volatility 100 (1s) Index
+2025-07-29 13:15:24 [INFO] Finished checking Volatility 150 (1s) Index
+2025-07-29 13:15:24 [INFO] Finished checking Volatility 250 (1s) Index
+2025-07-29 13:15:24 [INFO] Looking for type1 buy setups on 5
+2025-07-29 13:15:24 [INFO] Spread for Volatility 25 Index: 195
+2025-07-29 13:15:24 [INFO] Spread for Volatility 50 Index: 170
+2025-07-29 13:15:24 [INFO] Spread for Volatility 10 Index: 172
+2025-07-29 13:15:25 [INFO] Spread for Volatility 100 Index: 30
+2025-07-29 13:15:25 [INFO] Spread for Volatility 10 (1s) Index: 24
+2025-07-29 13:15:25 [INFO] Spread for Volatility 15 (1s) Index: 633
+2025-07-29 13:15:25 [INFO] Spread for Volatility 25 (1s) Index: 4545
+2025-07-29 13:15:25 [INFO] Spread for Volatility 30 (1s) Index: 551
+2025-07-29 13:15:25 [INFO] Spread for Volatility 50 (1s) Index: 2909
+2025-07-29 13:15:25 [INFO] Spread for Volatility 75 (1s) Index: 86
+2025-07-29 13:15:26 [INFO] Spread for Volatility 100 (1s) Index: 20
+2025-07-29 13:15:26 [INFO] Spread for Volatility 90 (1s) Index: 4399
+2025-07-29 13:15:26 [INFO] Finished checking Volatility 10 Index
+2025-07-29 13:15:26 [INFO] Spread for Volatility 250 (1s) Index: 6
+2025-07-29 13:15:26 [INFO] Spread for Volatility 150 (1s) Index: 5
+2025-07-29 13:15:26 [INFO] Finished checking Volatility 30 (1s) Index
+2025-07-29 13:15:26 [INFO] Finished checking Volatility 25 (1s) Index
+2025-07-29 13:15:26 [INFO] Finished checking Volatility 10 (1s) Index
+2025-07-29 13:15:26 [INFO] Finished checking Volatility 15 (1s) Index
+2025-07-29 13:15:26 [INFO] Finished checking Volatility 25 Index
+2025-07-29 13:15:26 [INFO] Finished checking Volatility 100 Index
+2025-07-29 13:15:26 [INFO] Finished checking Volatility 75 (1s) Index
+2025-07-29 13:15:26 [INFO] Finished checking Volatility 50 (1s) Index
+2025-07-29 13:15:26 [INFO] Finished checking Volatility 100 (1s) Index
+2025-07-29 13:15:26 [INFO] Finished checking Volatility 90 (1s) Index
+2025-07-29 13:15:26 [INFO] Finished checking Volatility 50 Index
+2025-07-29 13:15:26 [INFO] Finished checking Volatility 250 (1s) Index
+2025-07-29 13:15:26 [INFO] Finished checking Volatility 150 (1s) Index
+2025-07-29 13:15:26 [INFO] Looking for type1 sell setups on 5
+2025-07-29 13:15:26 [INFO] Spread for Volatility 10 Index: 172
+2025-07-29 13:15:26 [INFO] Spread for Volatility 25 Index: 195
+2025-07-29 13:15:27 [INFO] Spread for Volatility 50 Index: 170
+2025-07-29 13:15:27 [INFO] Spread for Volatility 10 (1s) Index: 24
+2025-07-29 13:15:27 [INFO] Spread for Volatility 100 Index: 30
+2025-07-29 13:15:27 [INFO] Spread for Volatility 15 (1s) Index: 633
+2025-07-29 13:15:27 [INFO] Spread for Volatility 30 (1s) Index: 551
+2025-07-29 13:15:27 [INFO] Spread for Volatility 50 (1s) Index: 2909
+2025-07-29 13:15:27 [INFO] Spread for Volatility 25 (1s) Index: 4545
+2025-07-29 13:15:27 [INFO] Finished checking Volatility 25 Index
+2025-07-29 13:15:27 [INFO] Spread for Volatility 75 (1s) Index: 86
+2025-07-29 13:15:27 [INFO] Spread for Volatility 90 (1s) Index: 4399
+2025-07-29 13:15:27 [INFO] Finished checking Volatility 10 Index
+2025-07-29 13:15:27 [INFO] Spread for Volatility 150 (1s) Index: 5
+2025-07-29 13:15:27 [INFO] Spread for Volatility 250 (1s) Index: 6
+2025-07-29 13:15:27 [INFO] Spread for Volatility 100 (1s) Index: 20
+2025-07-29 13:15:28 [INFO] Finished checking Volatility 10 (1s) Index
+2025-07-29 13:15:28 [INFO] Finished checking Volatility 50 (1s) Index
+2025-07-29 13:15:28 [INFO] Finished checking Volatility 50 Index
+2025-07-29 13:15:28 [INFO] Finished checking Volatility 15 (1s) Index
+2025-07-29 13:15:28 [INFO] Finished checking Volatility 100 Index
+2025-07-29 13:15:28 [INFO] Finished checking Volatility 30 (1s) Index
+2025-07-29 13:15:28 [INFO] Finished checking Volatility 25 (1s) Index
+2025-07-29 13:15:28 [INFO] Finished checking Volatility 75 (1s) Index
+2025-07-29 13:15:28 [INFO] Finished checking Volatility 90 (1s) Index
+2025-07-29 13:15:28 [INFO] Finished checking Volatility 150 (1s) Index
+2025-07-29 13:15:28 [INFO] Finished checking Volatility 250 (1s) Index
+2025-07-29 13:15:28 [INFO] Finished checking Volatility 100 (1s) Index
+2025-07-29 13:15:28 [INFO] MT5 connection closed
+2025-07-29 13:15:28 [INFO] Trading bot stopped
+2025-07-29 13:15:28 [INFO] Job "trading_job (trigger: cron[day_of_week='mon-sun', hour='*', minute='15'], next run at: 2025-07-29 14:15:00 WAT)" executed successfully
+2025-07-29 14:15:03 [WARNING] Run time of job "trading_job (trigger: cron[day_of_week='mon-sun', hour='*', minute='15'], next run at: 2025-07-29 15:15:00 WAT)" was missed by 0:00:02.317933
+2025-07-29 15:15:00 [INFO] Running job "trading_job (trigger: cron[day_of_week='mon-sun', hour='*', minute='15'], next run at: 2025-07-29 15:15:00 WAT)" (scheduled at 2025-07-29 15:15:00+01:00)
+2025-07-29 15:15:01 [INFO] MT5 initialized successfully
+2025-07-29 15:15:01 [INFO] Looking for type1 buy setups on 15
+2025-07-29 15:15:06 [INFO] Spread for Volatility 15 (1s) Index: 633
+2025-07-29 15:15:06 [INFO] Spread for Volatility 25 Index: 195
+2025-07-29 15:15:06 [INFO] Spread for Volatility 25 (1s) Index: 4545
+2025-07-29 15:15:06 [INFO] Spread for Volatility 30 (1s) Index: 551
+2025-07-29 15:15:06 [INFO] Spread for Volatility 50 (1s) Index: 2909
+2025-07-29 15:15:07 [INFO] Spread for Volatility 75 (1s) Index: 86
+2025-07-29 15:15:07 [INFO] Spread for Volatility 50 Index: 170
+2025-07-29 15:15:07 [INFO] Spread for Volatility 100 Index: 30
+2025-07-29 15:15:07 [INFO] Spread for Volatility 10 Index: 172
+2025-07-29 15:15:07 [INFO] Spread for Volatility 10 (1s) Index: 24
+2025-07-29 15:15:07 [INFO] Spread for Volatility 90 (1s) Index: 4399
+2025-07-29 15:15:07 [INFO] Spread for Volatility 150 (1s) Index: 5
+2025-07-29 15:15:07 [INFO] Spread for Volatility 100 (1s) Index: 20
+2025-07-29 15:15:07 [INFO] Spread for Volatility 250 (1s) Index: 6
+2025-07-29 15:15:08 [INFO] Finished checking Volatility 100 Index
+2025-07-29 15:15:10 [INFO] Order placed successfully $$$$$$$$$$$$$$
+2025-07-29 15:15:11 [INFO] Order placed successfully $$$$$$$$$$$$$$
+2025-07-29 15:15:11 [INFO] Finished checking Volatility 30 (1s) Index
+2025-07-29 15:15:11 [INFO] Finished checking Volatility 50 (1s) Index
+2025-07-29 15:15:11 [INFO] Finished checking Volatility 15 (1s) Index
+2025-07-29 15:15:11 [INFO] Finished checking Volatility 50 Index
+2025-07-29 15:15:11 [INFO] Finished checking Volatility 75 (1s) Index
+2025-07-29 15:15:11 [INFO] Finished checking Volatility 25 (1s) Index
+2025-07-29 15:15:11 [INFO] Finished checking Volatility 10 (1s) Index
+2025-07-29 15:15:11 [INFO] Finished checking Volatility 90 (1s) Index
+2025-07-29 15:15:11 [INFO] Finished checking Volatility 150 (1s) Index
+2025-07-29 15:15:11 [INFO] Finished checking Volatility 100 (1s) Index
+2025-07-29 15:15:11 [INFO] Finished checking Volatility 25 Index
+2025-07-29 15:15:11 [INFO] Finished checking Volatility 250 (1s) Index
+2025-07-29 15:15:11 [INFO] Finished checking Volatility 10 Index
+2025-07-29 15:15:11 [INFO] Looking for type1 sell setups on 15
+2025-07-29 15:15:11 [INFO] Spread for Volatility 10 Index: 172
+2025-07-29 15:15:11 [INFO] Spread for Volatility 50 Index: 170
+2025-07-29 15:15:11 [INFO] Spread for Volatility 25 Index: 195
+2025-07-29 15:15:11 [INFO] Spread for Volatility 10 (1s) Index: 24
+2025-07-29 15:15:11 [INFO] Spread for Volatility 100 Index: 30
+2025-07-29 15:15:11 [INFO] Spread for Volatility 15 (1s) Index: 633
+2025-07-29 15:15:11 [INFO] Spread for Volatility 25 (1s) Index: 4545
+2025-07-29 15:15:11 [INFO] Spread for Volatility 90 (1s) Index: 4399
+2025-07-29 15:15:11 [INFO] Spread for Volatility 150 (1s) Index: 5
+2025-07-29 15:15:11 [INFO] Spread for Volatility 50 (1s) Index: 2909
+2025-07-29 15:15:11 [INFO] Spread for Volatility 30 (1s) Index: 551
+2025-07-29 15:15:11 [INFO] Spread for Volatility 75 (1s) Index: 86
+2025-07-29 15:15:11 [INFO] Spread for Volatility 100 (1s) Index: 20
+2025-07-29 15:15:11 [INFO] Finished checking Volatility 10 Index
+2025-07-29 15:15:11 [INFO] Spread for Volatility 250 (1s) Index: 6
+2025-07-29 15:15:11 [INFO] Finished checking Volatility 10 (1s) Index
+2025-07-29 15:15:11 [INFO] Finished checking Volatility 25 Index
+2025-07-29 15:15:11 [INFO] Finished checking Volatility 50 Index
+2025-07-29 15:15:11 [INFO] Finished checking Volatility 15 (1s) Index
+2025-07-29 15:15:11 [INFO] Finished checking Volatility 100 Index
+2025-07-29 15:15:11 [INFO] Finished checking Volatility 25 (1s) Index
+2025-07-29 15:15:11 [INFO] Finished checking Volatility 150 (1s) Index
+2025-07-29 15:15:11 [INFO] Finished checking Volatility 90 (1s) Index
+2025-07-29 15:15:11 [INFO] Finished checking Volatility 50 (1s) Index
+2025-07-29 15:15:11 [INFO] Finished checking Volatility 30 (1s) Index
+2025-07-29 15:15:11 [INFO] Finished checking Volatility 75 (1s) Index
+2025-07-29 15:15:11 [INFO] Finished checking Volatility 100 (1s) Index
+2025-07-29 15:15:11 [INFO] Finished checking Volatility 250 (1s) Index
+2025-07-29 15:15:11 [INFO] Looking for type1 buy setups on 5
+2025-07-29 15:15:12 [INFO] Spread for Volatility 25 Index: 195
+2025-07-29 15:15:12 [INFO] Spread for Volatility 10 Index: 172
+2025-07-29 15:15:12 [INFO] Spread for Volatility 100 Index: 30
+2025-07-29 15:15:12 [INFO] Spread for Volatility 50 Index: 170
+2025-07-29 15:15:13 [INFO] Spread for Volatility 10 (1s) Index: 24
+2025-07-29 15:15:13 [INFO] Spread for Volatility 25 (1s) Index: 4545
+2025-07-29 15:15:14 [INFO] Spread for Volatility 30 (1s) Index: 551
+2025-07-29 15:15:15 [INFO] Spread for Volatility 50 (1s) Index: 2909
+2025-07-29 15:15:15 [INFO] Spread for Volatility 75 (1s) Index: 86
+2025-07-29 15:15:15 [INFO] Spread for Volatility 15 (1s) Index: 633
+2025-07-29 15:15:16 [INFO] Spread for Volatility 90 (1s) Index: 4399
+2025-07-29 15:15:16 [INFO] Spread for Volatility 150 (1s) Index: 5
+2025-07-29 15:15:16 [INFO] Finished checking Volatility 10 (1s) Index
+2025-07-29 15:15:16 [INFO] Finished checking Volatility 10 Index
+2025-07-29 15:15:16 [INFO] Finished checking Volatility 25 Index
+2025-07-29 15:15:16 [INFO] Finished checking Volatility 50 Index
+2025-07-29 15:15:16 [INFO] Spread for Volatility 100 (1s) Index: 20
+2025-07-29 15:15:16 [INFO] Spread for Volatility 250 (1s) Index: 6
+2025-07-29 15:15:17 [INFO] Finished checking Volatility 100 Index
+2025-07-29 15:15:20 [INFO] Order placed successfully $$$$$$$$$$$$$$
+2025-07-29 15:15:20 [INFO] Finished checking Volatility 30 (1s) Index
+2025-07-29 15:15:20 [INFO] Finished checking Volatility 25 (1s) Index
+2025-07-29 15:15:20 [INFO] Finished checking Volatility 150 (1s) Index
+2025-07-29 15:15:20 [INFO] Finished checking Volatility 75 (1s) Index
+2025-07-29 15:15:20 [INFO] Finished checking Volatility 50 (1s) Index
+2025-07-29 15:15:20 [INFO] Finished checking Volatility 90 (1s) Index
+2025-07-29 15:15:20 [INFO] Finished checking Volatility 15 (1s) Index
+2025-07-29 15:15:20 [INFO] Finished checking Volatility 250 (1s) Index
+2025-07-29 15:15:20 [INFO] Finished checking Volatility 100 (1s) Index
+2025-07-29 15:15:20 [INFO] Looking for type1 sell setups on 5
+2025-07-29 15:15:20 [INFO] Spread for Volatility 25 Index: 195
+2025-07-29 15:15:20 [INFO] Spread for Volatility 10 Index: 172
+2025-07-29 15:15:20 [INFO] Spread for Volatility 50 Index: 170
+2025-07-29 15:15:20 [INFO] Spread for Volatility 100 Index: 30
+2025-07-29 15:15:20 [INFO] Spread for Volatility 10 (1s) Index: 24
+2025-07-29 15:15:20 [INFO] Spread for Volatility 15 (1s) Index: 633
+2025-07-29 15:15:20 [INFO] Spread for Volatility 25 (1s) Index: 4545
+2025-07-29 15:15:20 [INFO] Spread for Volatility 30 (1s) Index: 551
+2025-07-29 15:15:21 [INFO] Spread for Volatility 50 (1s) Index: 2909
+2025-07-29 15:15:21 [INFO] Finished checking Volatility 50 Index
+2025-07-29 15:15:21 [INFO] Finished checking Volatility 10 (1s) Index
+2025-07-29 15:15:21 [INFO] Spread for Volatility 100 (1s) Index: 20
+2025-07-29 15:15:21 [INFO] Finished checking Volatility 10 Index
+2025-07-29 15:15:21 [INFO] Spread for Volatility 75 (1s) Index: 86
+2025-07-29 15:15:21 [INFO] Spread for Volatility 90 (1s) Index: 4399
+2025-07-29 15:15:21 [INFO] Spread for Volatility 150 (1s) Index: 5
+2025-07-29 15:15:21 [INFO] Finished checking Volatility 25 Index
+2025-07-29 15:15:21 [INFO] Finished checking Volatility 100 Index
+2025-07-29 15:15:21 [INFO] Finished checking Volatility 25 (1s) Index
+2025-07-29 15:15:21 [INFO] Spread for Volatility 250 (1s) Index: 6
+2025-07-29 15:15:21 [INFO] Finished checking Volatility 15 (1s) Index
+2025-07-29 15:15:21 [INFO] Finished checking Volatility 30 (1s) Index
+2025-07-29 15:15:21 [INFO] Finished checking Volatility 50 (1s) Index
+2025-07-29 15:15:21 [INFO] Finished checking Volatility 150 (1s) Index
+2025-07-29 15:15:21 [INFO] Finished checking Volatility 75 (1s) Index
+2025-07-29 15:15:21 [INFO] Finished checking Volatility 90 (1s) Index
+2025-07-29 15:15:21 [INFO] Finished checking Volatility 100 (1s) Index
+2025-07-29 15:15:21 [INFO] Finished checking Volatility 250 (1s) Index
+2025-07-29 15:15:21 [INFO] MT5 connection closed
+2025-07-29 15:15:21 [INFO] Trading bot stopped
+2025-07-29 15:15:22 [INFO] Job "trading_job (trigger: cron[day_of_week='mon-sun', hour='*', minute='15'], next run at: 2025-07-29 16:15:00 WAT)" executed successfully
+2025-07-29 16:15:00 [INFO] Running job "trading_job (trigger: cron[day_of_week='mon-sun', hour='*', minute='15'], next run at: 2025-07-29 17:15:00 WAT)" (scheduled at 2025-07-29 16:15:00+01:00)
+2025-07-29 16:15:01 [INFO] MT5 initialized successfully
+2025-07-29 16:15:01 [INFO] Looking for type1 buy setups on 15
+2025-07-29 16:15:02 [INFO] Spread for Volatility 25 Index: 195
+2025-07-29 16:15:02 [INFO] Spread for Volatility 10 (1s) Index: 24
+2025-07-29 16:15:02 [INFO] Spread for Volatility 15 (1s) Index: 633
+2025-07-29 16:15:02 [INFO] Spread for Volatility 25 (1s) Index: 4545
+2025-07-29 16:15:02 [INFO] Spread for Volatility 50 Index: 170
+2025-07-29 16:15:02 [INFO] Spread for Volatility 100 Index: 30
+2025-07-29 16:15:02 [INFO] Spread for Volatility 10 Index: 172
+2025-07-29 16:15:02 [INFO] Spread for Volatility 30 (1s) Index: 551
+2025-07-29 16:15:03 [INFO] Spread for Volatility 50 (1s) Index: 2909
+2025-07-29 16:15:03 [INFO] Spread for Volatility 90 (1s) Index: 4399
+2025-07-29 16:15:03 [INFO] Spread for Volatility 75 (1s) Index: 86
+2025-07-29 16:15:03 [INFO] Spread for Volatility 100 (1s) Index: 20
+2025-07-29 16:15:03 [INFO] Spread for Volatility 150 (1s) Index: 5
+2025-07-29 16:15:03 [INFO] Spread for Volatility 250 (1s) Index: 6
+2025-07-29 16:15:05 [INFO] Order placed successfully $$$$$$$$$$$$$$
+2025-07-29 16:15:05 [INFO] Finished checking Volatility 50 Index
+2025-07-29 16:15:06 [INFO] Order placed successfully $$$$$$$$$$$$$$
+2025-07-29 16:15:06 [INFO] Finished checking Volatility 15 (1s) Index
+2025-07-29 16:15:06 [INFO] Finished checking Volatility 10 (1s) Index
+2025-07-29 16:15:06 [INFO] Finished checking Volatility 100 Index
+2025-07-29 16:15:06 [INFO] Finished checking Volatility 25 (1s) Index
+2025-07-29 16:15:06 [INFO] Finished checking Volatility 30 (1s) Index
+2025-07-29 16:15:06 [INFO] Finished checking Volatility 90 (1s) Index
+2025-07-29 16:15:06 [INFO] Finished checking Volatility 50 (1s) Index
+2025-07-29 16:15:06 [INFO] Finished checking Volatility 25 Index
+2025-07-29 16:15:06 [INFO] Finished checking Volatility 100 (1s) Index
+2025-07-29 16:15:06 [INFO] Finished checking Volatility 75 (1s) Index
+2025-07-29 16:15:06 [INFO] Finished checking Volatility 10 Index
+2025-07-29 16:15:06 [INFO] Finished checking Volatility 150 (1s) Index
+2025-07-29 16:15:06 [INFO] Finished checking Volatility 250 (1s) Index
+2025-07-29 16:15:06 [INFO] Looking for type1 sell setups on 15
+2025-07-29 16:15:06 [INFO] Spread for Volatility 10 Index: 172
+2025-07-29 16:15:06 [INFO] Spread for Volatility 25 Index: 195
+2025-07-29 16:15:06 [INFO] Spread for Volatility 50 Index: 170
+2025-07-29 16:15:06 [INFO] Spread for Volatility 10 (1s) Index: 24
+2025-07-29 16:15:06 [INFO] Spread for Volatility 100 Index: 30
+2025-07-29 16:15:06 [INFO] Spread for Volatility 25 (1s) Index: 4545
+2025-07-29 16:15:06 [INFO] Spread for Volatility 50 (1s) Index: 2909
+2025-07-29 16:15:06 [INFO] Spread for Volatility 30 (1s) Index: 551
+2025-07-29 16:15:06 [INFO] Spread for Volatility 15 (1s) Index: 633
+2025-07-29 16:15:06 [INFO] Spread for Volatility 75 (1s) Index: 86
+2025-07-29 16:15:06 [INFO] Spread for Volatility 150 (1s) Index: 5
+2025-07-29 16:15:06 [INFO] Finished checking Volatility 50 Index
+2025-07-29 16:15:06 [INFO] Spread for Volatility 100 (1s) Index: 20
+2025-07-29 16:15:06 [INFO] Spread for Volatility 90 (1s) Index: 4399
+2025-07-29 16:15:06 [INFO] Spread for Volatility 250 (1s) Index: 6
+2025-07-29 16:15:06 [INFO] Finished checking Volatility 25 Index
+2025-07-29 16:15:06 [INFO] Finished checking Volatility 10 (1s) Index
+2025-07-29 16:15:06 [INFO] Finished checking Volatility 10 Index
+2025-07-29 16:15:06 [INFO] Finished checking Volatility 100 Index
+2025-07-29 16:15:06 [INFO] Finished checking Volatility 50 (1s) Index
+2025-07-29 16:15:06 [INFO] Finished checking Volatility 25 (1s) Index
+2025-07-29 16:15:06 [INFO] Finished checking Volatility 30 (1s) Index
+2025-07-29 16:15:06 [INFO] Finished checking Volatility 75 (1s) Index
+2025-07-29 16:15:06 [INFO] Finished checking Volatility 150 (1s) Index
+2025-07-29 16:15:06 [INFO] Finished checking Volatility 15 (1s) Index
+2025-07-29 16:15:06 [INFO] Finished checking Volatility 100 (1s) Index
+2025-07-29 16:15:06 [INFO] Finished checking Volatility 90 (1s) Index
+2025-07-29 16:15:06 [INFO] Finished checking Volatility 250 (1s) Index
+2025-07-29 16:15:06 [INFO] Looking for type1 buy setups on 5
+2025-07-29 16:15:07 [INFO] Spread for Volatility 10 Index: 172
+2025-07-29 16:15:07 [INFO] Spread for Volatility 25 Index: 195
+2025-07-29 16:15:07 [INFO] Spread for Volatility 50 Index: 170
+2025-07-29 16:15:07 [INFO] Spread for Volatility 100 Index: 30
+2025-07-29 16:15:07 [INFO] Spread for Volatility 10 (1s) Index: 24
+2025-07-29 16:15:07 [INFO] Spread for Volatility 15 (1s) Index: 633
+2025-07-29 16:15:07 [INFO] Spread for Volatility 30 (1s) Index: 551
+2025-07-29 16:15:08 [INFO] Spread for Volatility 25 (1s) Index: 4545
+2025-07-29 16:15:08 [INFO] Spread for Volatility 50 (1s) Index: 2909
+2025-07-29 16:15:08 [INFO] Spread for Volatility 90 (1s) Index: 4399
+2025-07-29 16:15:08 [INFO] Spread for Volatility 75 (1s) Index: 86
+2025-07-29 16:15:08 [INFO] Finished checking Volatility 10 Index
+2025-07-29 16:15:08 [INFO] Finished checking Volatility 50 Index
+2025-07-29 16:15:09 [INFO] Finished checking Volatility 25 Index
+2025-07-29 16:15:09 [INFO] Spread for Volatility 100 (1s) Index: 20
+2025-07-29 16:15:09 [INFO] Spread for Volatility 150 (1s) Index: 5
+2025-07-29 16:15:09 [INFO] Spread for Volatility 250 (1s) Index: 6
+2025-07-29 16:15:09 [INFO] Finished checking Volatility 10 (1s) Index
+2025-07-29 16:15:09 [INFO] Finished checking Volatility 100 Index
+2025-07-29 16:15:09 [INFO] Finished checking Volatility 25 (1s) Index
+2025-07-29 16:15:09 [INFO] Finished checking Volatility 90 (1s) Index
+2025-07-29 16:15:09 [INFO] Finished checking Volatility 50 (1s) Index
+2025-07-29 16:15:09 [INFO] Finished checking Volatility 15 (1s) Index
+2025-07-29 16:15:09 [INFO] Finished checking Volatility 75 (1s) Index
+2025-07-29 16:15:10 [INFO] Order placed successfully $$$$$$$$$$$$$$
+2025-07-29 16:15:10 [INFO] Finished checking Volatility 30 (1s) Index
+2025-07-29 16:15:10 [INFO] Finished checking Volatility 150 (1s) Index
+2025-07-29 16:15:10 [INFO] Finished checking Volatility 250 (1s) Index
+2025-07-29 16:15:10 [INFO] Finished checking Volatility 100 (1s) Index
+2025-07-29 16:15:10 [INFO] Looking for type1 sell setups on 5
+2025-07-29 16:15:10 [INFO] Spread for Volatility 25 Index: 195
+2025-07-29 16:15:10 [INFO] Spread for Volatility 50 Index: 170
+2025-07-29 16:15:10 [INFO] Spread for Volatility 100 Index: 30
+2025-07-29 16:15:11 [INFO] Spread for Volatility 25 (1s) Index: 4545
+2025-07-29 16:15:11 [INFO] Spread for Volatility 10 Index: 172
+2025-07-29 16:15:11 [INFO] Spread for Volatility 15 (1s) Index: 633
+2025-07-29 16:15:11 [INFO] Spread for Volatility 10 (1s) Index: 24
+2025-07-29 16:15:11 [INFO] Spread for Volatility 30 (1s) Index: 551
+2025-07-29 16:15:11 [INFO] Spread for Volatility 50 (1s) Index: 2909
+2025-07-29 16:15:11 [INFO] Spread for Volatility 90 (1s) Index: 4399
+2025-07-29 16:15:11 [INFO] Spread for Volatility 75 (1s) Index: 86
+2025-07-29 16:15:11 [INFO] Spread for Volatility 100 (1s) Index: 20
+2025-07-29 16:15:11 [INFO] Spread for Volatility 150 (1s) Index: 5
+2025-07-29 16:15:11 [INFO] Finished checking Volatility 50 Index
+2025-07-29 16:15:11 [INFO] Spread for Volatility 250 (1s) Index: 6
+2025-07-29 16:15:11 [INFO] Finished checking Volatility 25 Index
+2025-07-29 16:15:11 [INFO] Finished checking Volatility 25 (1s) Index
+2025-07-29 16:15:12 [INFO] Finished checking Volatility 100 Index
+2025-07-29 16:15:12 [INFO] Finished checking Volatility 10 Index
+2025-07-29 16:15:12 [INFO] Finished checking Volatility 15 (1s) Index
+2025-07-29 16:15:12 [INFO] Finished checking Volatility 50 (1s) Index
+2025-07-29 16:15:12 [INFO] Finished checking Volatility 30 (1s) Index
+2025-07-29 16:15:12 [INFO] Finished checking Volatility 250 (1s) Index
+2025-07-29 16:15:12 [INFO] Finished checking Volatility 100 (1s) Index
+2025-07-29 16:15:12 [INFO] Finished checking Volatility 10 (1s) Index
+2025-07-29 16:15:12 [INFO] Finished checking Volatility 90 (1s) Index
+2025-07-29 16:15:12 [INFO] Finished checking Volatility 75 (1s) Index
+2025-07-29 16:15:12 [INFO] Finished checking Volatility 150 (1s) Index
+2025-07-29 16:15:12 [INFO] MT5 connection closed
+2025-07-29 16:15:12 [INFO] Trading bot stopped
+2025-07-29 16:15:12 [INFO] Job "trading_job (trigger: cron[day_of_week='mon-sun', hour='*', minute='15'], next run at: 2025-07-29 17:15:00 WAT)" executed successfully
+2025-07-29 23:46:04 [ERROR] No such comm target registered: jupyter.widget.control
+2025-07-29 23:46:05 [WARNING] No such comm: 30c7a56e-54e8-4bc9-a328-72f94c18146b
+2025-07-29 23:53:32 [ERROR] No such comm target registered: jupyter.widget.control
+2025-07-29 23:53:33 [WARNING] No such comm: 3dba817b-b3db-46fa-9737-56d8f14ff537
+2025-07-30 00:51:50 [INFO] Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-07-30 00:51:50 [INFO] Added job "trading_job" to job store "default"
+2025-07-30 00:51:50 [INFO] Scheduler started
+2025-07-30 01:00:01 [WARNING] Run time of job "trading_job (trigger: cron[day_of_week='mon-sun', hour='*', minute='15,30,45,0'], next run at: 2025-07-30 01:00:00 WAT)" was missed by 0:00:01.663406
+2025-07-30 01:15:00 [INFO] Running job "trading_job (trigger: cron[day_of_week='mon-sun', hour='*', minute='15,30,45,0'], next run at: 2025-07-30 01:30:00 WAT)" (scheduled at 2025-07-30 01:15:00+01:00)
+2025-07-30 01:15:00 [INFO] MT5 initialized successfully
+2025-07-30 01:15:00 [INFO] Looking for type1 buy setups on 15
+2025-07-30 01:15:01 [INFO] Spread for Volatility 100 Index: 30
+2025-07-30 01:15:01 [INFO] Spread for Volatility 10 (1s) Index: 24
+2025-07-30 01:15:01 [INFO] Spread for Volatility 25 Index: 195
+2025-07-30 01:15:01 [INFO] Spread for Volatility 50 Index: 170
+2025-07-30 01:15:01 [INFO] Spread for Volatility 10 Index: 172
+2025-07-30 01:15:01 [INFO] Spread for Volatility 15 (1s) Index: 633
+2025-07-30 01:15:02 [INFO] Spread for Volatility 25 (1s) Index: 4545
+2025-07-30 01:15:02 [INFO] Spread for Volatility 30 (1s) Index: 551
+2025-07-30 01:15:02 [INFO] Spread for Volatility 50 (1s) Index: 2909
+2025-07-30 01:15:02 [INFO] Spread for Volatility 75 (1s) Index: 86
+2025-07-30 01:15:02 [INFO] Spread for Volatility 90 (1s) Index: 4399
+2025-07-30 01:15:03 [INFO] Spread for Volatility 100 (1s) Index: 20
+2025-07-30 01:15:03 [INFO] Spread for Volatility 150 (1s) Index: 5
+2025-07-30 01:15:03 [INFO] Finished checking Volatility 50 Index
+2025-07-30 01:15:03 [INFO] Spread for Volatility 250 (1s) Index: 6
+2025-07-30 01:15:03 [INFO] Finished checking Volatility 25 Index
+2025-07-30 01:15:05 [INFO] Finished checking Volatility 25 (1s) Index
+2025-07-30 01:15:05 [INFO] Order placed successfully $$$$$$$$$$$$$$
+2025-07-30 01:15:05 [INFO] Finished checking Volatility 50 (1s) Index
+2025-07-30 01:15:05 [ERROR] Error while plotting entry: name 'go' is not defined
+2025-07-30 01:15:05 [INFO] Finished checking Volatility 10 (1s) Index
+2025-07-30 01:15:05 [INFO] Finished checking Volatility 30 (1s) Index
+2025-07-30 01:15:05 [INFO] Finished checking Volatility 100 Index
+2025-07-30 01:15:05 [INFO] Finished checking Volatility 15 (1s) Index
+2025-07-30 01:15:05 [INFO] Finished checking Volatility 75 (1s) Index
+2025-07-30 01:15:05 [INFO] Finished checking Volatility 90 (1s) Index
+2025-07-30 01:15:05 [INFO] Finished checking Volatility 100 (1s) Index
+2025-07-30 01:15:05 [INFO] Finished checking Volatility 250 (1s) Index
+2025-07-30 01:15:05 [INFO] Finished checking Volatility 150 (1s) Index
+2025-07-30 01:15:05 [INFO] Finished checking Volatility 10 Index
+2025-07-30 01:15:05 [INFO] Looking for type1 sell setups on 15
+2025-07-30 01:15:05 [INFO] Spread for Volatility 10 Index: 172
+2025-07-30 01:15:05 [INFO] Spread for Volatility 25 Index: 195
+2025-07-30 01:15:05 [INFO] Spread for Volatility 50 Index: 170
+2025-07-30 01:15:05 [INFO] Spread for Volatility 100 Index: 30
+2025-07-30 01:15:05 [INFO] Spread for Volatility 10 (1s) Index: 24
+2025-07-30 01:15:09 [INFO] Spread for Volatility 25 (1s) Index: 4545
+2025-07-30 01:15:09 [INFO] Spread for Volatility 30 (1s) Index: 551
+2025-07-30 01:15:09 [INFO] Spread for Volatility 15 (1s) Index: 633
+2025-07-30 01:15:09 [INFO] Spread for Volatility 50 (1s) Index: 2909
+2025-07-30 01:15:10 [INFO] Spread for Volatility 75 (1s) Index: 86
+2025-07-30 01:15:11 [INFO] Spread for Volatility 90 (1s) Index: 4399
+2025-07-30 01:15:11 [INFO] Finished checking Volatility 10 (1s) Index
+2025-07-30 01:15:11 [INFO] Spread for Volatility 100 (1s) Index: 20
+2025-07-30 01:15:11 [INFO] Spread for Volatility 150 (1s) Index: 5
+2025-07-30 01:15:11 [INFO] Spread for Volatility 250 (1s) Index: 6
+2025-07-30 01:15:11 [INFO] Finished checking Volatility 50 Index
+2025-07-30 01:15:11 [INFO] Finished checking Volatility 10 Index
+2025-07-30 01:15:11 [INFO] Finished checking Volatility 25 Index
+2025-07-30 01:15:11 [INFO] Finished checking Volatility 100 Index
+2025-07-30 01:15:11 [INFO] Finished checking Volatility 25 (1s) Index
+2025-07-30 01:15:11 [INFO] Finished checking Volatility 30 (1s) Index
+2025-07-30 01:15:11 [INFO] Finished checking Volatility 75 (1s) Index
+2025-07-30 01:15:11 [INFO] Finished checking Volatility 15 (1s) Index
+2025-07-30 01:15:11 [INFO] Finished checking Volatility 50 (1s) Index
+2025-07-30 01:15:11 [INFO] Finished checking Volatility 90 (1s) Index
+2025-07-30 01:15:11 [INFO] Finished checking Volatility 100 (1s) Index
+2025-07-30 01:15:11 [INFO] Finished checking Volatility 150 (1s) Index
+2025-07-30 01:15:11 [INFO] Finished checking Volatility 250 (1s) Index
+2025-07-30 01:15:11 [INFO] Looking for type1 buy setups on 5
+2025-07-30 01:15:11 [INFO] Spread for Volatility 10 Index: 172
+2025-07-30 01:15:12 [INFO] Spread for Volatility 50 Index: 170
+2025-07-30 01:15:12 [INFO] Spread for Volatility 25 Index: 195
+2025-07-30 01:15:12 [INFO] Spread for Volatility 100 Index: 30
+2025-07-30 01:15:12 [INFO] Spread for Volatility 10 (1s) Index: 24
+2025-07-30 01:15:12 [INFO] Spread for Volatility 30 (1s) Index: 551
+2025-07-30 01:15:12 [INFO] Spread for Volatility 25 (1s) Index: 4545
+2025-07-30 01:15:13 [INFO] Spread for Volatility 15 (1s) Index: 633
+2025-07-30 01:15:13 [INFO] Finished checking Volatility 25 Index
+2025-07-30 01:15:13 [INFO] Spread for Volatility 100 (1s) Index: 20
+2025-07-30 01:15:13 [INFO] Finished checking Volatility 50 Index
+2025-07-30 01:15:13 [INFO] Spread for Volatility 75 (1s) Index: 86
+2025-07-30 01:15:13 [INFO] Spread for Volatility 90 (1s) Index: 4399
+2025-07-30 01:15:13 [INFO] Spread for Volatility 50 (1s) Index: 2909
+2025-07-30 01:15:13 [INFO] Spread for Volatility 150 (1s) Index: 5
+2025-07-30 01:15:13 [INFO] Spread for Volatility 250 (1s) Index: 6
+2025-07-30 01:15:13 [INFO] Finished checking Volatility 10 Index
+2025-07-30 01:15:13 [INFO] Finished checking Volatility 100 Index
+2025-07-30 01:15:13 [INFO] Finished checking Volatility 10 (1s) Index
+2025-07-30 01:15:13 [INFO] Finished checking Volatility 25 (1s) Index
+2025-07-30 01:15:13 [INFO] Finished checking Volatility 30 (1s) Index
+2025-07-30 01:15:13 [INFO] Finished checking Volatility 100 (1s) Index
+2025-07-30 01:15:13 [INFO] Finished checking Volatility 15 (1s) Index
+2025-07-30 01:15:13 [INFO] Finished checking Volatility 90 (1s) Index
+2025-07-30 01:15:13 [INFO] Finished checking Volatility 75 (1s) Index
+2025-07-30 01:15:13 [INFO] Finished checking Volatility 50 (1s) Index
+2025-07-30 01:15:13 [INFO] Finished checking Volatility 250 (1s) Index
+2025-07-30 01:15:13 [INFO] Finished checking Volatility 150 (1s) Index
+2025-07-30 01:15:13 [INFO] Looking for type1 sell setups on 5
+2025-07-30 01:15:13 [INFO] Spread for Volatility 10 Index: 172
+2025-07-30 01:15:13 [INFO] Spread for Volatility 25 Index: 195
+2025-07-30 01:15:13 [INFO] Spread for Volatility 50 Index: 170
+2025-07-30 01:15:13 [INFO] Spread for Volatility 10 (1s) Index: 24
+2025-07-30 01:15:13 [INFO] Spread for Volatility 100 Index: 30
+2025-07-30 01:15:13 [INFO] Spread for Volatility 15 (1s) Index: 633
+2025-07-30 01:15:13 [INFO] Spread for Volatility 25 (1s) Index: 4545
+2025-07-30 01:15:14 [INFO] Spread for Volatility 30 (1s) Index: 551
+2025-07-30 01:15:14 [INFO] Finished checking Volatility 50 Index
+2025-07-30 01:15:14 [INFO] Finished checking Volatility 15 (1s) Index
+2025-07-30 01:15:14 [INFO] Finished checking Volatility 100 Index
+2025-07-30 01:15:14 [INFO] Spread for Volatility 90 (1s) Index: 4399
+2025-07-30 01:15:14 [INFO] Finished checking Volatility 10 (1s) Index
+2025-07-30 01:15:14 [INFO] Spread for Volatility 75 (1s) Index: 86
+2025-07-30 01:15:14 [INFO] Spread for Volatility 100 (1s) Index: 20
+2025-07-30 01:15:14 [INFO] Spread for Volatility 150 (1s) Index: 5
+2025-07-30 01:15:14 [INFO] Finished checking Volatility 10 Index
+2025-07-30 01:15:14 [INFO] Spread for Volatility 50 (1s) Index: 2909
+2025-07-30 01:15:14 [INFO] Spread for Volatility 250 (1s) Index: 6
+2025-07-30 01:15:14 [INFO] Finished checking Volatility 25 Index
+2025-07-30 01:15:14 [INFO] Finished checking Volatility 30 (1s) Index
+2025-07-30 01:15:14 [INFO] Finished checking Volatility 25 (1s) Index
+2025-07-30 01:15:14 [INFO] Finished checking Volatility 75 (1s) Index
+2025-07-30 01:15:14 [INFO] Finished checking Volatility 100 (1s) Index
+2025-07-30 01:15:14 [INFO] Finished checking Volatility 90 (1s) Index
+2025-07-30 01:15:14 [INFO] Finished checking Volatility 150 (1s) Index
+2025-07-30 01:15:14 [INFO] Finished checking Volatility 250 (1s) Index
+2025-07-30 01:15:14 [INFO] Finished checking Volatility 50 (1s) Index
+2025-07-30 01:15:14 [INFO] MT5 connection closed
+2025-07-30 01:15:14 [INFO] Trading bot stopped
+2025-07-30 01:15:14 [INFO] Job "trading_job (trigger: cron[day_of_week='mon-sun', hour='*', minute='15,30,45,0'], next run at: 2025-07-30 01:30:00 WAT)" executed successfully
+2025-07-30 01:30:00 [INFO] Running job "trading_job (trigger: cron[day_of_week='mon-sun', hour='*', minute='15,30,45,0'], next run at: 2025-07-30 01:45:00 WAT)" (scheduled at 2025-07-30 01:30:00+01:00)
+2025-07-30 01:30:00 [INFO] MT5 initialized successfully
+2025-07-30 01:30:00 [INFO] Looking for type1 buy setups on 15
+2025-07-30 01:30:00 [INFO] Spread for Volatility 10 Index: 172
+2025-07-30 01:30:00 [INFO] Spread for Volatility 25 Index: 195
+2025-07-30 01:30:00 [INFO] Spread for Volatility 100 Index: 30
+2025-07-30 01:30:00 [INFO] Spread for Volatility 50 Index: 170
+2025-07-30 01:30:00 [INFO] Spread for Volatility 10 (1s) Index: 24
+2025-07-30 01:30:00 [INFO] Spread for Volatility 50 (1s) Index: 2909
+2025-07-30 01:30:00 [INFO] Spread for Volatility 30 (1s) Index: 551
+2025-07-30 01:30:00 [INFO] Spread for Volatility 25 (1s) Index: 4545
+2025-07-30 01:30:00 [INFO] Spread for Volatility 75 (1s) Index: 86
+2025-07-30 01:30:00 [INFO] Spread for Volatility 15 (1s) Index: 633
+2025-07-30 01:30:01 [INFO] Spread for Volatility 90 (1s) Index: 4399
+2025-07-30 01:30:01 [INFO] Spread for Volatility 100 (1s) Index: 20
+2025-07-30 01:30:01 [INFO] Spread for Volatility 250 (1s) Index: 6
+2025-07-30 01:30:01 [INFO] Spread for Volatility 150 (1s) Index: 5
+2025-07-30 01:30:01 [INFO] Finished checking Volatility 10 (1s) Index
+2025-07-30 01:30:02 [INFO] Order placed successfully $$$$$$$$$$$$$$
+2025-07-30 01:30:02 [INFO] Finished checking Volatility 50 Index
+2025-07-30 01:30:02 [ERROR] Error while plotting entry: name 'go' is not defined
+2025-07-30 01:30:02 [INFO] Finished checking Volatility 50 (1s) Index
+2025-07-30 01:30:02 [INFO] Finished checking Volatility 15 (1s) Index
+2025-07-30 01:30:02 [INFO] Finished checking Volatility 25 Index
+2025-07-30 01:30:02 [INFO] Finished checking Volatility 30 (1s) Index
+2025-07-30 01:30:02 [INFO] Finished checking Volatility 100 Index
+2025-07-30 01:30:02 [INFO] Finished checking Volatility 25 (1s) Index
+2025-07-30 01:30:02 [INFO] Finished checking Volatility 100 (1s) Index
+2025-07-30 01:30:02 [INFO] Finished checking Volatility 75 (1s) Index
+2025-07-30 01:30:02 [INFO] Finished checking Volatility 90 (1s) Index
+2025-07-30 01:30:02 [INFO] Finished checking Volatility 250 (1s) Index
+2025-07-30 01:30:02 [INFO] Finished checking Volatility 150 (1s) Index
+2025-07-30 01:30:02 [INFO] Finished checking Volatility 10 Index
+2025-07-30 01:30:02 [INFO] Looking for type1 sell setups on 15
+2025-07-30 01:30:02 [INFO] Spread for Volatility 10 Index: 172
+2025-07-30 01:30:02 [INFO] Spread for Volatility 100 Index: 30
+2025-07-30 01:30:02 [INFO] Spread for Volatility 50 Index: 170
+2025-07-30 01:30:02 [INFO] Spread for Volatility 25 Index: 195
+2025-07-30 01:30:02 [INFO] Spread for Volatility 10 (1s) Index: 24
+2025-07-30 01:30:02 [INFO] Spread for Volatility 15 (1s) Index: 633
+2025-07-30 01:30:02 [INFO] Spread for Volatility 25 (1s) Index: 4545
+2025-07-30 01:30:02 [INFO] Spread for Volatility 30 (1s) Index: 551
+2025-07-30 01:30:02 [INFO] Spread for Volatility 75 (1s) Index: 86
+2025-07-30 01:30:02 [INFO] Spread for Volatility 50 (1s) Index: 2909
+2025-07-30 01:30:02 [INFO] Finished checking Volatility 50 Index
+2025-07-30 01:30:02 [INFO] Spread for Volatility 90 (1s) Index: 4399
+2025-07-30 01:30:02 [INFO] Spread for Volatility 100 (1s) Index: 20
+2025-07-30 01:30:02 [INFO] Spread for Volatility 250 (1s) Index: 6
+2025-07-30 01:30:02 [INFO] Spread for Volatility 150 (1s) Index: 5
+2025-07-30 01:30:02 [INFO] Finished checking Volatility 25 Index
+2025-07-30 01:30:02 [INFO] Finished checking Volatility 10 (1s) Index
+2025-07-30 01:30:02 [INFO] Finished checking Volatility 100 Index
+2025-07-30 01:30:02 [INFO] Finished checking Volatility 15 (1s) Index
+2025-07-30 01:30:02 [INFO] Finished checking Volatility 10 Index
+2025-07-30 01:30:02 [INFO] Finished checking Volatility 25 (1s) Index
+2025-07-30 01:30:02 [INFO] Finished checking Volatility 30 (1s) Index
+2025-07-30 01:30:02 [INFO] Finished checking Volatility 50 (1s) Index
+2025-07-30 01:30:02 [INFO] Finished checking Volatility 75 (1s) Index
+2025-07-30 01:30:02 [INFO] Finished checking Volatility 90 (1s) Index
+2025-07-30 01:30:02 [INFO] Finished checking Volatility 100 (1s) Index
+2025-07-30 01:30:02 [INFO] Finished checking Volatility 250 (1s) Index
+2025-07-30 01:30:02 [INFO] Finished checking Volatility 150 (1s) Index
+2025-07-30 01:30:02 [INFO] Looking for type1 buy setups on 5
+2025-07-30 01:30:02 [INFO] Spread for Volatility 10 Index: 172
+2025-07-30 01:30:02 [INFO] Spread for Volatility 100 Index: 30
+2025-07-30 01:30:02 [INFO] Spread for Volatility 50 Index: 170
+2025-07-30 01:30:02 [INFO] Spread for Volatility 15 (1s) Index: 633
+2025-07-30 01:30:02 [INFO] Spread for Volatility 25 Index: 195
+2025-07-30 01:30:02 [INFO] Spread for Volatility 25 (1s) Index: 4545
+2025-07-30 01:30:02 [INFO] Spread for Volatility 30 (1s) Index: 551
+2025-07-30 01:30:02 [INFO] Spread for Volatility 10 (1s) Index: 24
+2025-07-30 01:30:02 [INFO] Spread for Volatility 50 (1s) Index: 2909
+2025-07-30 01:30:03 [INFO] Spread for Volatility 90 (1s) Index: 4399
+2025-07-30 01:30:03 [INFO] Spread for Volatility 75 (1s) Index: 86
+2025-07-30 01:30:03 [INFO] Finished checking Volatility 10 Index
+2025-07-30 01:30:03 [INFO] Spread for Volatility 150 (1s) Index: 5
+2025-07-30 01:30:03 [INFO] Spread for Volatility 100 (1s) Index: 20
+2025-07-30 01:30:03 [INFO] Spread for Volatility 250 (1s) Index: 6
+2025-07-30 01:30:03 [INFO] Finished checking Volatility 100 Index
+2025-07-30 01:30:03 [INFO] Finished checking Volatility 50 Index
+2025-07-30 01:30:03 [INFO] Finished checking Volatility 25 Index
+2025-07-30 01:30:03 [INFO] Finished checking Volatility 15 (1s) Index
+2025-07-30 01:30:03 [INFO] Finished checking Volatility 50 (1s) Index
+2025-07-30 01:30:03 [INFO] Finished checking Volatility 10 (1s) Index
+2025-07-30 01:30:03 [INFO] Finished checking Volatility 25 (1s) Index
+2025-07-30 01:30:03 [INFO] Finished checking Volatility 30 (1s) Index
+2025-07-30 01:30:03 [INFO] Finished checking Volatility 75 (1s) Index
+2025-07-30 01:30:03 [INFO] Finished checking Volatility 90 (1s) Index
+2025-07-30 01:30:03 [INFO] Finished checking Volatility 150 (1s) Index
+2025-07-30 01:30:03 [INFO] Finished checking Volatility 100 (1s) Index
+2025-07-30 01:30:03 [INFO] Finished checking Volatility 250 (1s) Index
+2025-07-30 01:30:03 [INFO] Looking for type1 sell setups on 5
+2025-07-30 01:30:03 [INFO] Spread for Volatility 10 Index: 172
+2025-07-30 01:30:03 [INFO] Spread for Volatility 25 Index: 195
+2025-07-30 01:30:03 [INFO] Spread for Volatility 50 Index: 170
+2025-07-30 01:30:03 [INFO] Spread for Volatility 10 (1s) Index: 24
+2025-07-30 01:30:03 [INFO] Spread for Volatility 100 Index: 30
+2025-07-30 01:30:03 [INFO] Spread for Volatility 25 (1s) Index: 4545
+2025-07-30 01:30:03 [INFO] Spread for Volatility 15 (1s) Index: 633
+2025-07-30 01:30:04 [INFO] Spread for Volatility 30 (1s) Index: 551
+2025-07-30 01:30:04 [INFO] Spread for Volatility 90 (1s) Index: 4399
+2025-07-30 01:30:04 [INFO] Spread for Volatility 75 (1s) Index: 86
+2025-07-30 01:30:04 [INFO] Spread for Volatility 50 (1s) Index: 2909
+2025-07-30 01:30:04 [INFO] Spread for Volatility 100 (1s) Index: 20
+2025-07-30 01:30:04 [INFO] Finished checking Volatility 25 Index
+2025-07-30 01:30:04 [INFO] Spread for Volatility 150 (1s) Index: 5
+2025-07-30 01:30:04 [INFO] Finished checking Volatility 10 (1s) Index
+2025-07-30 01:30:04 [INFO] Spread for Volatility 250 (1s) Index: 6
+2025-07-30 01:30:04 [INFO] Finished checking Volatility 10 Index
+2025-07-30 01:30:04 [INFO] Finished checking Volatility 50 Index
+2025-07-30 01:30:04 [INFO] Finished checking Volatility 25 (1s) Index
+2025-07-30 01:30:04 [INFO] Finished checking Volatility 15 (1s) Index
+2025-07-30 01:30:04 [INFO] Finished checking Volatility 75 (1s) Index
+2025-07-30 01:30:04 [INFO] Finished checking Volatility 90 (1s) Index
+2025-07-30 01:30:04 [INFO] Finished checking Volatility 50 (1s) Index
+2025-07-30 01:30:04 [INFO] Finished checking Volatility 30 (1s) Index
+2025-07-30 01:30:04 [INFO] Finished checking Volatility 100 (1s) Index
+2025-07-30 01:30:04 [INFO] Finished checking Volatility 100 Index
+2025-07-30 01:30:04 [INFO] Finished checking Volatility 150 (1s) Index
+2025-07-30 01:30:04 [INFO] Finished checking Volatility 250 (1s) Index
+2025-07-30 01:30:04 [INFO] MT5 connection closed
+2025-07-30 01:30:04 [INFO] Trading bot stopped
+2025-07-30 01:30:04 [INFO] Job "trading_job (trigger: cron[day_of_week='mon-sun', hour='*', minute='15,30,45,0'], next run at: 2025-07-30 01:45:00 WAT)" executed successfully
+2025-07-30 01:45:00 [INFO] Running job "trading_job (trigger: cron[day_of_week='mon-sun', hour='*', minute='15,30,45,0'], next run at: 2025-07-30 02:00:00 WAT)" (scheduled at 2025-07-30 01:45:00+01:00)
+2025-07-30 01:45:00 [INFO] MT5 initialized successfully
+2025-07-30 01:45:00 [INFO] Looking for type1 buy setups on 15
+2025-07-30 01:45:00 [INFO] Spread for Volatility 10 Index: 172
+2025-07-30 01:45:00 [INFO] Spread for Volatility 25 Index: 195
+2025-07-30 01:45:00 [INFO] Spread for Volatility 50 Index: 170
+2025-07-30 01:45:00 [INFO] Spread for Volatility 100 Index: 30
+2025-07-30 01:45:00 [INFO] Spread for Volatility 25 (1s) Index: 4545
+2025-07-30 01:45:00 [INFO] Spread for Volatility 10 (1s) Index: 24
+2025-07-30 01:45:00 [INFO] Spread for Volatility 15 (1s) Index: 633
+2025-07-30 01:45:00 [INFO] Spread for Volatility 30 (1s) Index: 551
+2025-07-30 01:45:00 [INFO] Finished checking Volatility 10 (1s) Index
+2025-07-30 01:45:00 [INFO] Spread for Volatility 50 (1s) Index: 2909
+2025-07-30 01:45:00 [INFO] Spread for Volatility 75 (1s) Index: 86
+2025-07-30 01:45:00 [INFO] Spread for Volatility 90 (1s) Index: 4399
+2025-07-30 01:45:00 [INFO] Spread for Volatility 250 (1s) Index: 6
+2025-07-30 01:45:00 [INFO] Finished checking Volatility 100 Index
+2025-07-30 01:45:00 [INFO] Spread for Volatility 150 (1s) Index: 5
+2025-07-30 01:45:00 [INFO] Spread for Volatility 100 (1s) Index: 20
+2025-07-30 01:45:01 [INFO] Order placed successfully $$$$$$$$$$$$$$
+2025-07-30 01:45:01 [INFO] Finished checking Volatility 25 (1s) Index
+2025-07-30 01:45:01 [ERROR] Error while plotting entry: name 'go' is not defined
+2025-07-30 01:45:01 [INFO] Finished checking Volatility 25 Index
+2025-07-30 01:45:01 [INFO] Finished checking Volatility 15 (1s) Index
+2025-07-30 01:45:01 [INFO] Finished checking Volatility 50 Index
+2025-07-30 01:45:01 [INFO] Finished checking Volatility 30 (1s) Index
+2025-07-30 01:45:01 [INFO] Finished checking Volatility 50 (1s) Index
+2025-07-30 01:45:01 [INFO] Finished checking Volatility 75 (1s) Index
+2025-07-30 01:45:01 [INFO] Finished checking Volatility 90 (1s) Index
+2025-07-30 01:45:01 [INFO] Finished checking Volatility 250 (1s) Index
+2025-07-30 01:45:01 [INFO] Finished checking Volatility 150 (1s) Index
+2025-07-30 01:45:01 [INFO] Finished checking Volatility 100 (1s) Index
+2025-07-30 01:45:01 [INFO] Finished checking Volatility 10 Index
+2025-07-30 01:45:01 [INFO] Looking for type1 sell setups on 15
+2025-07-30 01:45:01 [INFO] Spread for Volatility 10 Index: 172
+2025-07-30 01:45:01 [INFO] Spread for Volatility 25 Index: 195
+2025-07-30 01:45:01 [INFO] Spread for Volatility 10 (1s) Index: 24
+2025-07-30 01:45:01 [INFO] Spread for Volatility 100 Index: 30
+2025-07-30 01:45:01 [INFO] Spread for Volatility 50 Index: 170
+2025-07-30 01:45:01 [INFO] Spread for Volatility 15 (1s) Index: 633
+2025-07-30 01:45:01 [INFO] Spread for Volatility 30 (1s) Index: 551
+2025-07-30 01:45:01 [INFO] Spread for Volatility 25 (1s) Index: 4545
+2025-07-30 01:45:01 [INFO] Spread for Volatility 75 (1s) Index: 86
+2025-07-30 01:45:01 [INFO] Spread for Volatility 100 (1s) Index: 20
+2025-07-30 01:45:01 [INFO] Spread for Volatility 50 (1s) Index: 2909
+2025-07-30 01:45:01 [INFO] Spread for Volatility 150 (1s) Index: 5
+2025-07-30 01:45:01 [INFO] Spread for Volatility 90 (1s) Index: 4399
+2025-07-30 01:45:01 [INFO] Spread for Volatility 250 (1s) Index: 6
+2025-07-30 01:45:01 [INFO] Finished checking Volatility 25 Index
+2025-07-30 01:45:01 [INFO] Finished checking Volatility 10 Index
+2025-07-30 01:45:01 [INFO] Finished checking Volatility 50 Index
+2025-07-30 01:45:01 [INFO] Finished checking Volatility 100 Index
+2025-07-30 01:45:01 [INFO] Finished checking Volatility 10 (1s) Index
+2025-07-30 01:45:01 [INFO] Finished checking Volatility 15 (1s) Index
+2025-07-30 01:45:01 [INFO] Finished checking Volatility 30 (1s) Index
+2025-07-30 01:45:01 [INFO] Finished checking Volatility 25 (1s) Index
+2025-07-30 01:45:01 [INFO] Finished checking Volatility 75 (1s) Index
+2025-07-30 01:45:01 [INFO] Finished checking Volatility 100 (1s) Index
+2025-07-30 01:45:01 [INFO] Finished checking Volatility 50 (1s) Index
+2025-07-30 01:45:01 [INFO] Finished checking Volatility 150 (1s) Index
+2025-07-30 01:45:01 [INFO] Finished checking Volatility 90 (1s) Index
+2025-07-30 01:45:01 [INFO] Finished checking Volatility 250 (1s) Index
+2025-07-30 01:45:01 [INFO] Looking for type1 buy setups on 5
+2025-07-30 01:45:01 [INFO] Spread for Volatility 10 Index: 172
+2025-07-30 01:45:01 [INFO] Spread for Volatility 25 Index: 195
+2025-07-30 01:45:01 [INFO] Spread for Volatility 50 Index: 170
+2025-07-30 01:45:01 [INFO] Spread for Volatility 10 (1s) Index: 24
+2025-07-30 01:45:01 [INFO] Spread for Volatility 100 Index: 30
+2025-07-30 01:45:01 [INFO] Spread for Volatility 15 (1s) Index: 633
+2025-07-30 01:45:02 [INFO] Spread for Volatility 30 (1s) Index: 551
+2025-07-30 01:45:02 [INFO] Spread for Volatility 50 (1s) Index: 2909
+2025-07-30 01:45:02 [INFO] Spread for Volatility 25 (1s) Index: 4545
+2025-07-30 01:45:02 [INFO] Spread for Volatility 100 (1s) Index: 20
+2025-07-30 01:45:02 [INFO] Finished checking Volatility 10 Index
+2025-07-30 01:45:02 [INFO] Finished checking Volatility 25 Index
+2025-07-30 01:45:02 [INFO] Spread for Volatility 90 (1s) Index: 4399
+2025-07-30 01:45:02 [INFO] Finished checking Volatility 100 Index
+2025-07-30 01:45:02 [INFO] Spread for Volatility 150 (1s) Index: 5
+2025-07-30 01:45:02 [INFO] Spread for Volatility 75 (1s) Index: 86
+2025-07-30 01:45:02 [INFO] Finished checking Volatility 50 Index
+2025-07-30 01:45:02 [INFO] Spread for Volatility 250 (1s) Index: 6
+2025-07-30 01:45:02 [INFO] Finished checking Volatility 10 (1s) Index
+2025-07-30 01:45:02 [INFO] Finished checking Volatility 30 (1s) Index
+2025-07-30 01:45:02 [INFO] Finished checking Volatility 15 (1s) Index
+2025-07-30 01:45:02 [INFO] Finished checking Volatility 25 (1s) Index
+2025-07-30 01:45:02 [INFO] Finished checking Volatility 50 (1s) Index
+2025-07-30 01:45:02 [INFO] Finished checking Volatility 100 (1s) Index
+2025-07-30 01:45:02 [INFO] Finished checking Volatility 90 (1s) Index
+2025-07-30 01:45:02 [INFO] Finished checking Volatility 150 (1s) Index
+2025-07-30 01:45:02 [INFO] Finished checking Volatility 250 (1s) Index
+2025-07-30 01:45:02 [INFO] Finished checking Volatility 75 (1s) Index
+2025-07-30 01:45:02 [INFO] Looking for type1 sell setups on 5
+2025-07-30 01:45:02 [INFO] Spread for Volatility 10 Index: 172
+2025-07-30 01:45:02 [INFO] Spread for Volatility 25 Index: 195
+2025-07-30 01:45:02 [INFO] Spread for Volatility 50 Index: 170
+2025-07-30 01:45:02 [INFO] Spread for Volatility 100 Index: 30
+2025-07-30 01:45:02 [INFO] Spread for Volatility 10 (1s) Index: 24
+2025-07-30 01:45:02 [INFO] Spread for Volatility 25 (1s) Index: 4545
+2025-07-30 01:45:02 [INFO] Spread for Volatility 30 (1s) Index: 551
+2025-07-30 01:45:02 [INFO] Spread for Volatility 50 (1s) Index: 2909
+2025-07-30 01:45:02 [INFO] Spread for Volatility 15 (1s) Index: 633
+2025-07-30 01:45:02 [INFO] Spread for Volatility 75 (1s) Index: 86
+2025-07-30 01:45:02 [INFO] Finished checking Volatility 100 Index
+2025-07-30 01:45:02 [INFO] Spread for Volatility 150 (1s) Index: 5
+2025-07-30 01:45:03 [INFO] Spread for Volatility 100 (1s) Index: 20
+2025-07-30 01:45:03 [INFO] Spread for Volatility 90 (1s) Index: 4399
+2025-07-30 01:45:03 [INFO] Spread for Volatility 250 (1s) Index: 6
+2025-07-30 01:45:03 [INFO] Finished checking Volatility 10 Index
+2025-07-30 01:45:03 [INFO] Finished checking Volatility 25 Index
+2025-07-30 01:45:03 [INFO] Finished checking Volatility 50 Index
+2025-07-30 01:45:03 [INFO] Finished checking Volatility 10 (1s) Index
+2025-07-30 01:45:03 [INFO] Finished checking Volatility 25 (1s) Index
+2025-07-30 01:45:03 [INFO] Finished checking Volatility 15 (1s) Index
+2025-07-30 01:45:03 [INFO] Finished checking Volatility 50 (1s) Index
+2025-07-30 01:45:03 [INFO] Finished checking Volatility 30 (1s) Index
+2025-07-30 01:45:03 [INFO] Finished checking Volatility 75 (1s) Index
+2025-07-30 01:45:03 [INFO] Finished checking Volatility 150 (1s) Index
+2025-07-30 01:45:03 [INFO] Finished checking Volatility 100 (1s) Index
+2025-07-30 01:45:03 [INFO] Finished checking Volatility 250 (1s) Index
+2025-07-30 01:45:03 [INFO] Finished checking Volatility 90 (1s) Index
+2025-07-30 01:45:03 [INFO] MT5 connection closed
+2025-07-30 01:45:03 [INFO] Trading bot stopped
+2025-07-30 01:45:03 [INFO] Job "trading_job (trigger: cron[day_of_week='mon-sun', hour='*', minute='15,30,45,0'], next run at: 2025-07-30 02:00:00 WAT)" executed successfully
+2025-07-30 02:00:00 [INFO] Running job "trading_job (trigger: cron[day_of_week='mon-sun', hour='*', minute='15,30,45,0'], next run at: 2025-07-30 02:15:00 WAT)" (scheduled at 2025-07-30 02:00:00+01:00)
+2025-07-30 02:00:00 [INFO] MT5 initialized successfully
+2025-07-30 02:00:00 [INFO] Looking for type1 buy setups on 15
+2025-07-30 02:00:00 [INFO] Spread for Volatility 10 Index: 172
+2025-07-30 02:00:00 [INFO] Spread for Volatility 25 Index: 195
+2025-07-30 02:00:00 [INFO] Spread for Volatility 50 Index: 170
+2025-07-30 02:00:00 [INFO] Spread for Volatility 100 Index: 30
+2025-07-30 02:00:00 [INFO] Spread for Volatility 10 (1s) Index: 24
+2025-07-30 02:00:00 [INFO] Spread for Volatility 25 (1s) Index: 4545
+2025-07-30 02:00:00 [INFO] Spread for Volatility 50 (1s) Index: 2909
+2025-07-30 02:00:00 [INFO] Spread for Volatility 15 (1s) Index: 633
+2025-07-30 02:00:00 [INFO] Spread for Volatility 30 (1s) Index: 551
+2025-07-30 02:00:00 [INFO] Spread for Volatility 100 (1s) Index: 20
+2025-07-30 02:00:00 [INFO] Spread for Volatility 75 (1s) Index: 86
+2025-07-30 02:00:00 [INFO] Spread for Volatility 150 (1s) Index: 5
+2025-07-30 02:00:00 [INFO] Finished checking Volatility 25 Index
+2025-07-30 02:00:00 [INFO] Spread for Volatility 90 (1s) Index: 4399
+2025-07-30 02:00:00 [INFO] Finished checking Volatility 50 (1s) Index
+2025-07-30 02:00:00 [INFO] Spread for Volatility 250 (1s) Index: 6
+2025-07-30 02:00:00 [INFO] Finished checking Volatility 25 (1s) Index
+2025-07-30 02:00:00 [INFO] Finished checking Volatility 30 (1s) Index
+2025-07-30 02:00:00 [INFO] Finished checking Volatility 15 (1s) Index
+2025-07-30 02:00:00 [INFO] Finished checking Volatility 50 Index
+2025-07-30 02:00:00 [INFO] Finished checking Volatility 10 (1s) Index
+2025-07-30 02:00:00 [INFO] Finished checking Volatility 100 Index
+2025-07-30 02:00:00 [INFO] Finished checking Volatility 100 (1s) Index
+2025-07-30 02:00:00 [INFO] Finished checking Volatility 75 (1s) Index
+2025-07-30 02:00:00 [INFO] Finished checking Volatility 150 (1s) Index
+2025-07-30 02:00:00 [INFO] Finished checking Volatility 90 (1s) Index
+2025-07-30 02:00:00 [INFO] Finished checking Volatility 250 (1s) Index
+2025-07-30 02:00:04 [INFO] Order placed successfully $$$$$$$$$$$$$$
+2025-07-30 02:00:04 [ERROR] Error while plotting entry: name 'go' is not defined
+2025-07-30 02:00:04 [INFO] Finished checking Volatility 10 Index
+2025-07-30 02:00:04 [INFO] Looking for type1 sell setups on 15
+2025-07-30 02:00:04 [INFO] Spread for Volatility 10 Index: 172
+2025-07-30 02:00:04 [INFO] Spread for Volatility 25 Index: 195
+2025-07-30 02:00:04 [INFO] Spread for Volatility 50 Index: 170
+2025-07-30 02:00:04 [INFO] Spread for Volatility 100 Index: 30
+2025-07-30 02:00:04 [INFO] Spread for Volatility 10 (1s) Index: 24
+2025-07-30 02:00:04 [INFO] Spread for Volatility 25 (1s) Index: 4545
+2025-07-30 02:00:04 [INFO] Spread for Volatility 15 (1s) Index: 633
+2025-07-30 02:00:04 [INFO] Spread for Volatility 30 (1s) Index: 551
+2025-07-30 02:00:04 [INFO] Spread for Volatility 50 (1s) Index: 2909
+2025-07-30 02:00:04 [INFO] Spread for Volatility 75 (1s) Index: 86
+2025-07-30 02:00:04 [INFO] Finished checking Volatility 25 Index
+2025-07-30 02:00:04 [INFO] Spread for Volatility 100 (1s) Index: 20
+2025-07-30 02:00:04 [INFO] Spread for Volatility 90 (1s) Index: 4399
+2025-07-30 02:00:04 [INFO] Spread for Volatility 150 (1s) Index: 5
+2025-07-30 02:00:04 [INFO] Spread for Volatility 250 (1s) Index: 6
+2025-07-30 02:00:04 [INFO] Finished checking Volatility 100 Index
+2025-07-30 02:00:04 [INFO] Finished checking Volatility 10 (1s) Index
+2025-07-30 02:00:04 [INFO] Finished checking Volatility 10 Index
+2025-07-30 02:00:04 [INFO] Finished checking Volatility 50 Index
+2025-07-30 02:00:04 [INFO] Finished checking Volatility 30 (1s) Index
+2025-07-30 02:00:04 [INFO] Finished checking Volatility 25 (1s) Index
+2025-07-30 02:00:04 [INFO] Finished checking Volatility 15 (1s) Index
+2025-07-30 02:00:04 [INFO] Finished checking Volatility 50 (1s) Index
+2025-07-30 02:00:04 [INFO] Finished checking Volatility 75 (1s) Index
+2025-07-30 02:00:04 [INFO] Finished checking Volatility 100 (1s) Index
+2025-07-30 02:00:04 [INFO] Finished checking Volatility 150 (1s) Index
+2025-07-30 02:00:04 [INFO] Finished checking Volatility 90 (1s) Index
+2025-07-30 02:00:04 [INFO] Finished checking Volatility 250 (1s) Index
+2025-07-30 02:00:04 [INFO] Looking for type1 buy setups on 5
+2025-07-30 02:00:04 [INFO] Spread for Volatility 25 Index: 195
+2025-07-30 02:00:04 [INFO] Spread for Volatility 10 Index: 172
+2025-07-30 02:00:04 [INFO] Spread for Volatility 50 Index: 170
+2025-07-30 02:00:04 [INFO] Spread for Volatility 100 Index: 30
+2025-07-30 02:00:04 [INFO] Spread for Volatility 10 (1s) Index: 24
+2025-07-30 02:00:04 [INFO] Spread for Volatility 25 (1s) Index: 4545
+2025-07-30 02:00:04 [INFO] Spread for Volatility 15 (1s) Index: 633
+2025-07-30 02:00:04 [INFO] Spread for Volatility 30 (1s) Index: 551
+2025-07-30 02:00:05 [INFO] Spread for Volatility 50 (1s) Index: 2909
+2025-07-30 02:00:05 [INFO] Spread for Volatility 75 (1s) Index: 86
+2025-07-30 02:00:05 [INFO] Spread for Volatility 90 (1s) Index: 4399
+2025-07-30 02:00:05 [INFO] Finished checking Volatility 25 Index
+2025-07-30 02:00:05 [INFO] Spread for Volatility 150 (1s) Index: 5
+2025-07-30 02:00:05 [INFO] Finished checking Volatility 10 Index
+2025-07-30 02:00:05 [INFO] Spread for Volatility 250 (1s) Index: 6
+2025-07-30 02:00:05 [INFO] Spread for Volatility 100 (1s) Index: 20
+2025-07-30 02:00:05 [INFO] Finished checking Volatility 10 (1s) Index
+2025-07-30 02:00:05 [INFO] Finished checking Volatility 100 Index
+2025-07-30 02:00:05 [INFO] Finished checking Volatility 25 (1s) Index
+2025-07-30 02:00:05 [INFO] Finished checking Volatility 50 Index
+2025-07-30 02:00:05 [INFO] Finished checking Volatility 15 (1s) Index
+2025-07-30 02:00:05 [INFO] Finished checking Volatility 30 (1s) Index
+2025-07-30 02:00:05 [INFO] Finished checking Volatility 90 (1s) Index
+2025-07-30 02:00:05 [INFO] Finished checking Volatility 50 (1s) Index
+2025-07-30 02:00:05 [INFO] Finished checking Volatility 75 (1s) Index
+2025-07-30 02:00:05 [INFO] Finished checking Volatility 150 (1s) Index
+2025-07-30 02:00:05 [INFO] Finished checking Volatility 250 (1s) Index
+2025-07-30 02:00:05 [INFO] Finished checking Volatility 100 (1s) Index
+2025-07-30 02:00:05 [INFO] Looking for type1 sell setups on 5
+2025-07-30 02:00:05 [INFO] Spread for Volatility 25 Index: 195
+2025-07-30 02:00:05 [INFO] Spread for Volatility 10 Index: 172
+2025-07-30 02:00:05 [INFO] Spread for Volatility 100 Index: 30
+2025-07-30 02:00:05 [INFO] Spread for Volatility 50 Index: 170
+2025-07-30 02:00:05 [INFO] Spread for Volatility 10 (1s) Index: 24
+2025-07-30 02:00:05 [INFO] Spread for Volatility 15 (1s) Index: 633
+2025-07-30 02:00:05 [INFO] Spread for Volatility 25 (1s) Index: 4545
+2025-07-30 02:00:05 [INFO] Spread for Volatility 50 (1s) Index: 2909
+2025-07-30 02:00:05 [INFO] Spread for Volatility 30 (1s) Index: 551
+2025-07-30 02:00:07 [INFO] Finished checking Volatility 100 Index
+2025-07-30 02:00:07 [INFO] Spread for Volatility 150 (1s) Index: 5
+2025-07-30 02:00:07 [INFO] Finished checking Volatility 10 Index
+2025-07-30 02:00:07 [INFO] Spread for Volatility 90 (1s) Index: 4399
+2025-07-30 02:00:07 [INFO] Spread for Volatility 100 (1s) Index: 20
+2025-07-30 02:00:07 [INFO] Spread for Volatility 75 (1s) Index: 86
+2025-07-30 02:00:07 [INFO] Spread for Volatility 250 (1s) Index: 6
+2025-07-30 02:00:07 [INFO] Finished checking Volatility 25 Index
+2025-07-30 02:00:07 [INFO] Finished checking Volatility 50 Index
+2025-07-30 02:00:07 [INFO] Finished checking Volatility 10 (1s) Index
+2025-07-30 02:00:07 [INFO] Finished checking Volatility 25 (1s) Index
+2025-07-30 02:00:07 [INFO] Finished checking Volatility 15 (1s) Index
+2025-07-30 02:00:07 [INFO] Finished checking Volatility 50 (1s) Index
+2025-07-30 02:00:07 [INFO] Finished checking Volatility 150 (1s) Index
+2025-07-30 02:00:07 [INFO] Finished checking Volatility 30 (1s) Index
+2025-07-30 02:00:07 [INFO] Finished checking Volatility 250 (1s) Index
+2025-07-30 02:00:08 [INFO] Finished checking Volatility 90 (1s) Index
+2025-07-30 02:00:08 [INFO] Finished checking Volatility 75 (1s) Index
+2025-07-30 02:00:08 [INFO] Finished checking Volatility 100 (1s) Index
+2025-07-30 02:00:08 [INFO] MT5 connection closed
+2025-07-30 02:00:08 [INFO] Trading bot stopped
+2025-07-30 02:00:08 [INFO] Job "trading_job (trigger: cron[day_of_week='mon-sun', hour='*', minute='15,30,45,0'], next run at: 2025-07-30 02:15:00 WAT)" executed successfully
+2025-07-30 02:15:00 [INFO] Running job "trading_job (trigger: cron[day_of_week='mon-sun', hour='*', minute='15,30,45,0'], next run at: 2025-07-30 02:30:00 WAT)" (scheduled at 2025-07-30 02:15:00+01:00)
+2025-07-30 02:15:00 [INFO] MT5 initialized successfully
+2025-07-30 02:15:00 [INFO] Looking for type1 buy setups on 15
+2025-07-30 02:15:00 [INFO] Spread for Volatility 10 Index: 172
+2025-07-30 02:15:00 [INFO] Spread for Volatility 25 Index: 195
+2025-07-30 02:15:00 [INFO] Spread for Volatility 50 Index: 170
+2025-07-30 02:15:01 [INFO] Spread for Volatility 100 Index: 30
+2025-07-30 02:15:01 [INFO] Spread for Volatility 10 (1s) Index: 24
+2025-07-30 02:15:01 [INFO] Spread for Volatility 50 (1s) Index: 2909
+2025-07-30 02:15:01 [INFO] Spread for Volatility 30 (1s) Index: 551
+2025-07-30 02:15:01 [INFO] Spread for Volatility 25 (1s) Index: 4545
+2025-07-30 02:15:01 [INFO] Spread for Volatility 15 (1s) Index: 633
+2025-07-30 02:15:01 [INFO] Spread for Volatility 100 (1s) Index: 20
+2025-07-30 02:15:04 [INFO] Spread for Volatility 150 (1s) Index: 5
+2025-07-30 02:15:04 [INFO] Finished checking Volatility 50 (1s) Index
+2025-07-30 02:15:04 [INFO] Spread for Volatility 250 (1s) Index: 6
+2025-07-30 02:15:04 [INFO] Spread for Volatility 75 (1s) Index: 86
+2025-07-30 02:15:04 [INFO] Spread for Volatility 90 (1s) Index: 4399
+2025-07-30 02:15:04 [INFO] Finished checking Volatility 50 Index
+2025-07-30 02:15:07 [INFO] Order placed successfully $$$$$$$$$$$$$$
+2025-07-30 02:15:07 [INFO] Finished checking Volatility 10 (1s) Index
+2025-07-30 02:15:07 [ERROR] Error while plotting entry: name 'go' is not defined
+2025-07-30 02:15:07 [INFO] Finished checking Volatility 30 (1s) Index
+2025-07-30 02:15:07 [INFO] Finished checking Volatility 25 Index
+2025-07-30 02:15:07 [INFO] Finished checking Volatility 100 Index
+2025-07-30 02:15:07 [INFO] Finished checking Volatility 100 (1s) Index
+2025-07-30 02:15:07 [INFO] Finished checking Volatility 15 (1s) Index
+2025-07-30 02:15:07 [INFO] Finished checking Volatility 25 (1s) Index
+2025-07-30 02:15:07 [INFO] Finished checking Volatility 150 (1s) Index
+2025-07-30 02:15:07 [INFO] Finished checking Volatility 250 (1s) Index
+2025-07-30 02:15:07 [INFO] Finished checking Volatility 75 (1s) Index
+2025-07-30 02:15:07 [INFO] Finished checking Volatility 90 (1s) Index
+2025-07-30 02:15:07 [INFO] Finished checking Volatility 10 Index
+2025-07-30 02:15:07 [INFO] Looking for type1 sell setups on 15
+2025-07-30 02:15:07 [INFO] Spread for Volatility 10 Index: 172
+2025-07-30 02:15:07 [INFO] Spread for Volatility 50 Index: 170
+2025-07-30 02:15:07 [INFO] Spread for Volatility 25 Index: 195
+2025-07-30 02:15:07 [INFO] Spread for Volatility 100 Index: 30
+2025-07-30 02:15:07 [INFO] Spread for Volatility 15 (1s) Index: 633
+2025-07-30 02:15:07 [INFO] Spread for Volatility 30 (1s) Index: 551
+2025-07-30 02:15:07 [INFO] Spread for Volatility 25 (1s) Index: 4545
+2025-07-30 02:15:07 [INFO] Spread for Volatility 75 (1s) Index: 86
+2025-07-30 02:15:07 [INFO] Spread for Volatility 50 (1s) Index: 2909
+2025-07-30 02:15:07 [INFO] Spread for Volatility 10 (1s) Index: 24
+2025-07-30 02:15:07 [INFO] Spread for Volatility 90 (1s) Index: 4399
+2025-07-30 02:15:07 [INFO] Spread for Volatility 100 (1s) Index: 20
+2025-07-30 02:15:07 [INFO] Finished checking Volatility 15 (1s) Index
+2025-07-30 02:15:07 [INFO] Spread for Volatility 150 (1s) Index: 5
+2025-07-30 02:15:07 [INFO] Spread for Volatility 250 (1s) Index: 6
+2025-07-30 02:15:07 [INFO] Finished checking Volatility 50 Index
+2025-07-30 02:15:07 [INFO] Finished checking Volatility 25 Index
+2025-07-30 02:15:07 [INFO] Finished checking Volatility 10 Index
+2025-07-30 02:15:07 [INFO] Finished checking Volatility 100 Index
+2025-07-30 02:15:07 [INFO] Finished checking Volatility 25 (1s) Index
+2025-07-30 02:15:07 [INFO] Finished checking Volatility 30 (1s) Index
+2025-07-30 02:15:07 [INFO] Finished checking Volatility 75 (1s) Index
+2025-07-30 02:15:07 [INFO] Finished checking Volatility 50 (1s) Index
+2025-07-30 02:15:07 [INFO] Finished checking Volatility 10 (1s) Index
+2025-07-30 02:15:07 [INFO] Finished checking Volatility 90 (1s) Index
+2025-07-30 02:15:07 [INFO] Finished checking Volatility 100 (1s) Index
+2025-07-30 02:15:07 [INFO] Finished checking Volatility 250 (1s) Index
+2025-07-30 02:15:07 [INFO] Finished checking Volatility 150 (1s) Index
+2025-07-30 02:15:07 [INFO] Looking for type1 buy setups on 5
+2025-07-30 02:15:07 [INFO] Spread for Volatility 10 Index: 172
+2025-07-30 02:15:07 [INFO] Spread for Volatility 25 Index: 195
+2025-07-30 02:15:07 [INFO] Spread for Volatility 50 Index: 170
+2025-07-30 02:15:07 [INFO] Spread for Volatility 100 Index: 30
+2025-07-30 02:15:08 [INFO] Spread for Volatility 10 (1s) Index: 24
+2025-07-30 02:15:08 [INFO] Spread for Volatility 15 (1s) Index: 633
+2025-07-30 02:15:08 [INFO] Spread for Volatility 25 (1s) Index: 4545
+2025-07-30 02:15:08 [INFO] Spread for Volatility 50 (1s) Index: 2909
+2025-07-30 02:15:08 [INFO] Spread for Volatility 75 (1s) Index: 86
+2025-07-30 02:15:08 [INFO] Spread for Volatility 30 (1s) Index: 551
+2025-07-30 02:15:08 [INFO] Spread for Volatility 90 (1s) Index: 4399
+2025-07-30 02:15:08 [INFO] Finished checking Volatility 25 Index
+2025-07-30 02:15:08 [INFO] Spread for Volatility 100 (1s) Index: 20
+2025-07-30 02:15:08 [INFO] Spread for Volatility 250 (1s) Index: 6
+2025-07-30 02:15:08 [INFO] Spread for Volatility 150 (1s) Index: 5
+2025-07-30 02:15:08 [INFO] Finished checking Volatility 10 Index
+2025-07-30 02:15:09 [INFO] Finished checking Volatility 50 Index
+2025-07-30 02:15:09 [INFO] Finished checking Volatility 100 Index
+2025-07-30 02:15:09 [INFO] Finished checking Volatility 10 (1s) Index
+2025-07-30 02:15:09 [INFO] Finished checking Volatility 25 (1s) Index
+2025-07-30 02:15:09 [INFO] Finished checking Volatility 50 (1s) Index
+2025-07-30 02:15:09 [INFO] Finished checking Volatility 15 (1s) Index
+2025-07-30 02:15:09 [INFO] Finished checking Volatility 90 (1s) Index
+2025-07-30 02:15:09 [INFO] Finished checking Volatility 75 (1s) Index
+2025-07-30 02:15:09 [INFO] Finished checking Volatility 30 (1s) Index
+2025-07-30 02:15:09 [INFO] Finished checking Volatility 250 (1s) Index
+2025-07-30 02:15:09 [INFO] Finished checking Volatility 100 (1s) Index
+2025-07-30 02:15:09 [INFO] Finished checking Volatility 150 (1s) Index
+2025-07-30 02:15:09 [INFO] Looking for type1 sell setups on 5
+2025-07-30 02:15:09 [INFO] Spread for Volatility 10 Index: 172
+2025-07-30 02:15:09 [INFO] Spread for Volatility 25 Index: 195
+2025-07-30 02:15:09 [INFO] Spread for Volatility 10 (1s) Index: 24
+2025-07-30 02:15:09 [INFO] Spread for Volatility 100 Index: 30
+2025-07-30 02:15:09 [INFO] Spread for Volatility 50 Index: 170
+2025-07-30 02:15:09 [INFO] Spread for Volatility 15 (1s) Index: 633
+2025-07-30 02:15:09 [INFO] Spread for Volatility 25 (1s) Index: 4545
+2025-07-30 02:15:09 [INFO] Spread for Volatility 50 (1s) Index: 2909
+2025-07-30 02:15:09 [INFO] Spread for Volatility 75 (1s) Index: 86
+2025-07-30 02:15:09 [INFO] Spread for Volatility 30 (1s) Index: 551
+2025-07-30 02:15:09 [INFO] Spread for Volatility 90 (1s) Index: 4399
+2025-07-30 02:15:10 [INFO] Spread for Volatility 150 (1s) Index: 5
+2025-07-30 02:15:10 [INFO] Spread for Volatility 100 (1s) Index: 20
+2025-07-30 02:15:10 [INFO] Finished checking Volatility 25 Index
+2025-07-30 02:15:10 [INFO] Spread for Volatility 250 (1s) Index: 6
+2025-07-30 02:15:10 [INFO] Finished checking Volatility 15 (1s) Index
+2025-07-30 02:15:10 [INFO] Finished checking Volatility 25 (1s) Index
+2025-07-30 02:15:10 [INFO] Finished checking Volatility 10 Index
+2025-07-30 02:15:10 [INFO] Finished checking Volatility 50 Index
+2025-07-30 02:15:10 [INFO] Finished checking Volatility 10 (1s) Index
+2025-07-30 02:15:10 [INFO] Finished checking Volatility 75 (1s) Index
+2025-07-30 02:15:10 [INFO] Finished checking Volatility 90 (1s) Index
+2025-07-30 02:15:10 [INFO] Finished checking Volatility 50 (1s) Index
+2025-07-30 02:15:10 [INFO] Finished checking Volatility 100 Index
+2025-07-30 02:15:11 [INFO] Finished checking Volatility 100 (1s) Index
+2025-07-30 02:15:11 [INFO] Finished checking Volatility 250 (1s) Index
+2025-07-30 02:15:11 [INFO] Finished checking Volatility 30 (1s) Index
+2025-07-30 02:15:11 [INFO] Finished checking Volatility 150 (1s) Index
+2025-07-30 02:15:11 [INFO] MT5 connection closed
+2025-07-30 02:15:11 [INFO] Trading bot stopped
+2025-07-30 02:15:11 [INFO] Job "trading_job (trigger: cron[day_of_week='mon-sun', hour='*', minute='15,30,45,0'], next run at: 2025-07-30 02:30:00 WAT)" executed successfully
+2025-07-30 05:29:48 [WARNING] Run time of job "trading_job (trigger: cron[day_of_week='mon-sun', hour='*', minute='15,30,45,0'], next run at: 2025-07-30 05:30:00 WAT)" was missed by 0:14:48.144922
+2025-07-30 09:32:34 [WARNING] Run time of job "trading_job (trigger: cron[day_of_week='mon-sun', hour='*', minute='15,30,45,0'], next run at: 2025-07-30 09:45:00 WAT)" was missed by 0:02:34.161079
+2025-07-30 09:45:00 [INFO] Running job "trading_job (trigger: cron[day_of_week='mon-sun', hour='*', minute='15,30,45,0'], next run at: 2025-07-30 09:45:00 WAT)" (scheduled at 2025-07-30 09:45:00+01:00)
+2025-07-30 09:45:00 [INFO] MT5 initialized successfully
+2025-07-30 09:45:00 [INFO] Looking for type1 buy setups on 15
+2025-07-30 09:45:01 [INFO] Spread for Volatility 10 Index: 172
+2025-07-30 09:45:01 [INFO] Spread for Volatility 25 Index: 195
+2025-07-30 09:45:01 [INFO] Spread for Volatility 100 Index: 30
+2025-07-30 09:45:01 [INFO] Spread for Volatility 50 Index: 170
+2025-07-30 09:45:01 [INFO] Spread for Volatility 10 (1s) Index: 24
+2025-07-30 09:45:01 [INFO] Spread for Volatility 15 (1s) Index: 633
+2025-07-30 09:45:01 [INFO] Spread for Volatility 25 (1s) Index: 4545
+2025-07-30 09:45:01 [INFO] Spread for Volatility 30 (1s) Index: 551
+2025-07-30 09:45:02 [INFO] Spread for Volatility 50 (1s) Index: 2909
+2025-07-30 09:45:02 [INFO] Spread for Volatility 90 (1s) Index: 4399
+2025-07-30 09:45:02 [INFO] Spread for Volatility 75 (1s) Index: 86
+2025-07-30 09:45:02 [INFO] Spread for Volatility 100 (1s) Index: 20
+2025-07-30 09:45:02 [INFO] Spread for Volatility 150 (1s) Index: 5
+2025-07-30 09:45:02 [INFO] Finished checking Volatility 25 Index
+2025-07-30 09:45:02 [INFO] Spread for Volatility 250 (1s) Index: 6
+2025-07-30 09:45:02 [INFO] Finished checking Volatility 50 Index
+2025-07-30 09:45:02 [INFO] Finished checking Volatility 100 Index
+2025-07-30 09:45:02 [INFO] Finished checking Volatility 10 (1s) Index
+2025-07-30 09:45:02 [INFO] Finished checking Volatility 25 (1s) Index
+2025-07-30 09:45:02 [INFO] Finished checking Volatility 15 (1s) Index
+2025-07-30 09:45:02 [INFO] Finished checking Volatility 30 (1s) Index
+2025-07-30 09:45:02 [INFO] Finished checking Volatility 50 (1s) Index
+2025-07-30 09:45:02 [INFO] Finished checking Volatility 90 (1s) Index
+2025-07-30 09:45:02 [INFO] Finished checking Volatility 75 (1s) Index
+2025-07-30 09:45:02 [INFO] Finished checking Volatility 100 (1s) Index
+2025-07-30 09:45:02 [INFO] Finished checking Volatility 150 (1s) Index
+2025-07-30 09:45:02 [INFO] Finished checking Volatility 250 (1s) Index
+2025-07-30 09:45:03 [INFO] Order placed successfully $$$$$$$$$$$$$$
+2025-07-30 09:45:03 [ERROR] Error while plotting entry: name 'go' is not defined
+2025-07-30 09:45:03 [INFO] Finished checking Volatility 10 Index
+2025-07-30 09:45:03 [INFO] Looking for type1 sell setups on 15
+2025-07-30 09:45:03 [INFO] Spread for Volatility 10 Index: 172
+2025-07-30 09:45:05 [INFO] Spread for Volatility 25 Index: 195
+2025-07-30 09:45:05 [INFO] Spread for Volatility 50 Index: 170
+2025-07-30 09:45:05 [INFO] Spread for Volatility 100 Index: 30
+2025-07-30 09:45:05 [INFO] Spread for Volatility 10 (1s) Index: 24
+2025-07-30 09:45:05 [INFO] Spread for Volatility 25 (1s) Index: 4545
+2025-07-30 09:45:05 [INFO] Spread for Volatility 15 (1s) Index: 633
+2025-07-30 09:45:05 [INFO] Spread for Volatility 30 (1s) Index: 551
+2025-07-30 09:45:05 [INFO] Spread for Volatility 50 (1s) Index: 2909
+2025-07-30 09:45:05 [INFO] Spread for Volatility 100 (1s) Index: 20
+2025-07-30 09:45:05 [INFO] Finished checking Volatility 25 (1s) Index
+2025-07-30 09:45:05 [INFO] Spread for Volatility 90 (1s) Index: 4399
+2025-07-30 09:45:05 [INFO] Spread for Volatility 75 (1s) Index: 86
+2025-07-30 09:45:05 [INFO] Spread for Volatility 150 (1s) Index: 5
+2025-07-30 09:45:05 [INFO] Spread for Volatility 250 (1s) Index: 6
+2025-07-30 09:45:05 [INFO] Finished checking Volatility 10 (1s) Index
+2025-07-30 09:45:05 [INFO] Finished checking Volatility 25 Index
+2025-07-30 09:45:05 [INFO] Finished checking Volatility 10 Index
+2025-07-30 09:45:05 [INFO] Finished checking Volatility 15 (1s) Index
+2025-07-30 09:45:05 [INFO] Finished checking Volatility 50 Index
+2025-07-30 09:45:05 [INFO] Finished checking Volatility 100 Index
+2025-07-30 09:45:05 [INFO] Finished checking Volatility 30 (1s) Index
+2025-07-30 09:45:05 [INFO] Finished checking Volatility 50 (1s) Index
+2025-07-30 09:45:05 [INFO] Finished checking Volatility 100 (1s) Index
+2025-07-30 09:45:05 [INFO] Finished checking Volatility 90 (1s) Index
+2025-07-30 09:45:05 [INFO] Finished checking Volatility 75 (1s) Index
+2025-07-30 09:45:05 [INFO] Finished checking Volatility 150 (1s) Index
+2025-07-30 09:45:05 [INFO] Finished checking Volatility 250 (1s) Index
+2025-07-30 09:45:05 [INFO] Looking for type1 buy setups on 5
+2025-07-30 09:45:05 [INFO] Spread for Volatility 10 Index: 172
+2025-07-30 09:45:05 [INFO] Spread for Volatility 25 Index: 195
+2025-07-30 09:45:05 [INFO] Spread for Volatility 100 Index: 30
+2025-07-30 09:45:05 [INFO] Spread for Volatility 50 Index: 170
+2025-07-30 09:45:05 [INFO] Spread for Volatility 15 (1s) Index: 633
+2025-07-30 09:45:05 [INFO] Spread for Volatility 10 (1s) Index: 24
+2025-07-30 09:45:05 [INFO] Spread for Volatility 25 (1s) Index: 4545
+2025-07-30 09:45:07 [INFO] Spread for Volatility 50 (1s) Index: 2909
+2025-07-30 09:45:07 [INFO] Spread for Volatility 30 (1s) Index: 551
+2025-07-30 09:45:07 [INFO] Spread for Volatility 75 (1s) Index: 86
+2025-07-30 09:45:07 [INFO] Spread for Volatility 90 (1s) Index: 4399
+2025-07-30 09:45:07 [INFO] Finished checking Volatility 15 (1s) Index
+2025-07-30 09:45:07 [INFO] Spread for Volatility 100 (1s) Index: 20
+2025-07-30 09:45:07 [INFO] Spread for Volatility 150 (1s) Index: 5
+2025-07-30 09:45:07 [INFO] Spread for Volatility 250 (1s) Index: 6
+2025-07-30 09:45:07 [INFO] Finished checking Volatility 25 Index
+2025-07-30 09:45:08 [INFO] Finished checking Volatility 10 Index
+2025-07-30 09:45:08 [INFO] Finished checking Volatility 50 Index
+2025-07-30 09:45:08 [INFO] Finished checking Volatility 100 Index
+2025-07-30 09:45:08 [INFO] Finished checking Volatility 10 (1s) Index
+2025-07-30 09:45:08 [INFO] Finished checking Volatility 50 (1s) Index
+2025-07-30 09:45:08 [INFO] Finished checking Volatility 25 (1s) Index
+2025-07-30 09:45:08 [INFO] Finished checking Volatility 30 (1s) Index
+2025-07-30 09:45:08 [INFO] Finished checking Volatility 90 (1s) Index
+2025-07-30 09:45:08 [INFO] Finished checking Volatility 100 (1s) Index
+2025-07-30 09:45:08 [INFO] Finished checking Volatility 75 (1s) Index
+2025-07-30 09:45:08 [INFO] Finished checking Volatility 150 (1s) Index
+2025-07-30 09:45:08 [INFO] Finished checking Volatility 250 (1s) Index
+2025-07-30 09:45:08 [INFO] Looking for type1 sell setups on 5
+2025-07-30 09:45:08 [INFO] Spread for Volatility 10 Index: 172
+2025-07-30 09:45:08 [INFO] Spread for Volatility 25 Index: 195
+2025-07-30 09:45:08 [INFO] Spread for Volatility 50 Index: 170
+2025-07-30 09:45:08 [INFO] Spread for Volatility 100 Index: 30
+2025-07-30 09:45:08 [INFO] Spread for Volatility 15 (1s) Index: 633
+2025-07-30 09:45:08 [INFO] Spread for Volatility 10 (1s) Index: 24
+2025-07-30 09:45:08 [INFO] Spread for Volatility 30 (1s) Index: 551
+2025-07-30 09:45:08 [INFO] Spread for Volatility 25 (1s) Index: 4545
+2025-07-30 09:45:08 [INFO] Spread for Volatility 50 (1s) Index: 2909
+2025-07-30 09:45:08 [INFO] Finished checking Volatility 10 Index
+2025-07-30 09:45:08 [INFO] Spread for Volatility 75 (1s) Index: 86
+2025-07-30 09:45:08 [INFO] Spread for Volatility 250 (1s) Index: 6
+2025-07-30 09:45:08 [INFO] Spread for Volatility 100 (1s) Index: 20
+2025-07-30 09:45:09 [INFO] Spread for Volatility 90 (1s) Index: 4399
+2025-07-30 09:45:09 [INFO] Finished checking Volatility 25 Index
+2025-07-30 09:45:09 [INFO] Spread for Volatility 150 (1s) Index: 5
+2025-07-30 09:45:09 [INFO] Finished checking Volatility 50 Index
+2025-07-30 09:45:09 [INFO] Finished checking Volatility 100 Index
+2025-07-30 09:45:10 [INFO] Finished checking Volatility 10 (1s) Index
+2025-07-30 09:45:10 [INFO] Finished checking Volatility 15 (1s) Index
+2025-07-30 09:45:10 [INFO] Finished checking Volatility 25 (1s) Index
+2025-07-30 09:45:10 [INFO] Finished checking Volatility 50 (1s) Index
+2025-07-30 09:45:10 [INFO] Finished checking Volatility 30 (1s) Index
+2025-07-30 09:45:10 [INFO] Finished checking Volatility 250 (1s) Index
+2025-07-30 09:45:10 [INFO] Finished checking Volatility 100 (1s) Index
+2025-07-30 09:45:10 [INFO] Finished checking Volatility 90 (1s) Index
+2025-07-30 09:45:10 [INFO] Finished checking Volatility 75 (1s) Index
+2025-07-30 09:45:10 [INFO] Finished checking Volatility 150 (1s) Index
+2025-07-30 09:45:10 [INFO] MT5 connection closed
+2025-07-30 09:45:10 [INFO] Trading bot stopped
+2025-07-30 09:45:10 [INFO] Job "trading_job (trigger: cron[day_of_week='mon-sun', hour='*', minute='15,30,45,0'], next run at: 2025-07-30 10:00:00 WAT)" executed successfully
+2025-07-30 10:00:00 [INFO] Running job "trading_job (trigger: cron[day_of_week='mon-sun', hour='*', minute='15,30,45,0'], next run at: 2025-07-30 10:15:00 WAT)" (scheduled at 2025-07-30 10:00:00+01:00)
+2025-07-30 10:00:00 [INFO] MT5 initialized successfully
+2025-07-30 10:00:00 [INFO] Looking for type1 buy setups on 15
+2025-07-30 10:00:00 [INFO] Spread for Volatility 25 Index: 195
+2025-07-30 10:00:00 [INFO] Spread for Volatility 10 Index: 172
+2025-07-30 10:00:00 [INFO] Spread for Volatility 50 Index: 170
+2025-07-30 10:00:00 [INFO] Spread for Volatility 100 Index: 30
+2025-07-30 10:00:00 [INFO] Spread for Volatility 10 (1s) Index: 24
+2025-07-30 10:00:00 [INFO] Spread for Volatility 30 (1s) Index: 551
+2025-07-30 10:00:00 [INFO] Spread for Volatility 75 (1s) Index: 86
+2025-07-30 10:00:00 [INFO] Spread for Volatility 15 (1s) Index: 633
+2025-07-30 10:00:00 [INFO] Spread for Volatility 50 (1s) Index: 2909
+2025-07-30 10:00:00 [INFO] Spread for Volatility 25 (1s) Index: 4545
+2025-07-30 10:00:00 [INFO] Spread for Volatility 90 (1s) Index: 4399
+2025-07-30 10:00:00 [INFO] Spread for Volatility 150 (1s) Index: 5
+2025-07-30 10:00:00 [INFO] Spread for Volatility 100 (1s) Index: 20
+2025-07-30 10:00:00 [INFO] Spread for Volatility 250 (1s) Index: 6
+2025-07-30 10:00:00 [INFO] Finished checking Volatility 25 Index
+2025-07-30 10:00:01 [INFO] Finished checking Volatility 50 Index
+2025-07-30 10:00:01 [INFO] Order placed successfully $$$$$$$$$$$$$$
+2025-07-30 10:00:01 [INFO] Finished checking Volatility 25 (1s) Index
+2025-07-30 10:00:01 [ERROR] Error while plotting entry: name 'go' is not defined
+2025-07-30 10:00:01 [INFO] Finished checking Volatility 100 Index
+2025-07-30 10:00:01 [INFO] Finished checking Volatility 10 (1s) Index
+2025-07-30 10:00:01 [INFO] Finished checking Volatility 30 (1s) Index
+2025-07-30 10:00:01 [INFO] Finished checking Volatility 75 (1s) Index
+2025-07-30 10:00:01 [INFO] Finished checking Volatility 50 (1s) Index
+2025-07-30 10:00:01 [INFO] Finished checking Volatility 15 (1s) Index
+2025-07-30 10:00:01 [INFO] Finished checking Volatility 90 (1s) Index
+2025-07-30 10:00:01 [INFO] Finished checking Volatility 100 (1s) Index
+2025-07-30 10:00:01 [INFO] Finished checking Volatility 150 (1s) Index
+2025-07-30 10:00:01 [INFO] Finished checking Volatility 250 (1s) Index
+2025-07-30 10:00:01 [INFO] Finished checking Volatility 10 Index
+2025-07-30 10:00:01 [INFO] Looking for type1 sell setups on 15
+2025-07-30 10:00:01 [INFO] Spread for Volatility 10 Index: 172
+2025-07-30 10:00:01 [INFO] Spread for Volatility 25 Index: 195
+2025-07-30 10:00:01 [INFO] Spread for Volatility 50 Index: 170
+2025-07-30 10:00:01 [INFO] Spread for Volatility 100 Index: 30
+2025-07-30 10:00:01 [INFO] Spread for Volatility 10 (1s) Index: 24
+2025-07-30 10:00:01 [INFO] Spread for Volatility 15 (1s) Index: 633
+2025-07-30 10:00:01 [INFO] Spread for Volatility 50 (1s) Index: 2909
+2025-07-30 10:00:01 [INFO] Spread for Volatility 30 (1s) Index: 551
+2025-07-30 10:00:01 [INFO] Spread for Volatility 75 (1s) Index: 86
+2025-07-30 10:00:01 [INFO] Spread for Volatility 25 (1s) Index: 4545
+2025-07-30 10:00:01 [INFO] Spread for Volatility 90 (1s) Index: 4399
+2025-07-30 10:00:01 [INFO] Finished checking Volatility 10 (1s) Index
+2025-07-30 10:00:01 [INFO] Spread for Volatility 100 (1s) Index: 20
+2025-07-30 10:00:01 [INFO] Spread for Volatility 250 (1s) Index: 6
+2025-07-30 10:00:01 [INFO] Spread for Volatility 150 (1s) Index: 5
+2025-07-30 10:00:01 [INFO] Finished checking Volatility 10 Index
+2025-07-30 10:00:01 [INFO] Finished checking Volatility 50 (1s) Index
+2025-07-30 10:00:01 [INFO] Finished checking Volatility 100 Index
+2025-07-30 10:00:01 [INFO] Finished checking Volatility 25 Index
+2025-07-30 10:00:01 [INFO] Finished checking Volatility 50 Index
+2025-07-30 10:00:01 [INFO] Finished checking Volatility 15 (1s) Index
+2025-07-30 10:00:01 [INFO] Finished checking Volatility 30 (1s) Index
+2025-07-30 10:00:01 [INFO] Finished checking Volatility 75 (1s) Index
+2025-07-30 10:00:01 [INFO] Finished checking Volatility 25 (1s) Index
+2025-07-30 10:00:01 [INFO] Finished checking Volatility 90 (1s) Index
+2025-07-30 10:00:01 [INFO] Finished checking Volatility 100 (1s) Index
+2025-07-30 10:00:01 [INFO] Finished checking Volatility 150 (1s) Index
+2025-07-30 10:00:01 [INFO] Finished checking Volatility 250 (1s) Index
+2025-07-30 10:00:01 [INFO] Looking for type1 buy setups on 5
+2025-07-30 10:00:01 [INFO] Spread for Volatility 10 Index: 172
+2025-07-30 10:00:01 [INFO] Spread for Volatility 25 Index: 195
+2025-07-30 10:00:01 [INFO] Spread for Volatility 100 Index: 30
+2025-07-30 10:00:01 [INFO] Spread for Volatility 50 Index: 170
+2025-07-30 10:00:02 [INFO] Spread for Volatility 10 (1s) Index: 24
+2025-07-30 10:00:02 [INFO] Spread for Volatility 15 (1s) Index: 633
+2025-07-30 10:00:02 [INFO] Spread for Volatility 25 (1s) Index: 4545
+2025-07-30 10:00:02 [INFO] Spread for Volatility 75 (1s) Index: 86
+2025-07-30 10:00:02 [INFO] Finished checking Volatility 10 Index
+2025-07-30 10:00:02 [INFO] Spread for Volatility 30 (1s) Index: 551
+2025-07-30 10:00:02 [INFO] Finished checking Volatility 50 Index
+2025-07-30 10:00:02 [INFO] Spread for Volatility 250 (1s) Index: 6
+2025-07-30 10:00:02 [INFO] Spread for Volatility 50 (1s) Index: 2909
+2025-07-30 10:00:02 [INFO] Finished checking Volatility 100 Index
+2025-07-30 10:00:02 [INFO] Spread for Volatility 100 (1s) Index: 20
+2025-07-30 10:00:02 [INFO] Spread for Volatility 90 (1s) Index: 4399
+2025-07-30 10:00:02 [INFO] Spread for Volatility 150 (1s) Index: 5
+2025-07-30 10:00:02 [INFO] Finished checking Volatility 25 Index
+2025-07-30 10:00:02 [INFO] Finished checking Volatility 10 (1s) Index
+2025-07-30 10:00:02 [INFO] Finished checking Volatility 25 (1s) Index
+2025-07-30 10:00:02 [INFO] Finished checking Volatility 15 (1s) Index
+2025-07-30 10:00:02 [INFO] Finished checking Volatility 75 (1s) Index
+2025-07-30 10:00:02 [INFO] Finished checking Volatility 30 (1s) Index
+2025-07-30 10:00:02 [INFO] Finished checking Volatility 250 (1s) Index
+2025-07-30 10:00:02 [INFO] Finished checking Volatility 50 (1s) Index
+2025-07-30 10:00:02 [INFO] Finished checking Volatility 100 (1s) Index
+2025-07-30 10:00:02 [INFO] Finished checking Volatility 90 (1s) Index
+2025-07-30 10:00:02 [INFO] Finished checking Volatility 150 (1s) Index
+2025-07-30 10:00:02 [INFO] Looking for type1 sell setups on 5
+2025-07-30 10:00:02 [INFO] Spread for Volatility 10 Index: 172
+2025-07-30 10:00:02 [INFO] Spread for Volatility 25 Index: 195
+2025-07-30 10:00:02 [INFO] Spread for Volatility 100 Index: 30
+2025-07-30 10:00:02 [INFO] Spread for Volatility 50 Index: 170
+2025-07-30 10:00:02 [INFO] Spread for Volatility 10 (1s) Index: 24
+2025-07-30 10:00:02 [INFO] Spread for Volatility 15 (1s) Index: 633
+2025-07-30 10:00:03 [INFO] Spread for Volatility 25 (1s) Index: 4545
+2025-07-30 10:00:03 [INFO] Finished checking Volatility 25 Index
+2025-07-30 10:00:03 [INFO] Finished checking Volatility 50 Index
+2025-07-30 10:00:03 [INFO] Spread for Volatility 30 (1s) Index: 551
+2025-07-30 10:00:03 [INFO] Finished checking Volatility 100 Index
+2025-07-30 10:00:03 [INFO] Spread for Volatility 90 (1s) Index: 4399
+2025-07-30 10:00:03 [INFO] Spread for Volatility 100 (1s) Index: 20
+2025-07-30 10:00:03 [INFO] Spread for Volatility 50 (1s) Index: 2909
+2025-07-30 10:00:03 [INFO] Spread for Volatility 150 (1s) Index: 5
+2025-07-30 10:00:03 [INFO] Spread for Volatility 75 (1s) Index: 86
+2025-07-30 10:00:03 [INFO] Finished checking Volatility 10 Index
+2025-07-30 10:00:03 [INFO] Spread for Volatility 250 (1s) Index: 6
+2025-07-30 10:00:03 [INFO] Finished checking Volatility 15 (1s) Index
+2025-07-30 10:00:03 [INFO] Finished checking Volatility 25 (1s) Index
+2025-07-30 10:00:03 [INFO] Finished checking Volatility 10 (1s) Index
+2025-07-30 10:00:03 [INFO] Finished checking Volatility 30 (1s) Index
+2025-07-30 10:00:03 [INFO] Finished checking Volatility 90 (1s) Index
+2025-07-30 10:00:03 [INFO] Finished checking Volatility 50 (1s) Index
+2025-07-30 10:00:03 [INFO] Finished checking Volatility 100 (1s) Index
+2025-07-30 10:00:03 [INFO] Finished checking Volatility 150 (1s) Index
+2025-07-30 10:00:03 [INFO] Finished checking Volatility 75 (1s) Index
+2025-07-30 10:00:03 [INFO] Finished checking Volatility 250 (1s) Index
+2025-07-30 10:00:03 [INFO] MT5 connection closed
+2025-07-30 10:00:03 [INFO] Trading bot stopped
+2025-07-30 10:00:03 [INFO] Job "trading_job (trigger: cron[day_of_week='mon-sun', hour='*', minute='15,30,45,0'], next run at: 2025-07-30 10:15:00 WAT)" executed successfully
+2025-07-30 10:15:00 [INFO] Running job "trading_job (trigger: cron[day_of_week='mon-sun', hour='*', minute='15,30,45,0'], next run at: 2025-07-30 10:30:00 WAT)" (scheduled at 2025-07-30 10:15:00+01:00)
+2025-07-30 10:15:00 [INFO] MT5 initialized successfully
+2025-07-30 10:15:00 [INFO] Looking for type1 buy setups on 15
+2025-07-30 10:15:00 [INFO] Spread for Volatility 10 Index: 172
+2025-07-30 10:15:00 [INFO] Spread for Volatility 25 Index: 195
+2025-07-30 10:15:00 [INFO] Spread for Volatility 50 Index: 170
+2025-07-30 10:15:00 [INFO] Spread for Volatility 100 Index: 30
+2025-07-30 10:15:00 [INFO] Spread for Volatility 10 (1s) Index: 24
+2025-07-30 10:15:00 [INFO] Spread for Volatility 15 (1s) Index: 633
+2025-07-30 10:15:00 [INFO] Spread for Volatility 25 (1s) Index: 4545
+2025-07-30 10:15:00 [INFO] Spread for Volatility 30 (1s) Index: 551
+2025-07-30 10:15:00 [INFO] Spread for Volatility 75 (1s) Index: 86
+2025-07-30 10:15:00 [INFO] Spread for Volatility 90 (1s) Index: 4399
+2025-07-30 10:15:00 [INFO] Finished checking Volatility 25 (1s) Index
+2025-07-30 10:15:00 [INFO] Spread for Volatility 150 (1s) Index: 5
+2025-07-30 10:15:00 [INFO] Spread for Volatility 50 (1s) Index: 2909
+2025-07-30 10:15:00 [INFO] Finished checking Volatility 100 Index
+2025-07-30 10:15:00 [INFO] Spread for Volatility 100 (1s) Index: 20
+2025-07-30 10:15:00 [INFO] Spread for Volatility 250 (1s) Index: 6
+2025-07-30 10:15:00 [INFO] Finished checking Volatility 25 Index
+2025-07-30 10:15:01 [INFO] Order placed successfully $$$$$$$$$$$$$$
+2025-07-30 10:15:01 [INFO] Finished checking Volatility 10 (1s) Index
+2025-07-30 10:15:01 [ERROR] Error while plotting entry: name 'go' is not defined
+2025-07-30 10:15:01 [INFO] Finished checking Volatility 50 Index
+2025-07-30 10:15:01 [INFO] Finished checking Volatility 15 (1s) Index
+2025-07-30 10:15:01 [INFO] Finished checking Volatility 30 (1s) Index
+2025-07-30 10:15:01 [INFO] Finished checking Volatility 75 (1s) Index
+2025-07-30 10:15:01 [INFO] Finished checking Volatility 90 (1s) Index
+2025-07-30 10:15:01 [INFO] Finished checking Volatility 150 (1s) Index
+2025-07-30 10:15:01 [INFO] Finished checking Volatility 50 (1s) Index
+2025-07-30 10:15:01 [INFO] Finished checking Volatility 100 (1s) Index
+2025-07-30 10:15:01 [INFO] Finished checking Volatility 250 (1s) Index
+2025-07-30 10:15:01 [INFO] Finished checking Volatility 10 Index
+2025-07-30 10:15:01 [INFO] Looking for type1 sell setups on 15
+2025-07-30 10:15:01 [INFO] Spread for Volatility 10 Index: 172
+2025-07-30 10:15:01 [INFO] Spread for Volatility 25 Index: 195
+2025-07-30 10:15:01 [INFO] Spread for Volatility 50 Index: 170
+2025-07-30 10:15:01 [INFO] Spread for Volatility 100 Index: 30
+2025-07-30 10:15:01 [INFO] Spread for Volatility 10 (1s) Index: 24
+2025-07-30 10:15:01 [INFO] Spread for Volatility 25 (1s) Index: 4545
+2025-07-30 10:15:01 [INFO] Spread for Volatility 30 (1s) Index: 551
+2025-07-30 10:15:01 [INFO] Spread for Volatility 15 (1s) Index: 633
+2025-07-30 10:15:01 [INFO] Spread for Volatility 90 (1s) Index: 4399
+2025-07-30 10:15:01 [INFO] Finished checking Volatility 100 Index
+2025-07-30 10:15:01 [INFO] Spread for Volatility 50 (1s) Index: 2909
+2025-07-30 10:15:01 [INFO] Spread for Volatility 75 (1s) Index: 86
+2025-07-30 10:15:01 [INFO] Spread for Volatility 150 (1s) Index: 5
+2025-07-30 10:15:01 [INFO] Spread for Volatility 100 (1s) Index: 20
+2025-07-30 10:15:01 [INFO] Spread for Volatility 250 (1s) Index: 6
+2025-07-30 10:15:01 [INFO] Finished checking Volatility 25 Index
+2025-07-30 10:15:01 [INFO] Finished checking Volatility 25 (1s) Index
+2025-07-30 10:15:01 [INFO] Finished checking Volatility 50 Index
+2025-07-30 10:15:01 [INFO] Finished checking Volatility 10 (1s) Index
+2025-07-30 10:15:01 [INFO] Finished checking Volatility 10 Index
+2025-07-30 10:15:01 [INFO] Finished checking Volatility 15 (1s) Index
+2025-07-30 10:15:01 [INFO] Finished checking Volatility 30 (1s) Index
+2025-07-30 10:15:01 [INFO] Finished checking Volatility 90 (1s) Index
+2025-07-30 10:15:01 [INFO] Finished checking Volatility 50 (1s) Index
+2025-07-30 10:15:01 [INFO] Finished checking Volatility 75 (1s) Index
+2025-07-30 10:15:01 [INFO] Finished checking Volatility 150 (1s) Index
+2025-07-30 10:15:01 [INFO] Finished checking Volatility 100 (1s) Index
+2025-07-30 10:15:01 [INFO] Finished checking Volatility 250 (1s) Index
+2025-07-30 10:15:01 [INFO] Looking for type1 buy setups on 5
+2025-07-30 10:15:01 [INFO] Spread for Volatility 10 Index: 172
+2025-07-30 10:15:01 [INFO] Spread for Volatility 25 Index: 195
+2025-07-30 10:15:01 [INFO] Spread for Volatility 50 Index: 170
+2025-07-30 10:15:02 [INFO] Spread for Volatility 100 Index: 30
+2025-07-30 10:15:02 [INFO] Spread for Volatility 15 (1s) Index: 633
+2025-07-30 10:15:02 [INFO] Spread for Volatility 10 (1s) Index: 24
+2025-07-30 10:15:02 [INFO] Spread for Volatility 25 (1s) Index: 4545
+2025-07-30 10:15:02 [INFO] Spread for Volatility 30 (1s) Index: 551
+2025-07-30 10:15:02 [INFO] Spread for Volatility 50 (1s) Index: 2909
+2025-07-30 10:15:02 [INFO] Finished checking Volatility 25 Index
+2025-07-30 10:15:02 [INFO] Spread for Volatility 75 (1s) Index: 86
+2025-07-30 10:15:02 [INFO] Spread for Volatility 90 (1s) Index: 4399
+2025-07-30 10:15:02 [INFO] Spread for Volatility 100 (1s) Index: 20
+2025-07-30 10:15:02 [INFO] Finished checking Volatility 15 (1s) Index
+2025-07-30 10:15:02 [INFO] Spread for Volatility 150 (1s) Index: 5
+2025-07-30 10:15:02 [INFO] Spread for Volatility 250 (1s) Index: 6
+2025-07-30 10:15:02 [INFO] Finished checking Volatility 50 Index
+2025-07-30 10:15:02 [INFO] Finished checking Volatility 100 Index
+2025-07-30 10:15:02 [INFO] Finished checking Volatility 10 Index
+2025-07-30 10:15:02 [INFO] Finished checking Volatility 25 (1s) Index
+2025-07-30 10:15:02 [INFO] Finished checking Volatility 10 (1s) Index
+2025-07-30 10:15:02 [INFO] Finished checking Volatility 50 (1s) Index
+2025-07-30 10:15:02 [INFO] Finished checking Volatility 30 (1s) Index
+2025-07-30 10:15:02 [INFO] Finished checking Volatility 90 (1s) Index
+2025-07-30 10:15:02 [INFO] Finished checking Volatility 100 (1s) Index
+2025-07-30 10:15:02 [INFO] Finished checking Volatility 75 (1s) Index
+2025-07-30 10:15:02 [INFO] Finished checking Volatility 150 (1s) Index
+2025-07-30 10:15:02 [INFO] Finished checking Volatility 250 (1s) Index
+2025-07-30 10:15:02 [INFO] Looking for type1 sell setups on 5
+2025-07-30 10:15:03 [INFO] Spread for Volatility 10 Index: 172
+2025-07-30 10:15:03 [INFO] Spread for Volatility 25 Index: 195
+2025-07-30 10:15:03 [INFO] Spread for Volatility 50 Index: 170
+2025-07-30 10:15:03 [INFO] Spread for Volatility 10 (1s) Index: 24
+2025-07-30 10:15:03 [INFO] Spread for Volatility 25 (1s) Index: 4545
+2025-07-30 10:15:03 [INFO] Spread for Volatility 100 Index: 30
+2025-07-30 10:15:03 [INFO] Spread for Volatility 30 (1s) Index: 551
+2025-07-30 10:15:03 [INFO] Spread for Volatility 15 (1s) Index: 633
+2025-07-30 10:15:03 [INFO] Spread for Volatility 75 (1s) Index: 86
+2025-07-30 10:15:03 [INFO] Spread for Volatility 50 (1s) Index: 2909
+2025-07-30 10:15:03 [INFO] Finished checking Volatility 50 Index
+2025-07-30 10:15:03 [INFO] Spread for Volatility 100 (1s) Index: 20
+2025-07-30 10:15:03 [INFO] Finished checking Volatility 10 Index
+2025-07-30 10:15:03 [INFO] Spread for Volatility 150 (1s) Index: 5
+2025-07-30 10:15:03 [INFO] Spread for Volatility 250 (1s) Index: 6
+2025-07-30 10:15:03 [INFO] Spread for Volatility 90 (1s) Index: 4399
+2025-07-30 10:15:03 [INFO] Finished checking Volatility 25 Index
+2025-07-30 10:15:03 [INFO] Finished checking Volatility 100 Index
+2025-07-30 10:15:03 [INFO] Finished checking Volatility 25 (1s) Index
+2025-07-30 10:15:03 [INFO] Finished checking Volatility 50 (1s) Index
+2025-07-30 10:15:03 [INFO] Finished checking Volatility 30 (1s) Index
+2025-07-30 10:15:03 [INFO] Finished checking Volatility 10 (1s) Index
+2025-07-30 10:15:03 [INFO] Finished checking Volatility 15 (1s) Index
+2025-07-30 10:15:03 [INFO] Finished checking Volatility 75 (1s) Index
+2025-07-30 10:15:03 [INFO] Finished checking Volatility 100 (1s) Index
+2025-07-30 10:15:03 [INFO] Finished checking Volatility 150 (1s) Index
+2025-07-30 10:15:03 [INFO] Finished checking Volatility 250 (1s) Index
+2025-07-30 10:15:03 [INFO] Finished checking Volatility 90 (1s) Index
+2025-07-30 10:15:03 [INFO] MT5 connection closed
+2025-07-30 10:15:03 [INFO] Trading bot stopped
+2025-07-30 10:15:03 [INFO] Job "trading_job (trigger: cron[day_of_week='mon-sun', hour='*', minute='15,30,45,0'], next run at: 2025-07-30 10:30:00 WAT)" executed successfully
+2025-07-30 10:30:00 [INFO] Running job "trading_job (trigger: cron[day_of_week='mon-sun', hour='*', minute='15,30,45,0'], next run at: 2025-07-30 10:30:00 WAT)" (scheduled at 2025-07-30 10:30:00+01:00)
+2025-07-30 10:30:00 [INFO] MT5 initialized successfully
+2025-07-30 10:30:00 [INFO] Looking for type1 buy setups on 15
+2025-07-30 10:30:00 [INFO] Spread for Volatility 10 Index: 172
+2025-07-30 10:30:00 [INFO] Spread for Volatility 25 Index: 195
+2025-07-30 10:30:00 [INFO] Spread for Volatility 50 Index: 170
+2025-07-30 10:30:00 [INFO] Spread for Volatility 100 Index: 30
+2025-07-30 10:30:00 [INFO] Spread for Volatility 10 (1s) Index: 24
+2025-07-30 10:30:00 [INFO] Spread for Volatility 15 (1s) Index: 633
+2025-07-30 10:30:00 [INFO] Spread for Volatility 30 (1s) Index: 551
+2025-07-30 10:30:00 [INFO] Spread for Volatility 25 (1s) Index: 4545
+2025-07-30 10:30:00 [INFO] Spread for Volatility 50 (1s) Index: 2909
+2025-07-30 10:30:00 [INFO] Spread for Volatility 250 (1s) Index: 6
+2025-07-30 10:30:00 [INFO] Spread for Volatility 100 (1s) Index: 20
+2025-07-30 10:30:00 [INFO] Spread for Volatility 90 (1s) Index: 4399
+2025-07-30 10:30:00 [INFO] Finished checking Volatility 30 (1s) Index
+2025-07-30 10:30:00 [INFO] Spread for Volatility 75 (1s) Index: 86
+2025-07-30 10:30:00 [INFO] Spread for Volatility 150 (1s) Index: 5
+2025-07-30 10:30:01 [INFO] Finished checking Volatility 15 (1s) Index
+2025-07-30 10:30:01 [INFO] Order placed successfully $$$$$$$$$$$$$$
+2025-07-30 10:30:01 [INFO] Finished checking Volatility 100 Index
+2025-07-30 10:30:01 [ERROR] Error while plotting entry: name 'go' is not defined
+2025-07-30 10:30:01 [INFO] Finished checking Volatility 25 Index
+2025-07-30 10:30:01 [INFO] Finished checking Volatility 50 Index
+2025-07-30 10:30:01 [INFO] Finished checking Volatility 10 (1s) Index
+2025-07-30 10:30:01 [INFO] Finished checking Volatility 50 (1s) Index
+2025-07-30 10:30:01 [INFO] Finished checking Volatility 25 (1s) Index
+2025-07-30 10:30:01 [INFO] Finished checking Volatility 250 (1s) Index
+2025-07-30 10:30:01 [INFO] Finished checking Volatility 100 (1s) Index
+2025-07-30 10:30:01 [INFO] Finished checking Volatility 90 (1s) Index
+2025-07-30 10:30:01 [INFO] Finished checking Volatility 150 (1s) Index
+2025-07-30 10:30:01 [INFO] Finished checking Volatility 75 (1s) Index
+2025-07-30 10:30:01 [INFO] Finished checking Volatility 10 Index
+2025-07-30 10:30:01 [INFO] Looking for type1 sell setups on 15
+2025-07-30 10:30:01 [INFO] Spread for Volatility 10 Index: 172
+2025-07-30 10:30:01 [INFO] Spread for Volatility 25 Index: 195
+2025-07-30 10:30:01 [INFO] Spread for Volatility 50 Index: 170
+2025-07-30 10:30:01 [INFO] Spread for Volatility 15 (1s) Index: 633
+2025-07-30 10:30:01 [INFO] Spread for Volatility 25 (1s) Index: 4545
+2025-07-30 10:30:01 [INFO] Spread for Volatility 10 (1s) Index: 24
+2025-07-30 10:30:01 [INFO] Spread for Volatility 100 Index: 30
+2025-07-30 10:30:01 [INFO] Spread for Volatility 30 (1s) Index: 551
+2025-07-30 10:30:01 [INFO] Spread for Volatility 50 (1s) Index: 2909
+2025-07-30 10:30:01 [INFO] Spread for Volatility 75 (1s) Index: 86
+2025-07-30 10:30:01 [INFO] Spread for Volatility 90 (1s) Index: 4399
+2025-07-30 10:30:01 [INFO] Finished checking Volatility 15 (1s) Index
+2025-07-30 10:30:01 [INFO] Spread for Volatility 150 (1s) Index: 5
+2025-07-30 10:30:01 [INFO] Spread for Volatility 250 (1s) Index: 6
+2025-07-30 10:30:01 [INFO] Spread for Volatility 100 (1s) Index: 20
+2025-07-30 10:30:01 [INFO] Finished checking Volatility 25 Index
+2025-07-30 10:30:02 [INFO] Finished checking Volatility 10 Index
+2025-07-30 10:30:02 [INFO] Finished checking Volatility 25 (1s) Index
+2025-07-30 10:30:02 [INFO] Finished checking Volatility 50 Index
+2025-07-30 10:30:02 [INFO] Finished checking Volatility 100 Index
+2025-07-30 10:30:02 [INFO] Finished checking Volatility 10 (1s) Index
+2025-07-30 10:30:02 [INFO] Finished checking Volatility 30 (1s) Index
+2025-07-30 10:30:02 [INFO] Finished checking Volatility 50 (1s) Index
+2025-07-30 10:30:02 [INFO] Finished checking Volatility 75 (1s) Index
+2025-07-30 10:30:02 [INFO] Finished checking Volatility 90 (1s) Index
+2025-07-30 10:30:02 [INFO] Finished checking Volatility 150 (1s) Index
+2025-07-30 10:30:02 [INFO] Finished checking Volatility 250 (1s) Index
+2025-07-30 10:30:02 [INFO] Finished checking Volatility 100 (1s) Index
+2025-07-30 10:30:02 [INFO] Looking for type1 buy setups on 5
+2025-07-30 10:30:02 [INFO] Spread for Volatility 10 Index: 172
+2025-07-30 10:30:02 [INFO] Spread for Volatility 25 Index: 195
+2025-07-30 10:30:02 [INFO] Spread for Volatility 100 Index: 30
+2025-07-30 10:30:02 [INFO] Spread for Volatility 50 Index: 170
+2025-07-30 10:30:02 [INFO] Spread for Volatility 10 (1s) Index: 24
+2025-07-30 10:30:02 [INFO] Spread for Volatility 15 (1s) Index: 633
+2025-07-30 10:30:02 [INFO] Spread for Volatility 30 (1s) Index: 551
+2025-07-30 10:30:02 [INFO] Spread for Volatility 25 (1s) Index: 4545
+2025-07-30 10:30:02 [INFO] Spread for Volatility 75 (1s) Index: 86
+2025-07-30 10:30:02 [INFO] Spread for Volatility 50 (1s) Index: 2909
+2025-07-30 10:30:02 [INFO] Finished checking Volatility 50 Index
+2025-07-30 10:30:02 [INFO] Spread for Volatility 100 (1s) Index: 20
+2025-07-30 10:30:02 [INFO] Spread for Volatility 150 (1s) Index: 5
+2025-07-30 10:30:02 [INFO] Finished checking Volatility 100 Index
+2025-07-30 10:30:02 [INFO] Spread for Volatility 90 (1s) Index: 4399
+2025-07-30 10:30:02 [INFO] Spread for Volatility 250 (1s) Index: 6
+2025-07-30 10:30:02 [INFO] Finished checking Volatility 10 Index
+2025-07-30 10:30:02 [INFO] Finished checking Volatility 10 (1s) Index
+2025-07-30 10:30:02 [INFO] Finished checking Volatility 25 Index
+2025-07-30 10:30:02 [INFO] Finished checking Volatility 15 (1s) Index
+2025-07-30 10:30:02 [INFO] Finished checking Volatility 30 (1s) Index
+2025-07-30 10:30:02 [INFO] Finished checking Volatility 25 (1s) Index
+2025-07-30 10:30:02 [INFO] Finished checking Volatility 75 (1s) Index
+2025-07-30 10:30:02 [INFO] Finished checking Volatility 100 (1s) Index
+2025-07-30 10:30:02 [INFO] Finished checking Volatility 50 (1s) Index
+2025-07-30 10:30:02 [INFO] Finished checking Volatility 150 (1s) Index
+2025-07-30 10:30:02 [INFO] Finished checking Volatility 250 (1s) Index
+2025-07-30 10:30:02 [INFO] Finished checking Volatility 90 (1s) Index
+2025-07-30 10:30:02 [INFO] Looking for type1 sell setups on 5
+2025-07-30 10:30:02 [INFO] Spread for Volatility 10 Index: 172
+2025-07-30 10:30:02 [INFO] Spread for Volatility 25 Index: 195
+2025-07-30 10:30:02 [INFO] Spread for Volatility 50 Index: 170
+2025-07-30 10:30:03 [INFO] Spread for Volatility 10 (1s) Index: 24
+2025-07-30 10:30:03 [INFO] Spread for Volatility 15 (1s) Index: 633
+2025-07-30 10:30:03 [INFO] Spread for Volatility 100 Index: 30
+2025-07-30 10:30:03 [INFO] Spread for Volatility 75 (1s) Index: 86
+2025-07-30 10:30:03 [INFO] Spread for Volatility 25 (1s) Index: 4545
+2025-07-30 10:30:03 [INFO] Spread for Volatility 50 (1s) Index: 2909
+2025-07-30 10:30:03 [INFO] Spread for Volatility 30 (1s) Index: 551
+2025-07-30 10:30:03 [INFO] Spread for Volatility 90 (1s) Index: 4399
+2025-07-30 10:30:03 [INFO] Finished checking Volatility 10 (1s) Index
+2025-07-30 10:30:03 [INFO] Spread for Volatility 100 (1s) Index: 20
+2025-07-30 10:30:03 [INFO] Spread for Volatility 150 (1s) Index: 5
+2025-07-30 10:30:03 [INFO] Spread for Volatility 250 (1s) Index: 6
+2025-07-30 10:30:03 [INFO] Finished checking Volatility 10 Index
+2025-07-30 10:30:03 [INFO] Finished checking Volatility 50 Index
+2025-07-30 10:30:03 [INFO] Finished checking Volatility 25 Index
+2025-07-30 10:30:03 [INFO] Finished checking Volatility 15 (1s) Index
+2025-07-30 10:30:03 [INFO] Finished checking Volatility 75 (1s) Index
+2025-07-30 10:30:03 [INFO] Finished checking Volatility 100 Index
+2025-07-30 10:30:03 [INFO] Finished checking Volatility 25 (1s) Index
+2025-07-30 10:30:03 [INFO] Finished checking Volatility 50 (1s) Index
+2025-07-30 10:30:03 [INFO] Finished checking Volatility 30 (1s) Index
+2025-07-30 10:30:03 [INFO] Finished checking Volatility 90 (1s) Index
+2025-07-30 10:30:03 [INFO] Finished checking Volatility 150 (1s) Index
+2025-07-30 10:30:03 [INFO] Finished checking Volatility 100 (1s) Index
+2025-07-30 10:30:03 [INFO] Finished checking Volatility 250 (1s) Index
+2025-07-30 10:30:03 [INFO] MT5 connection closed
+2025-07-30 10:30:03 [INFO] Trading bot stopped
+2025-07-30 10:30:03 [INFO] Job "trading_job (trigger: cron[day_of_week='mon-sun', hour='*', minute='15,30,45,0'], next run at: 2025-07-30 10:45:00 WAT)" executed successfully
+2025-07-30 10:45:00 [INFO] Running job "trading_job (trigger: cron[day_of_week='mon-sun', hour='*', minute='15,30,45,0'], next run at: 2025-07-30 11:00:00 WAT)" (scheduled at 2025-07-30 10:45:00+01:00)
+2025-07-30 10:45:00 [INFO] MT5 initialized successfully
+2025-07-30 10:45:00 [INFO] Looking for type1 buy setups on 15
+2025-07-30 10:45:00 [INFO] Spread for Volatility 10 Index: 172
+2025-07-30 10:45:00 [INFO] Spread for Volatility 25 Index: 195
+2025-07-30 10:45:01 [INFO] Spread for Volatility 10 (1s) Index: 24
+2025-07-30 10:45:01 [INFO] Spread for Volatility 15 (1s) Index: 633
+2025-07-30 10:45:01 [INFO] Spread for Volatility 100 Index: 30
+2025-07-30 10:45:01 [INFO] Spread for Volatility 50 Index: 170
+2025-07-30 10:45:01 [INFO] Spread for Volatility 30 (1s) Index: 551
+2025-07-30 10:45:01 [INFO] Spread for Volatility 50 (1s) Index: 2909
+2025-07-30 10:45:01 [INFO] Spread for Volatility 25 (1s) Index: 4545
+2025-07-30 10:45:02 [INFO] Spread for Volatility 90 (1s) Index: 4399
+2025-07-30 10:45:02 [INFO] Spread for Volatility 75 (1s) Index: 86
+2025-07-30 10:45:02 [INFO] Spread for Volatility 150 (1s) Index: 5
+2025-07-30 10:45:02 [INFO] Finished checking Volatility 10 (1s) Index
+2025-07-30 10:45:02 [INFO] Spread for Volatility 250 (1s) Index: 6
+2025-07-30 10:45:02 [INFO] Spread for Volatility 100 (1s) Index: 20
+2025-07-30 10:45:02 [INFO] Finished checking Volatility 25 Index
+2025-07-30 10:45:02 [INFO] Finished checking Volatility 15 (1s) Index
+2025-07-30 10:45:03 [INFO] Finished checking Volatility 90 (1s) Index
+2025-07-30 10:45:03 [INFO] Order placed successfully $$$$$$$$$$$$$$
+2025-07-30 10:45:03 [INFO] Finished checking Volatility 100 Index
+2025-07-30 10:45:03 [ERROR] Error while plotting entry: name 'go' is not defined
+2025-07-30 10:45:03 [INFO] Finished checking Volatility 50 (1s) Index
+2025-07-30 10:45:03 [INFO] Finished checking Volatility 30 (1s) Index
+2025-07-30 10:45:03 [INFO] Finished checking Volatility 75 (1s) Index
+2025-07-30 10:45:03 [INFO] Finished checking Volatility 50 Index
+2025-07-30 10:45:03 [INFO] Finished checking Volatility 25 (1s) Index
+2025-07-30 10:45:03 [INFO] Finished checking Volatility 150 (1s) Index
+2025-07-30 10:45:03 [INFO] Finished checking Volatility 250 (1s) Index
+2025-07-30 10:45:03 [INFO] Finished checking Volatility 100 (1s) Index
+2025-07-30 10:45:03 [INFO] Finished checking Volatility 10 Index
+2025-07-30 10:45:03 [INFO] Looking for type1 sell setups on 15
+2025-07-30 10:45:03 [INFO] Spread for Volatility 10 Index: 172
+2025-07-30 10:45:03 [INFO] Spread for Volatility 25 Index: 195
+2025-07-30 10:45:03 [INFO] Spread for Volatility 50 Index: 170
+2025-07-30 10:45:03 [INFO] Spread for Volatility 100 Index: 30
+2025-07-30 10:45:03 [INFO] Spread for Volatility 10 (1s) Index: 24
+2025-07-30 10:45:03 [INFO] Spread for Volatility 15 (1s) Index: 633
+2025-07-30 10:45:03 [INFO] Spread for Volatility 30 (1s) Index: 551
+2025-07-30 10:45:03 [INFO] Spread for Volatility 25 (1s) Index: 4545
+2025-07-30 10:45:03 [INFO] Spread for Volatility 75 (1s) Index: 86
+2025-07-30 10:45:03 [INFO] Spread for Volatility 100 (1s) Index: 20
+2025-07-30 10:45:03 [INFO] Spread for Volatility 50 (1s) Index: 2909
+2025-07-30 10:45:03 [INFO] Finished checking Volatility 15 (1s) Index
+2025-07-30 10:45:03 [INFO] Spread for Volatility 90 (1s) Index: 4399
+2025-07-30 10:45:03 [INFO] Spread for Volatility 250 (1s) Index: 6
+2025-07-30 10:45:03 [INFO] Finished checking Volatility 10 Index
+2025-07-30 10:45:03 [INFO] Spread for Volatility 150 (1s) Index: 5
+2025-07-30 10:45:03 [INFO] Finished checking Volatility 25 Index
+2025-07-30 10:45:03 [INFO] Finished checking Volatility 10 (1s) Index
+2025-07-30 10:45:04 [INFO] Finished checking Volatility 100 Index
+2025-07-30 10:45:04 [INFO] Finished checking Volatility 50 Index
+2025-07-30 10:45:04 [INFO] Finished checking Volatility 30 (1s) Index
+2025-07-30 10:45:04 [INFO] Finished checking Volatility 75 (1s) Index
+2025-07-30 10:45:04 [INFO] Finished checking Volatility 25 (1s) Index
+2025-07-30 10:45:04 [INFO] Finished checking Volatility 100 (1s) Index
+2025-07-30 10:45:04 [INFO] Finished checking Volatility 50 (1s) Index
+2025-07-30 10:45:04 [INFO] Finished checking Volatility 90 (1s) Index
+2025-07-30 10:45:04 [INFO] Finished checking Volatility 250 (1s) Index
+2025-07-30 10:45:04 [INFO] Finished checking Volatility 150 (1s) Index
+2025-07-30 10:45:04 [INFO] Looking for type1 buy setups on 5
+2025-07-30 10:45:04 [INFO] Spread for Volatility 10 Index: 172
+2025-07-30 10:45:04 [INFO] Spread for Volatility 25 Index: 195
+2025-07-30 10:45:04 [INFO] Spread for Volatility 50 Index: 170
+2025-07-30 10:45:04 [INFO] Spread for Volatility 15 (1s) Index: 633
+2025-07-30 10:45:04 [INFO] Spread for Volatility 100 Index: 30
+2025-07-30 10:45:05 [INFO] Spread for Volatility 10 (1s) Index: 24
+2025-07-30 10:45:05 [INFO] Spread for Volatility 25 (1s) Index: 4545
+2025-07-30 10:45:05 [INFO] Spread for Volatility 50 (1s) Index: 2909
+2025-07-30 10:45:05 [INFO] Spread for Volatility 30 (1s) Index: 551
+2025-07-30 10:45:05 [INFO] Spread for Volatility 90 (1s) Index: 4399
+2025-07-30 10:45:05 [INFO] Spread for Volatility 75 (1s) Index: 86
+2025-07-30 10:45:05 [INFO] Finished checking Volatility 25 Index
+2025-07-30 10:45:06 [INFO] Spread for Volatility 150 (1s) Index: 5
+2025-07-30 10:45:06 [INFO] Finished checking Volatility 15 (1s) Index
+2025-07-30 10:45:08 [INFO] Finished checking Volatility 10 Index
+2025-07-30 10:45:08 [INFO] Spread for Volatility 100 (1s) Index: 20
+2025-07-30 10:45:08 [INFO] Finished checking Volatility 50 Index
+2025-07-30 10:45:08 [INFO] Finished checking Volatility 10 (1s) Index
+2025-07-30 10:45:08 [INFO] Finished checking Volatility 100 Index
+2025-07-30 10:45:08 [INFO] Spread for Volatility 250 (1s) Index: 6
+2025-07-30 10:45:08 [INFO] Finished checking Volatility 25 (1s) Index
+2025-07-30 10:45:08 [INFO] Finished checking Volatility 30 (1s) Index
+2025-07-30 10:45:08 [INFO] Finished checking Volatility 75 (1s) Index
+2025-07-30 10:45:08 [INFO] Finished checking Volatility 50 (1s) Index
+2025-07-30 10:45:08 [INFO] Finished checking Volatility 90 (1s) Index
+2025-07-30 10:45:08 [INFO] Finished checking Volatility 150 (1s) Index
+2025-07-30 10:45:08 [INFO] Finished checking Volatility 100 (1s) Index
+2025-07-30 10:45:08 [INFO] Finished checking Volatility 250 (1s) Index
+2025-07-30 10:45:08 [INFO] Looking for type1 sell setups on 5
+2025-07-30 10:45:08 [INFO] Spread for Volatility 10 Index: 172
+2025-07-30 10:45:08 [INFO] Spread for Volatility 50 Index: 170
+2025-07-30 10:45:08 [INFO] Spread for Volatility 25 Index: 195
+2025-07-30 10:45:08 [INFO] Spread for Volatility 10 (1s) Index: 24
+2025-07-30 10:45:08 [INFO] Spread for Volatility 100 Index: 30
+2025-07-30 10:45:08 [INFO] Spread for Volatility 15 (1s) Index: 633
+2025-07-30 10:45:08 [INFO] Spread for Volatility 30 (1s) Index: 551
+2025-07-30 10:45:09 [INFO] Spread for Volatility 25 (1s) Index: 4545
+2025-07-30 10:45:09 [INFO] Spread for Volatility 50 (1s) Index: 2909
+2025-07-30 10:45:09 [INFO] Spread for Volatility 90 (1s) Index: 4399
+2025-07-30 10:45:09 [INFO] Spread for Volatility 75 (1s) Index: 86
+2025-07-30 10:45:09 [INFO] Finished checking Volatility 50 Index
+2025-07-30 10:45:09 [INFO] Finished checking Volatility 25 Index
+2025-07-30 10:45:09 [INFO] Finished checking Volatility 10 (1s) Index
+2025-07-30 10:45:09 [INFO] Finished checking Volatility 10 Index
+2025-07-30 10:45:09 [INFO] Spread for Volatility 250 (1s) Index: 6
+2025-07-30 10:45:09 [INFO] Spread for Volatility 150 (1s) Index: 5
+2025-07-30 10:45:09 [INFO] Spread for Volatility 100 (1s) Index: 20
+2025-07-30 10:45:09 [INFO] Finished checking Volatility 100 Index
+2025-07-30 10:45:09 [INFO] Finished checking Volatility 15 (1s) Index
+2025-07-30 10:45:09 [INFO] Finished checking Volatility 25 (1s) Index
+2025-07-30 10:45:09 [INFO] Finished checking Volatility 30 (1s) Index
+2025-07-30 10:45:09 [INFO] Finished checking Volatility 75 (1s) Index
+2025-07-30 10:45:09 [INFO] Finished checking Volatility 50 (1s) Index
+2025-07-30 10:45:09 [INFO] Finished checking Volatility 150 (1s) Index
+2025-07-30 10:45:09 [INFO] Finished checking Volatility 90 (1s) Index
+2025-07-30 10:45:09 [INFO] Finished checking Volatility 250 (1s) Index
+2025-07-30 10:45:09 [INFO] Finished checking Volatility 100 (1s) Index
+2025-07-30 10:45:09 [INFO] MT5 connection closed
+2025-07-30 10:45:09 [INFO] Trading bot stopped
+2025-07-30 10:45:09 [INFO] Job "trading_job (trigger: cron[day_of_week='mon-sun', hour='*', minute='15,30,45,0'], next run at: 2025-07-30 11:00:00 WAT)" executed successfully
+2025-07-30 11:00:00 [INFO] Running job "trading_job (trigger: cron[day_of_week='mon-sun', hour='*', minute='15,30,45,0'], next run at: 2025-07-30 11:15:00 WAT)" (scheduled at 2025-07-30 11:00:00+01:00)
+2025-07-30 11:00:00 [INFO] MT5 initialized successfully
+2025-07-30 11:00:00 [INFO] Looking for type1 buy setups on 15
+2025-07-30 11:00:00 [INFO] Spread for Volatility 25 Index: 195
+2025-07-30 11:00:00 [INFO] Spread for Volatility 10 Index: 172
+2025-07-30 11:00:00 [INFO] Spread for Volatility 10 (1s) Index: 24
+2025-07-30 11:00:00 [INFO] Spread for Volatility 50 Index: 170
+2025-07-30 11:00:00 [INFO] Spread for Volatility 100 Index: 30
+2025-07-30 11:00:00 [INFO] Spread for Volatility 25 (1s) Index: 4545
+2025-07-30 11:00:00 [INFO] Spread for Volatility 15 (1s) Index: 633
+2025-07-30 11:00:00 [INFO] Spread for Volatility 30 (1s) Index: 551
+2025-07-30 11:00:00 [INFO] Spread for Volatility 50 (1s) Index: 2909
+2025-07-30 11:00:00 [INFO] Spread for Volatility 90 (1s) Index: 4399
+2025-07-30 11:00:00 [INFO] Spread for Volatility 75 (1s) Index: 86
+2025-07-30 11:00:00 [INFO] Spread for Volatility 150 (1s) Index: 5
+2025-07-30 11:00:00 [INFO] Spread for Volatility 100 (1s) Index: 20
+2025-07-30 11:00:00 [INFO] Finished checking Volatility 10 (1s) Index
+2025-07-30 11:00:00 [INFO] Spread for Volatility 250 (1s) Index: 6
+2025-07-30 11:00:00 [INFO] Finished checking Volatility 25 (1s) Index
+2025-07-30 11:00:00 [INFO] Finished checking Volatility 100 Index
+2025-07-30 11:00:00 [INFO] Finished checking Volatility 15 (1s) Index
+2025-07-30 11:00:00 [INFO] Finished checking Volatility 30 (1s) Index
+2025-07-30 11:00:00 [INFO] Finished checking Volatility 50 (1s) Index
+2025-07-30 11:00:00 [INFO] Finished checking Volatility 25 Index
+2025-07-30 11:00:01 [INFO] Finished checking Volatility 50 Index
+2025-07-30 11:00:01 [INFO] Order placed successfully $$$$$$$$$$$$$$
+2025-07-30 11:00:01 [INFO] Finished checking Volatility 90 (1s) Index
+2025-07-30 11:00:01 [ERROR] Error while plotting entry: name 'go' is not defined
+2025-07-30 11:00:01 [INFO] Finished checking Volatility 150 (1s) Index
+2025-07-30 11:00:01 [INFO] Finished checking Volatility 75 (1s) Index
+2025-07-30 11:00:01 [INFO] Finished checking Volatility 100 (1s) Index
+2025-07-30 11:00:01 [INFO] Finished checking Volatility 250 (1s) Index
+2025-07-30 11:00:01 [INFO] Finished checking Volatility 10 Index
+2025-07-30 11:00:01 [INFO] Looking for type1 sell setups on 15
+2025-07-30 11:00:01 [INFO] Spread for Volatility 10 Index: 172
+2025-07-30 11:00:01 [INFO] Spread for Volatility 25 Index: 195
+2025-07-30 11:00:01 [INFO] Spread for Volatility 100 Index: 30
+2025-07-30 11:00:01 [INFO] Spread for Volatility 50 Index: 170
+2025-07-30 11:00:01 [INFO] Spread for Volatility 10 (1s) Index: 24
+2025-07-30 11:00:01 [INFO] Spread for Volatility 15 (1s) Index: 633
+2025-07-30 11:00:01 [INFO] Spread for Volatility 25 (1s) Index: 4545
+2025-07-30 11:00:01 [INFO] Spread for Volatility 30 (1s) Index: 551
+2025-07-30 11:00:01 [INFO] Spread for Volatility 75 (1s) Index: 86
+2025-07-30 11:00:01 [INFO] Spread for Volatility 50 (1s) Index: 2909
+2025-07-30 11:00:01 [INFO] Spread for Volatility 100 (1s) Index: 20
+2025-07-30 11:00:01 [INFO] Finished checking Volatility 15 (1s) Index
+2025-07-30 11:00:01 [INFO] Spread for Volatility 90 (1s) Index: 4399
+2025-07-30 11:00:01 [INFO] Spread for Volatility 150 (1s) Index: 5
+2025-07-30 11:00:01 [INFO] Spread for Volatility 250 (1s) Index: 6
+2025-07-30 11:00:01 [INFO] Finished checking Volatility 50 Index
+2025-07-30 11:00:01 [INFO] Finished checking Volatility 10 (1s) Index
+2025-07-30 11:00:01 [INFO] Finished checking Volatility 10 Index
+2025-07-30 11:00:01 [INFO] Finished checking Volatility 75 (1s) Index
+2025-07-30 11:00:01 [INFO] Finished checking Volatility 100 Index
+2025-07-30 11:00:01 [INFO] Finished checking Volatility 25 Index
+2025-07-30 11:00:01 [INFO] Finished checking Volatility 30 (1s) Index
+2025-07-30 11:00:01 [INFO] Finished checking Volatility 25 (1s) Index
+2025-07-30 11:00:01 [INFO] Finished checking Volatility 50 (1s) Index
+2025-07-30 11:00:01 [INFO] Finished checking Volatility 100 (1s) Index
+2025-07-30 11:00:01 [INFO] Finished checking Volatility 150 (1s) Index
+2025-07-30 11:00:01 [INFO] Finished checking Volatility 90 (1s) Index
+2025-07-30 11:00:01 [INFO] Finished checking Volatility 250 (1s) Index
+2025-07-30 11:00:01 [INFO] Looking for type1 buy setups on 5
+2025-07-30 11:00:01 [INFO] Spread for Volatility 10 Index: 172
+2025-07-30 11:00:01 [INFO] Spread for Volatility 25 Index: 195
+2025-07-30 11:00:01 [INFO] Spread for Volatility 50 Index: 170
+2025-07-30 11:00:01 [INFO] Spread for Volatility 100 Index: 30
+2025-07-30 11:00:01 [INFO] Spread for Volatility 15 (1s) Index: 633
+2025-07-30 11:00:01 [INFO] Spread for Volatility 10 (1s) Index: 24
+2025-07-30 11:00:01 [INFO] Spread for Volatility 30 (1s) Index: 551
+2025-07-30 11:00:02 [INFO] Spread for Volatility 25 (1s) Index: 4545
+2025-07-30 11:00:02 [INFO] Spread for Volatility 50 (1s) Index: 2909
+2025-07-30 11:00:02 [INFO] Finished checking Volatility 10 (1s) Index
+2025-07-30 11:00:02 [INFO] Spread for Volatility 75 (1s) Index: 86
+2025-07-30 11:00:02 [INFO] Spread for Volatility 90 (1s) Index: 4399
+2025-07-30 11:00:02 [INFO] Finished checking Volatility 10 Index
+2025-07-30 11:00:02 [INFO] Spread for Volatility 100 (1s) Index: 20
+2025-07-30 11:00:02 [INFO] Spread for Volatility 150 (1s) Index: 5
+2025-07-30 11:00:02 [INFO] Spread for Volatility 250 (1s) Index: 6
+2025-07-30 11:00:02 [INFO] Finished checking Volatility 100 Index
+2025-07-30 11:00:02 [INFO] Finished checking Volatility 50 Index
+2025-07-30 11:00:02 [INFO] Finished checking Volatility 25 Index
+2025-07-30 11:00:02 [INFO] Finished checking Volatility 15 (1s) Index
+2025-07-30 11:00:02 [INFO] Finished checking Volatility 30 (1s) Index
+2025-07-30 11:00:02 [INFO] Finished checking Volatility 25 (1s) Index
+2025-07-30 11:00:02 [INFO] Finished checking Volatility 50 (1s) Index
+2025-07-30 11:00:02 [INFO] Finished checking Volatility 100 (1s) Index
+2025-07-30 11:00:02 [INFO] Finished checking Volatility 75 (1s) Index
+2025-07-30 11:00:02 [INFO] Finished checking Volatility 90 (1s) Index
+2025-07-30 11:00:02 [INFO] Finished checking Volatility 150 (1s) Index
+2025-07-30 11:00:02 [INFO] Finished checking Volatility 250 (1s) Index
+2025-07-30 11:00:02 [INFO] Looking for type1 sell setups on 5
+2025-07-30 11:00:02 [INFO] Spread for Volatility 10 Index: 172
+2025-07-30 11:00:02 [INFO] Spread for Volatility 25 Index: 195
+2025-07-30 11:00:02 [INFO] Spread for Volatility 50 Index: 170
+2025-07-30 11:00:02 [INFO] Spread for Volatility 100 Index: 30
+2025-07-30 11:00:02 [INFO] Spread for Volatility 10 (1s) Index: 24
+2025-07-30 11:00:02 [INFO] Spread for Volatility 15 (1s) Index: 633
+2025-07-30 11:00:02 [INFO] Spread for Volatility 25 (1s) Index: 4545
+2025-07-30 11:00:02 [INFO] Spread for Volatility 30 (1s) Index: 551
+2025-07-30 11:00:02 [INFO] Spread for Volatility 75 (1s) Index: 86
+2025-07-30 11:00:02 [INFO] Spread for Volatility 50 (1s) Index: 2909
+2025-07-30 11:00:02 [INFO] Spread for Volatility 90 (1s) Index: 4399
+2025-07-30 11:00:02 [INFO] Spread for Volatility 100 (1s) Index: 20
+2025-07-30 11:00:02 [INFO] Finished checking Volatility 50 Index
+2025-07-30 11:00:03 [INFO] Finished checking Volatility 100 Index
+2025-07-30 11:00:03 [INFO] Finished checking Volatility 25 Index
+2025-07-30 11:00:03 [INFO] Finished checking Volatility 10 Index
+2025-07-30 11:00:03 [INFO] Spread for Volatility 250 (1s) Index: 6
+2025-07-30 11:00:03 [INFO] Finished checking Volatility 10 (1s) Index
+2025-07-30 11:00:03 [INFO] Spread for Volatility 150 (1s) Index: 5
+2025-07-30 11:00:03 [INFO] Finished checking Volatility 15 (1s) Index
+2025-07-30 11:00:03 [INFO] Finished checking Volatility 30 (1s) Index
+2025-07-30 11:00:03 [INFO] Finished checking Volatility 25 (1s) Index
+2025-07-30 11:00:03 [INFO] Finished checking Volatility 75 (1s) Index
+2025-07-30 11:00:03 [INFO] Finished checking Volatility 50 (1s) Index
+2025-07-30 11:00:03 [INFO] Finished checking Volatility 90 (1s) Index
+2025-07-30 11:00:03 [INFO] Finished checking Volatility 100 (1s) Index
+2025-07-30 11:00:03 [INFO] Finished checking Volatility 250 (1s) Index
+2025-07-30 11:00:03 [INFO] Finished checking Volatility 150 (1s) Index
+2025-07-30 11:00:03 [INFO] MT5 connection closed
+2025-07-30 11:00:03 [INFO] Trading bot stopped
+2025-07-30 11:00:03 [INFO] Job "trading_job (trigger: cron[day_of_week='mon-sun', hour='*', minute='15,30,45,0'], next run at: 2025-07-30 11:15:00 WAT)" executed successfully

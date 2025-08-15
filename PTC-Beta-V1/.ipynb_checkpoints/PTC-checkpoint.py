@@ -22,18 +22,17 @@ login = 31891088
 password = "@Tag0T5ima"
 server = "Deriv-Demo"
 
-
-if not os.path.exists("PTC-v2.json"):
-    symbols_list = [
+symbols_list = [
     "Volatility 10 Index", "Volatility 25 Index", "Volatility 50 Index", "Volatility 100 Index",
     "Volatility 10 (1s) Index", "Volatility 15 (1s) Index", "Volatility 25 (1s) Index",
     "Volatility 30 (1s) Index", "Volatility 50 (1s) Index", "Volatility 75 (1s) Index",
     "Volatility 90 (1s) Index", "Volatility 100 (1s) Index", "Volatility 150 (1s) Index", "Volatility 250 (1s) Index"
-    ]
+]
 
-    symbols = dict.fromkeys(symbols_list, [])
-    
-    with open("PTC-v2.json", "w") as f:
+symbols = dict.fromkeys(symbols_list, [])
+
+if not os.path.exists("O1C.json"):
+    with open("O1C.json", "w") as f:
         json.dump(symbols, f, indent=4)
 
 
@@ -422,14 +421,14 @@ def chuks_type1_buy_model(symbol, timeframe, function_dict, tag="1B"):
         pattern_as_lists = [list(p) for p in pattern]
 
         # Load file
-        with open("PTC-v2.json", "r") as f:
+        with open("O1C.json", "r") as f:
             symbols = json.load(f)
         
         # Check and store if not present
         if pattern_as_lists not in symbols[symbol]:
             symbols[symbol].append(pattern_as_lists)
             
-            with open("PTC-v2.json", "w") as f:
+            with open("O1C.json", "w") as f:
                 json.dump(symbols, f, indent=4)
                 
             prices = [p[0] for p in pattern]
@@ -481,14 +480,14 @@ def chuks_type1_sell_model(symbol, timeframe, function_dict, tag="1S"):
         pattern_as_lists = [list(p) for p in pattern]
 
         # Load file
-        with open("PTC-v2.json", "r") as f:
+        with open("O1C.json", "r") as f:
             symbols = json.load(f)
         
         # Check and store if not present
         if pattern_as_lists not in symbols[symbol]:
             symbols[symbol].append(pattern_as_lists)
             
-            with open("PTC-v2.json", "w") as f:
+            with open("O1C.json", "w") as f:
                 json.dump(symbols, f, indent=4)
                 
             prices = [p[0] for p in pattern]
