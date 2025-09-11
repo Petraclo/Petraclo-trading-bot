@@ -1,0 +1,9 @@
+streamlit
+pandas
+numpy
+sqlalchemy
+MetaTrader5
+faiss-cpu
+sentence-transformers
+python-dateutil
+groq
