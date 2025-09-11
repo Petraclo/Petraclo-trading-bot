@@ -212,7 +212,7 @@ def type1_buy_check(chosen, df) -> bool:
         return False
     if df["low"].iloc[idxs[4]+4:].min() <= prices[4]:
         return False
-    if prices[4] > (prices[2] + prices[3]) / 2:
+    if prices[4] > (prices[1] + prices[2]) / 2:
         return False
     return (
         prices[3] > prices[1] and
@@ -227,7 +227,7 @@ def type1_sell_check(chosen, df) -> bool:
         return False
     if df["high"].iloc[idxs[4]+4:].max() >= prices[4]:
         return False
-    if prices[4] < (prices[2] + prices[3]) / 2:
+    if prices[4] < (prices[1] + prices[2]) / 2:
         return False
     return (
         prices[3] < prices[1] and
@@ -382,7 +382,7 @@ def place_order(order_type, sl, tp, price, lot, symbol):
         "type_filling": mt5.ORDER_FILLING_FOK,
     }
 
-    if mt5.orders_total() < 10:
+    if mt5.orders_total() < 15:
         result = mt5.order_send(request)
         
         if result.retcode != mt5.TRADE_RETCODE_DONE:
@@ -466,7 +466,7 @@ def chuks_type1_model(symbol, timeframe, symbols_cache, function_dict, tag):
             entry_price = entry_price_func(df, indices, prices)
             atr = compute_atr(df).iloc[-1].round(rd)
 
-            risk = round(27.90 * 0.1, 1)  # TODO: link to starting capital
+            risk = round(84.70 * 0.1, 1)  # TODO: link to starting capital
             
             sl = round(sl_func(prices, atr, spread), rd)
 
