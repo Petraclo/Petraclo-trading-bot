@@ -7,14 +7,17 @@ from datetime import datetime, timedelta
 from dateutil import parser
 from decimal import Decimal
 from typing import List, Tuple, Dict, Optional
-import logging
+from threading import Lock
+from custom import MaxOrdersReached
 from logging.handlers import RotatingFileHandler
+import logging
 import time
 import json
 import os
 import plotly.graph_objects as go
 
 EXPOSURE_LIMIT = 10
+order_lock = Lock()
 
 M5_trades_file = "M5_trades.json"
 M15_trades_file = "M15_trades.json"
@@ -502,35 +505,37 @@ def get_(symbol, timeframe):
     return rates_df, symbol_info, spread * symbol_info.point, balance
 
 def place_order(order_type, sl, tp, price, lot, symbol, tf):
-    placed = False 
+    with order_lock:
+        if mt5.orders_total() + mt5.positions_total() < EXPOSURE_LIMIT:
+            placed = False 
 
-    request = {
-        "action": mt5.TRADE_ACTION_PENDING,
-        "symbol": symbol,
-        "volume": lot,
-        "type": order_type,
-        "price": price,
-        "sl": sl,
-        "tp": tp,
-        "deviation": 2000,
-        "magic": 100000 if tf == mt5.TIMEFRAME_M5 else 200000,
-        "comment": "Chuks Type1",
-        "type_time": mt5.ORDER_TIME_GTC,
-        "type_filling": mt5.ORDER_FILLING_FOK,
-    }
+            request = {
+                "action": mt5.TRADE_ACTION_PENDING,
+                "symbol": symbol,
+                "volume": lot,
+                "type": order_type,
+                "price": price,
+                "sl": sl,
+                "tp": tp,
+                "deviation": 2000,
+                "magic": 100000 if tf == mt5.TIMEFRAME_M5 else 200000,
+                "comment": "Chuks Type1",
+                "type_time": mt5.ORDER_TIME_GTC,
+                "type_filling": mt5.ORDER_FILLING_FOK,
+            }
 
-    if mt5.orders_total() + mt5.positions_total() < EXPOSURE_LIMIT:
-        result = mt5.order_send(request)
+            result = mt5.order_send(request)
+            
+            if result.retcode != mt5.TRADE_RETCODE_DONE:
+                logging.error(f"Order failed for {symbol}, retcode={result.retcode}")
+            else:
+                logging.info(f"Order placed successfully on {symbol} $$$$$$$$$$$$$$")
+                placed = True        
+
+            return placed
         
-        if result.retcode != mt5.TRADE_RETCODE_DONE:
-            logging.error(f"Order failed for {symbol}, retcode={result.retcode}")
         else:
-            logging.info(f"Order placed successfully on {symbol} $$$$$$$$$$$$$$")
-            placed = True
-    else:
-        logging.info("Max number of orders placed")
-
-    return placed
+            raise MaxOrdersReached("Maximum number of orders/positions reached.")
 
 def close_expired_orders_and_trades(symbol_status, tf_magic):
     """
@@ -656,6 +661,9 @@ def run_model_for_symbols(model_func, symbols, timeframe, *args, **kwargs):
             symbol = futures[future]
             try:
                 future.result()
+            except MaxOrdersReached:
+                logging.warning("Max orders reached — stopping further submissions for this cycle")
+                break
             except Exception as e:
                 logging.error(f"Error in {model_func.__name__} for {symbol}: {e}")
                 

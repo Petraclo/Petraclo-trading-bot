@@ -1,0 +1,2 @@
+class MaxOrdersReached(Exception):
+    pass
