@@ -97,18 +97,26 @@ def load_M5_symbol_status():
                 continue
             else:
                 deal = deals[-1]            
-                # Only react to CLOSED losing trades
                 if getattr(deal, "entry", None) == mt5.DEAL_ENTRY_OUT:
+
+                    reason = getattr(deal, "reason", None)
                     profit = getattr(deal, "profit", 0)
-                    magic = getattr(deal, "magic", 0)
-                    if profit < 0 and magic == 100000:
-                        logging.info(f"Disabling trading on {symbol} on M5 due to losing trade")
-                        status_dict["status"] = "disabled"
-                        modified = True
-                    elif profit > 0 and magic == 100000:
-                        logging.info(f"Adapting trading on {symbol} on M5 due to winning trade")
-                        status_dict["status"] = "adapted"
-                        modified = True
+
+                    if (
+                        (reason == mt5.DEAL_REASON_SL and profit < 0) or
+                        (reason == mt5.DEAL_REASON_TP and profit > 0)
+                    ):
+                        magic = getattr(deal, "magic", 0)
+
+                        # React only to proper SL/TP outcomes
+                        if profit < 0 and magic == 100000:
+                            logging.info(f"Disabling trading on {symbol} on M5 due to losing trade")
+                            status_dict["status"] = "disabled"
+                            modified = True
+                        elif profit > 0 and magic == 100000:
+                            logging.info(f"Adapting trading on {symbol} on M5 due to winning trade")
+                            status_dict["status"] = "adapted"
+                            modified = True
                 else:
                     logging.info("Order not closed yet")
 
@@ -144,18 +152,26 @@ def load_M15_symbol_status():
                 continue
             else:
                 deal = deals[-1]
-                # Only react to CLOSED losing trades
                 if getattr(deal, "entry", None) == mt5.DEAL_ENTRY_OUT:
+
+                    reason = getattr(deal, "reason", None)
                     profit = getattr(deal, "profit", 0)
-                    magic = getattr(deal, "magic", 0)
-                    if profit < 0 and magic == 200000:
-                        logging.info(f"Disabling trading on {symbol} on M15 due to losing trade")
-                        status_dict["status"] = "disabled"
-                        modified = True
-                    elif profit > 0 and magic == 200000:
-                        logging.info(f"Adapting trading on {symbol} on M15 due to winning trade")
-                        status_dict["status"] = "adapted"
-                        modified = True
+
+                    if (
+                        (reason == mt5.DEAL_REASON_SL and profit < 0) or
+                        (reason == mt5.DEAL_REASON_TP and profit > 0)
+                    ):
+                        magic = getattr(deal, "magic", 0)
+
+                        # React only to proper SL/TP outcomes
+                        if profit < 0 and magic == 200000:
+                            logging.info(f"Disabling trading on {symbol} on M15 due to losing trade")
+                            status_dict["status"] = "disabled"
+                            modified = True
+                        elif profit > 0 and magic == 200000:
+                            logging.info(f"Adapting trading on {symbol} on M15 due to winning trade")
+                            status_dict["status"] = "adapted"
+                            modified = True
                 else:
                     logging.info("Order not closed yet")
 
