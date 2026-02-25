@@ -1,0 +1,32 @@
+{
+    "Volatility 10 (1s) Index": {
+        "status": "default",
+        "start_date": "2026-02-23 00:00:00",
+        "reset_date": "2026-03-02 00:00:00"
+    },
+    "Volatility 10 Index": {
+        "status": "default",
+        "start_date": "2026-02-23 00:00:00",
+        "reset_date": "2026-03-02 00:00:00"
+    },
+    "Volatility 25 Index": {
+        "status": "default",
+        "start_date": "2026-02-23 00:00:00",
+        "reset_date": "2026-03-02 00:00:00"
+    },
+    "Volatility 50 Index": {
+        "status": "default",
+        "start_date": "2026-02-23 00:00:00",
+        "reset_date": "2026-03-02 00:00:00"
+    },
+    "Volatility 100 Index": {
+        "status": "default",
+        "start_date": "2026-02-23 00:00:00",
+        "reset_date": "2026-03-02 00:00:00"
+    },
+    "Volatility 100 (1s) Index": {
+        "status": "default",
+        "start_date": "2026-02-23 00:00:00",
+        "reset_date": "2026-03-02 00:00:00"
+    }
+}

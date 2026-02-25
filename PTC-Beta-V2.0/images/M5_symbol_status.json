@@ -1,0 +1,17 @@
+{
+    "Volatility 10 Index": {
+        "status": "default",
+        "start_date": "2026-02-24 05:20:48.512976",
+        "reset_date": "2026-02-27 05:20:48.512985"
+    },
+    "Volatility 100 Index": {
+        "status": "default",
+        "start_date": "2026-02-24 05:20:48.513341",
+        "reset_date": "2026-02-27 05:20:48.513345"
+    },
+    "Volatility 100 (1s) Index": {
+        "status": "default",
+        "start_date": "2026-02-24 05:20:48.513417",
+        "reset_date": "2026-02-27 05:20:48.513420"
+    }
+}
