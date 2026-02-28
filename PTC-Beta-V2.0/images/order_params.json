@@ -22,6 +22,12 @@
         }
     },
     "Volatility 25 Index": {
+        "5": {
+            "risk_reward": 5,
+            "atr_multiplier": 3.0,
+            "sensitivity": 4,
+            "modified_stop": false
+        },
         "15": {
             "risk_reward": 3,
             "atr_multiplier": 4.5,
