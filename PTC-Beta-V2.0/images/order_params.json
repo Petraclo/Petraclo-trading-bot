@@ -45,9 +45,9 @@
     },
     "Volatility 100 Index": {
         "5": {
-            "risk_reward": 2,
-            "atr_multiplier": 3.5,
-            "sensitivity": 1,
+            "risk_reward": 4,
+            "atr_multiplier": 4.5,
+            "sensitivity": 8,
             "modified_stop": true
         },
         "15": {
