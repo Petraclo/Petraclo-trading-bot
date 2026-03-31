@@ -31,8 +31,14 @@ M5_htf_symbols = ["Volatility 10 Index", "Volatility 100 Index", "Volatility 100
 M15_htf_symbols = ["Volatility 10 Index", "Volatility 25 Index",
                 "Volatility 50 Index", "Volatility 100 Index", "Volatility 10 (1s) Index"]
 
+
+log_file = "PTC-v2.log"
+# Ensure file exists
+if not os.path.exists(log_file):
+    open(log_file, "w").close()
+
 rotating_handler = RotatingFileHandler(
-    filename="PTC-v2.log",
+    filename=log_file,
     maxBytes=1 * 1024 * 1024,
     backupCount=5
 )
@@ -488,7 +494,7 @@ def get_timeframe_start(timeframe):
 
     else:
         # Fallback: use past N bars for unsupported timeframes
-        return now - timedelta(days=3)
+        return now.replace(hour=0, minute=0, second=0, microsecond=0)
 
 def get_(symbol, timeframe):
     
@@ -515,15 +521,27 @@ def get_(symbol, timeframe):
     if acct_info is None:
         logging.error(f"Failed to get account info: {mt5.last_error()}")
         return
-        
-    balance = acct_info.balance
 
-    return rates_df, symbol_info, spread * symbol_info.point, balance
+    return rates_df, symbol_info, spread * symbol_info.point, acct_info
 
-def place_order(order_type, sl, tp, price, lot, symbol, tf):
+def current_exposure():
+    return mt5.orders_total() + mt5.positions_total()
+
+def place_order(order_type, sl, tp, price, lot, symbol, tf, account_info):
     with order_lock:
-        if mt5.orders_total() + mt5.positions_total() < EXPOSURE_LIMIT:
+        if current_exposure() < EXPOSURE_LIMIT:
             placed = False 
+
+            margin_required = mt5.order_calc_margin(
+                order_type,
+                symbol,
+                lot,
+                price
+            )
+
+            if margin_required + account_info.margin > account_info.equity * 0.5:
+                logging.warning(f"Too much margin usage: required {margin_required}, available {account_info.margin}")
+                return placed
 
             request = {
                 "action": mt5.TRADE_ACTION_PENDING,
@@ -671,7 +689,7 @@ def sort_symbols(symbols_list, htf):
     return premium_symbols, discount_symbols
 
 def run_model_for_symbols(model_func, symbols, timeframe, *args, **kwargs):
-    with ThreadPoolExecutor(max_workers=len(symbols)) as executor:
+    with ThreadPoolExecutor(max_workers=4) as executor:
         futures = {executor.submit(model_func, symbol, timeframe, *args, **kwargs): symbol for symbol in symbols}
         for future in as_completed(futures):
             symbol = futures[future]
@@ -716,7 +734,8 @@ def chuks_type1_model(symbol, timeframe, symbols_cache, function_dict, symbol_st
     result = retry(get_, symbol, timeframe)    
     if not result:
         return
-    df, symbol_info, spread, balance = result
+    df, symbol_info, spread, acct_info = result
+    balance = acct_info.balance
 
     tick_size = symbol_info.trade_tick_size 
     rd = min(abs(Decimal(str(tick_size)).as_tuple().exponent), symbol_info.digits)
@@ -776,16 +795,13 @@ def chuks_type1_model(symbol, timeframe, symbols_cache, function_dict, symbol_st
             lot = max(symbol_info.volume_min, min(lot, symbol_info.volume_max))
             actual_risk = round(lot * tick_value * n_ticks, 1)
 
-            if actual_risk < risk:
-                sl_ticks = (risk * tick_size) / (lot * tick_value)
-                sl = round(entry_price - sl_ticks if tag == "1B" else entry_price + sl_ticks, rd)
-            elif actual_risk > risk and actual_risk - risk > 0.1:
+            if actual_risk > risk and actual_risk - risk > 0.1:
                 logging.info(f"Risk too high for this trade: {actual_risk}")
                 continue
 
             tp = round(tp_func(entry_price, sl_ticks, spread, prices, risk_reward), rd)            
 
-            if place_order(order_type, sl, tp, entry_price, lot, symbol, timeframe):
+            if place_order(order_type, sl, tp, entry_price, lot, symbol, timeframe, acct_info):
                 symbols_cache[symbol].add(prices)
 
                 try:

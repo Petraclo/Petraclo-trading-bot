@@ -266,12 +266,12 @@ def search_patterns(events, df, pattern, sensitivity, idxs, idx_map, tag_dict, t
                 return
 
 def chuks_type1_model(df, symbol, sensitivity, htf_analysis):
-    signals = np.zeros((len(df), 4), dtype=int)
+    signals = []
 
-    symbol_info = mt5.symbol_info(symbol)
+    si = params.symbol_info["Volatility"]
 
-    tick_size = symbol_info.trade_tick_size 
-    rd = min(abs(Decimal(str(tick_size)).as_tuple().exponent), symbol_info.digits)
+    tick_size = si["trade_tick_size"]
+    rd = min(abs(Decimal(str(tick_size)).as_tuple().exponent), si["digits"])
 
     highs, lows = find_swings(df, dp=rd)
     all_swings = highs + lows
@@ -299,7 +299,7 @@ def chuks_type1_model(df, symbol, sensitivity, htf_analysis):
         index = indices[-1] + 4
 
         if htf_analysis:
-            time_of_entry = df.iloc[index]["time"]
+            time_of_entry = df.iloc[index-4]["time"]
             tf = infer_timeframe(df)
             if tf:
                 if higher_timeframe_analysis(time_of_entry, tf, symbol, entry_price) != "buy":
@@ -309,12 +309,16 @@ def chuks_type1_model(df, symbol, sensitivity, htf_analysis):
         df_after_pattern = df.iloc[index:]
         df2 = df_after_pattern[df_after_pattern["low"] <= entry_price]
         if not df2.empty:
-            entry = df2.index[0]
-            signals[entry][0] = 1
-            signals[entry][1] = prices[2]
-            signals[entry][2] = entry_price
-            signals[entry][3] = prices[5]
-
+            entry_pos = df2.index[0]
+            trade_dict = {
+                'pos': entry_pos,
+                'date': df.iloc[entry_pos]['time'],
+                'price': entry_price,
+                'type': 'long',
+                'signal': [1, prices[2], entry_price, prices[5]]
+            }
+            signals.append(trade_dict)
+            
     for sell_pattern_match in search_patterns(all_swings, df, sell_pattern, sensitivity, indexes, index_map, function_dict, tag="1S"):
         
         prices = [p[0] for p in sell_pattern_match]
@@ -327,7 +331,7 @@ def chuks_type1_model(df, symbol, sensitivity, htf_analysis):
         index = indices[-1] + 4
 
         if htf_analysis:
-            time_of_entry = df.iloc[index]["time"]
+            time_of_entry = df.iloc[index-4]["time"]
             tf = infer_timeframe(df)
             if tf:
                 if higher_timeframe_analysis(time_of_entry, tf, symbol, entry_price) != "sell":
@@ -337,14 +341,22 @@ def chuks_type1_model(df, symbol, sensitivity, htf_analysis):
         df_after_pattern = df.iloc[index:]
         df2 = df_after_pattern[df_after_pattern["high"] >= entry_price]
         if not df2.empty:
-            entry = df2.index[0]
-            signals[entry][0] = -1
-            signals[entry][1] = prices[2]
-            signals[entry][2] = entry_price
-            signals[entry][3] = prices[5]
+            entry_pos = df2.index[0]
+            trade_dict = {
+                'pos': entry_pos,
+                'date': df.iloc[entry_pos]['time'],
+                'price': entry_price,
+                'type': 'long',
+                'signal': [-1, prices[2], entry_price, prices[5]]
+            }
+            signals.append(trade_dict)
 
-    return signals
+            
+    return signals, len(signals)
 
+### Trade Sim
+
+#### SL/TP Sim
 
 def sim_trade(df, capital, entry_point, symbol, risk_reward_ratio, atr_multiplier, modified_stop):
     """Simulates a trade with a given capital.
@@ -378,7 +390,7 @@ def sim_trade(df, capital, entry_point, symbol, risk_reward_ratio, atr_multiplie
         "lot": lot,
         "risk": risk
     })
-    
+
     lot = entry_dict["lot"]
     #spread_pips = random.uniform(0.2, 2.5)
     slippage_pips = random.uniform(0.0, 1.0)
@@ -388,10 +400,10 @@ def sim_trade(df, capital, entry_point, symbol, risk_reward_ratio, atr_multiplie
 
     profit = None
     if entry_dict["type"] == "long":
-    
+
         tp_hit = df2[df2["high"] >= entry_dict["take_profit"]]
         sl_hit = df2[df2["low"] <= entry_dict["stop_loss"]]
-    
+
         if not tp_hit.empty and not sl_hit.empty:
             profit = tp_hit.index[0] < sl_hit.index[0]
         elif not tp_hit.empty:
@@ -419,7 +431,6 @@ def sim_trade(df, capital, entry_point, symbol, risk_reward_ratio, atr_multiplie
         new_capital -= entry_dict["risk"]
 
     return new_capital, True
-
 
 def get_end_date(timeframe, start_date: datetime):
     if timeframe == "5M":
@@ -545,33 +556,8 @@ def backtest_O1C_tp_sl_function(df, i, signal, symbol, capital, risk_reward_rati
 
     return tp, sl, tp_ticks, sl_ticks, lot, risk
 
-
-def backtester_analyze_strategy(df, capital, symbol, strategy_function, tp_sl_function, **kwargs):
-    
-    analysis_df = df.copy()
-    entry_signals = strategy_function(analysis_df, symbol, kwargs['sensitivity'], kwargs['htf_analysis'])
-        
-    entry_points = []
-    for i, signal in enumerate(entry_signals):
-        if signal[0] != 0 and i > 0:  
-
-            close = analysis_df.iloc[i]['close']
-            entry_points.append({
-                'date': analysis_df.iloc[i]['time'],
-                'price': close,
-                'type': 'long' if signal[0] > 0 else 'short',
-                'signal': signal,
-                'pos': i
-            })
-
-    n_signals = len(entry_points)
-                
-    return entry_points, n_signals
-
-
-
 def backtester(price_df, capital, symbol,
-               verbose=True,
+               verbose=False,
                strategy_function=chuks_type1_model,
                tp_sl_function=backtest_O1C_tp_sl_function,
                **kwargs):
@@ -583,12 +569,8 @@ def backtester(price_df, capital, symbol,
     df = price_df.copy()
     df["time"] = pd.to_datetime(df["time"], unit="s")
     
-    entry_points, n_signals = backtester_analyze_strategy(
-        df, capital, symbol,
-        verbose=True,
-        strategy_function=chuks_type1_model,
-        tp_sl_function=backtest_O1C_tp_sl_function,
-        **kwargs
+    entry_points, n_signals = strategy_function(
+        df, symbol, kwargs['sensitivity'], kwargs['htf_analysis']
     )
 
     equity = capital
@@ -600,12 +582,17 @@ def backtester(price_df, capital, symbol,
                                      kwargs['risk_reward_ratio'],
                                      kwargs['atr_multiplier'],
                                      kwargs['modified_stop'])
+        
         if executed:
             equity_values.append(equity)
+            first_trade = (len(equity_values) == 2)  # start + 1 trade
+
+            if equity <= 0:
+                break
             if equity_values[-1] > equity_values[-2]:
                 profitable_trades += 1
             else:
-                if kwargs.get("adaptive") and i == 0:
+                if kwargs.get("adaptive") and first_trade:
                     break
 
     weekly_md_pct, weekly_peak = calculate_max_drawdown(equity_values)
@@ -613,7 +600,7 @@ def backtester(price_df, capital, symbol,
     # Print weekly summary
     if verbose:
         print(
-            f"=== Week {df['time'].iloc[0].date()} to {df['time'].iloc[-1].date()} === \n"
+            f"=== {df['time'].iloc[0].date()} to {df['time'].iloc[-1].date()} === \n"
             f"PnL: {round(equity - capital, 2)} USD ({round((equity/capital - 1)*100, 2)}%), "
             f"Weekly Max Drawdown: {round(weekly_md_pct*100, 2)}%, "
             f"Weekly Peak: {round(weekly_peak, 2)}, "
