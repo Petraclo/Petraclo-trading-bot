@@ -895,7 +895,7 @@ if __name__ == "__main__":
         day_of_week='mon-sun', 
         #hour='1-19/2',
         hour="*",
-        minute="*/5",
+        minute="*/15",
         #minute="15,30,45,0",
         timezone='Africa/Lagos'
     )
