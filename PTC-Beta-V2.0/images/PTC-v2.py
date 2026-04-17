@@ -22,14 +22,17 @@ order_lock = Lock()
 M5_trades_file = "M5_trades.json"
 M15_trades_file = "M15_trades.json"
 
-M5_symbols = []
+M5_symbols = ["Volatility 25 (1s) Index"]
     
-M15_symbols = ["Volatility 100 (1s) Index"]
+M15_symbols = ["Volatility 100 (1s) Index", "Volatility 25 (1s) Index", "Volatility 50 (1s) Index"]
 
-M5_htf_symbols = ["Volatility 10 Index", "Volatility 100 Index", "Volatility 100 (1s) Index"]
+M5_htf_symbols = ["Volatility 10 Index", "Volatility 100 Index", "Volatility 75 (1s) Index",
+                  "Volatility 50 (1s) Index", "Volatility 90 (1s) Index", "Volatility 100 (1s) Index",
+                  "Volatility 30 (1s) Index", "Volatility 15 (1s) Index"]
 
 M15_htf_symbols = ["Volatility 10 Index", "Volatility 25 Index",
-                "Volatility 50 Index", "Volatility 100 Index", "Volatility 10 (1s) Index"]
+                "Volatility 50 Index", "Volatility 100 Index", "Volatility 15 (1s) Index"
+                "Volatility 10 (1s) Index", "Volatility 30 (1s) Index" ,"Volatility 150 (1s) Index"]
 
 
 log_file = "PTC-v2.log"
@@ -819,9 +822,9 @@ def trading_job():
         return
 
     
-    login = 5925197
-    password = "Ttobs_der1v"
-    server = "Deriv-Demo"
+    login = 140471114
+    password = "0T5im@2026"
+    server = "DerivSVG-Server-03"
 
     if not retry(login_mt5, login, password, server):
         return
